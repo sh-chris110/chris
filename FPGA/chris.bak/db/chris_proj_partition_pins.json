@@ -1,0 +1,21 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "uart_TXD",
+					"strict" : false
+				},
+				{
+					"name" : "fpga_reset_n",
+					"strict" : false
+				},
+				{
+					"name" : "uart_RXD",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

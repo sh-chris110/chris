@@ -1,0 +1,10 @@
+11:33:47 **** Incremental Build of configuration Debug for project main ****
+make all 
+Building target: main.axf
+Invoking: GCC C Linker
+arm-altera-eabi-gcc -T "/home/chris/altera/15.0/embedded/host_tools/mentor/gnu/arm/baremetal/arm-altera-eabi/lib/cycloneV-dk-oc-ram-hosted.ld" -o "main.axf"  ./main.o   
+Finished building target: main.axf
+ 
+
+11:33:47 Build Finished (took 61ms)
+

@@ -1,0 +1,17 @@
+Analysis & Synthesis Status : Successful - Tue Aug  8 07:49:41 2017
+Quartus II 64-Bit Version : 15.0.0 Build 145 04/22/2015 SJ Full Version
+Revision Name : Math
+Top-level Entity Name : Math
+Family : Cyclone V
+Logic utilization (in ALMs) : N/A
+Total registers : 1816
+Total pins : 2
+Total virtual pins : 0
+Total block memory bits : 1,673,920
+Total DSP Blocks : 3
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI PMA TX Serializers : 0
+Total PLLs : 1
+Total DLLs : 0

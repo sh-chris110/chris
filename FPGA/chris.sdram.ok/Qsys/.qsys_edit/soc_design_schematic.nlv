@@ -1,0 +1,27 @@
+# # File gsaved with Nlview version 6.3.8  2013-12-19 bk=1.2992 VDI=34 GEI=35
+# 
+preplace inst soc_design.Sys_Timer -pg 1 -lvl 4 -y 390
+preplace inst soc_design.ref_clock -pg 1 -lvl 1 -y 430
+preplace inst soc_design.JTAG -pg 1 -lvl 4 -y 290
+preplace inst soc_design.niosII_core.cpu -pg 1
+preplace inst soc_design.niosII_core.clock_bridge -pg 1
+preplace inst soc_design.UART_COM -pg 1 -lvl 4 -y 510
+preplace inst soc_design.system_pll -pg 1 -lvl 2 -y 430
+preplace inst soc_design.SRAM -pg 1 -lvl 4 -y 130
+preplace inst soc_design -pg 1 -lvl 1 -y 40 -regy -20
+preplace inst soc_design.SystemID -pg 1 -lvl 4 -y 210
+preplace inst soc_design.SDRAM -pg 1 -lvl 4 -y 30
+preplace inst soc_design.niosII_core.reset_bridge -pg 1
+preplace inst soc_design.niosII_core -pg 1 -lvl 3 -y 620
+preplace netloc EXPORT<net_container>soc_design</net_container>(MASTER)soc_design.dram_clk,(MASTER)system_pll.outclk1) 1 2 3 NJ 460 NJ 500 NJ
+preplace netloc FAN_OUT<net_container>soc_design</net_container>(MASTER)ref_clock.clk_reset,(SLAVE)Sys_Timer.reset,(SLAVE)UART_COM.reset,(SLAVE)niosII_core.reset,(SLAVE)SRAM.reset1,(SLAVE)JTAG.reset,(SLAVE)SystemID.reset,(SLAVE)system_pll.reset,(SLAVE)SDRAM.reset) 1 1 3 250 580 410 580 830
+preplace netloc EXPORT<net_container>soc_design</net_container>(SLAVE)ref_clock.clk_in_reset,(SLAVE)soc_design.fpga) 1 0 1 NJ
+preplace netloc FAN_OUT<net_container>soc_design</net_container>(MASTER)system_pll.outclk0,(SLAVE)JTAG.clk,(SLAVE)UART_COM.clk,(SLAVE)SRAM.clk1,(SLAVE)niosII_core.clk,(SLAVE)SystemID.clk,(SLAVE)SDRAM.clk,(SLAVE)Sys_Timer.clk) 1 2 2 430 440 810
+preplace netloc FAN_OUT<net_container>soc_design</net_container>(SLAVE)Sys_Timer.irq,(SLAVE)JTAG.irq,(MASTER)niosII_core.irq,(SLAVE)UART_COM.interrupt) 1 3 1 850
+preplace netloc EXPORT<net_container>soc_design</net_container>(SLAVE)soc_design.dram,(SLAVE)SDRAM.wire) 1 0 4 NJ 100 NJ 100 NJ 100 NJ
+preplace netloc EXPORT<net_container>soc_design</net_container>(SLAVE)soc_design.uart,(SLAVE)UART_COM.external_interface) 1 0 4 NJ 760 NJ 760 NJ 760 NJ
+preplace netloc EXPORT<net_container>soc_design</net_container>(SLAVE)ref_clock.clk_in,(SLAVE)soc_design.ref) 1 0 1 NJ
+preplace netloc INTERCONNECT<net_container>soc_design</net_container>(MASTER)niosII_core.data_master,(SLAVE)SystemID.control_slave,(SLAVE)UART_COM.avalon_rs232_slave,(SLAVE)niosII_core.debug_mem_slave,(SLAVE)JTAG.avalon_jtag_slave,(MASTER)niosII_core.instruction_master,(SLAVE)SRAM.s1,(SLAVE)Sys_Timer.s1,(SLAVE)SDRAM.s1) 1 2 2 430 780 890
+preplace netloc POINT_TO_POINT<net_container>soc_design</net_container>(MASTER)ref_clock.clk,(SLAVE)system_pll.refclk) 1 1 1 N
+levelinfo -pg 1 0 40 1170
+levelinfo -hier soc_design 50 80 280 570 940 1090

@@ -1,0 +1,1776 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  SIGSEGV (0xb) at pc=0x00007f60e9e924bb, pid=28105, tid=140053665806080
+#
+# JRE version: Java(TM) SE Runtime Environment (8.0_05-b13) (build 1.8.0_05-b13)
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (25.5-b02 mixed mode linux-amd64 compressed oops)
+# Problematic frame:
+# V  [libjvm.so+0x9de4bb]  WatcherThread::sleep() const+0x8b
+#
+# Failed to write core dump. Core dumps have been disabled. To enable core dumping, try "ulimit -c unlimited" before starting Java again
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.sun.com/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x00007f60e0202000):  WatcherThread [stack: 0x00007f60c8eff000,0x00007f60c9000000] [id=28117]
+
+siginfo:si_signo=SIGSEGV: si_errno=0, si_code=1 (SEGV_MAPERR), si_addr=0x0000000000000011
+
+Registers:
+RAX=0x1876188b11c6ac48, RBX=0x0000000000000032, RCX=0x0000000000000002, RDX=0x0000000000000032
+RSP=0x00007f60c8ffee30, RBP=0x00007f60c8ffee70, RSI=0x0000000000000000, RDI=0x0000000000000001
+R8 =0x00007f60e000cf70, R9 =0x0000000000000001, R10=0x0000000003aa9578, R11=0x000274c78f3fcffc
+R12=0x0000000000000001, R13=0x0000000000000032, R14=0x000102e90fbc7858, R15=0x0000000000000001
+RIP=0x00007f60e9e924bb, EFLAGS=0x0000000000010202, CSGSFS=0x002b000000000033, ERR=0x0000000000000006
+  TRAPNO=0x000000000000000e
+
+Top of Stack: (sp=0x00007f60c8ffee30)
+0x00007f60c8ffee30:   00007f60e000cf50 00000002e9e63ced
+0x00007f60c8ffee40:   0000000000000000 0000000000000032
+0x00007f60c8ffee50:   00007f60e0202000 0000000000101000
+0x00007f60c8ffee60:   0000000000000000 0000000000101000
+0x00007f60c8ffee70:   00007f60c8ffef00 00007f60e9e92aee
+0x00007f60c8ffee80:   00007f60e0202000 0000000000000001
+0x00007f60c8ffee90:   00007f60c8ffeea0 00007f60e0202000
+0x00007f60c8ffeea0:   00007f60e0203180 0000000000000000
+0x00007f60c8ffeeb0:   0000000000000000 00007f60e9d12a16
+0x00007f60c8ffeec0:   00007f60e02031a0 00007f60e0202000
+0x00007f60c8ffeed0:   00007f60c8ffef00 0000000000000000
+0x00007f60c8ffeee0:   00007f60e0203180 00007f60e0203090
+0x00007f60c8ffeef0:   00007f60e0202000 0000000000000000
+0x00007f60c8ffef00:   00007f60c8ffef50 00007f60e9d540c8
+0x00007f60c8ffef10:   0000000000000000 0000000000000000
+0x00007f60c8ffef20:   0000000000000000 0000000000000000
+0x00007f60c8ffef30:   0000000000000000 00007f60eafd3b0f
+0x00007f60c8ffef40:   00007f60c8fff9c0 0000000000000000
+0x00007f60c8ffef50:   0000000000000000 00007f60eabc36ba
+0x00007f60c8ffef60:   0000000000000000 00007f60c8fff700
+0x00007f60c8ffef70:   00007f60c8fff700 b2557e27a04e4406
+0x00007f60c8ffef80:   0000000000000000 00007f60eafd3b0f
+0x00007f60c8ffef90:   00007f60c8fff9c0 0000000000000000
+0x00007f60c8ffefa0:   4c94efd87e8e4406 4c94ab5fccb44406
+0x00007f60c8ffefb0:   0000000000000000 0000000000000000
+0x00007f60c8ffefc0:   0000000000000000 0000000000000000
+0x00007f60c8ffefd0:   0000000000000000 0000000000000000
+0x00007f60c8ffefe0:   0000000000000000 0000000000000000
+0x00007f60c8ffeff0:   00007f60c8fff700 00007f60ea4de3dd
+0x00007f60c8fff000:   0000000000000000 0000000000000000
+0x00007f60c8fff010:   0000000000000000 0000000000000000
+0x00007f60c8fff020:   0000000000000000 0000000000000000 
+
+Instructions: (pc=0x00007f60e9e924bb)
+0x00007f60e9e9249b:   38 e8 1f 03 e8 ff 41 89 c4 e8 d7 b8 eb ff 85 db
+0x00007f60e9e924ab:   75 63 49 89 c6 45 31 ed 45 84 e4 74 30 8b 4d cc
+0x00007f60e9e924bb:   41 89 4f 10 48 83 7d c0 00 74 09 48 8b 7d c0 e8
+0x00007f60e9e924cb:   b1 ff e7 ff 48 83 c4 18 44 89 e8 5b 41 5c 41 5d 
+
+Register to memory mapping:
+
+RAX=0x1876188b11c6ac48 is an unknown value
+RBX=0x0000000000000032 is an unknown value
+RCX=0x0000000000000002 is an unknown value
+RDX=0x0000000000000032 is an unknown value
+RSP=0x00007f60c8ffee30 is an unknown value
+RBP=0x00007f60c8ffee70 is an unknown value
+RSI=0x0000000000000000 is an unknown value
+RDI=0x0000000000000001 is an unknown value
+R8 =0x00007f60e000cf70 is an unknown value
+R9 =0x0000000000000001 is an unknown value
+R10=0x0000000003aa9578 is an unknown value
+R11=0x000274c78f3fcffc is an unknown value
+R12=0x0000000000000001 is an unknown value
+R13=0x0000000000000032 is an unknown value
+R14=0x000102e90fbc7858 is an unknown value
+R15=0x0000000000000001 is an unknown value
+
+
+Stack: [0x00007f60c8eff000,0x00007f60c9000000],  sp=0x00007f60c8ffee30,  free space=1023k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [libjvm.so+0x9de4bb]  WatcherThread::sleep() const+0x8b
+V  [libjvm.so+0x9deaee]  WatcherThread::run()+0xde
+V  [libjvm.so+0x8a00c8]  java_start(Thread*)+0x108
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+  0x00007f6080575000 JavaThread "Launcher_/home/chris/altera/16.0/quartus/linux64/perl/bin/perl /home/chris/altera/16.0/nios2eds/bin/launcher/run_eclipse_nios2.pl /home/chris/altera/16.0/quartus/,/home/chris/altera/16.0/quartus//bin,/home/chris/altera/16.0/nios2eds,/home/chris/FPGA/chris/Qsys/,soc_design" [_thread_blocked, id=28180, stack(0x00007f603e30e000,0x00007f603e40f000)]
+  0x00007f6080573000 JavaThread "process reaper" daemon [_thread_in_native, id=28179, stack(0x00007f60a21c5000,0x00007f60a21fe000)]
+  0x00007f60784dc800 JavaThread "Thread-9" daemon [_thread_blocked, id=28137, stack(0x00007f60e82d3000,0x00007f60e83d4000)]
+  0x00007f60784db800 JavaThread "process reaper" daemon [_thread_in_native, id=28136, stack(0x00007f60a21fe000,0x00007f60a2237000)]
+  0x00007f6078456000 JavaThread "Tcl Isolation Thread" daemon [_thread_blocked, id=28133, stack(0x00007f60a3cfd000,0x00007f60a3dfe000)]
+  0x00007f6080270800 JavaThread "TimerQueue" daemon [_thread_blocked, id=28124, stack(0x00007f60a0745000,0x00007f60a0846000)]
+  0x00007f60e08d5800 JavaThread "AWT-EventQueue-0" [_thread_blocked, id=28123, stack(0x00007f60a0846000,0x00007f60a0947000)]
+  0x00007f60e08d3000 JavaThread "AWT-Shutdown" [_thread_blocked, id=28122, stack(0x00007f60a22a2000,0x00007f60a23a3000)]
+  0x00007f60e061e800 JavaThread "Command Watcher" daemon [_thread_blocked, id=28121, stack(0x00007f60a3bfc000,0x00007f60a3cfd000)]
+  0x00007f60e05e1800 JavaThread "AWT-XAWT" daemon [_thread_in_native, id=28119, stack(0x00007f60a3dfe000,0x00007f60a3eff000)]
+  0x00007f60e05ce000 JavaThread "Java2D Disposer" daemon [_thread_blocked, id=28118, stack(0x00007f60a3eff000,0x00007f60a4000000)]
+  0x00007f60e01f7000 JavaThread "Service Thread" daemon [_thread_blocked, id=28116, stack(0x00007f60e40fe000,0x00007f60e41ff000)]
+  0x00007f60e01f4000 JavaThread "C1 CompilerThread3" daemon [_thread_blocked, id=28115, stack(0x00007f60e41ff000,0x00007f60e4300000)]
+  0x00007f60e01f0000 JavaThread "C2 CompilerThread2" daemon [_thread_blocked, id=28114, stack(0x00007f60e4300000,0x00007f60e4401000)]
+  0x00007f60e01ee000 JavaThread "C2 CompilerThread1" daemon [_thread_blocked, id=28113, stack(0x00007f60e4401000,0x00007f60e4502000)]
+  0x00007f60e01ec000 JavaThread "C2 CompilerThread0" daemon [_thread_blocked, id=28112, stack(0x00007f60e4502000,0x00007f60e4603000)]
+  0x00007f60e01e9800 JavaThread "Signal Dispatcher" daemon [_thread_blocked, id=28111, stack(0x00007f60e4603000,0x00007f60e4704000)]
+  0x00007f60e01bb800 JavaThread "Finalizer" daemon [_thread_blocked, id=28110, stack(0x00007f60e4704000,0x00007f60e4805000)]
+  0x00007f60e01b9800 JavaThread "Reference Handler" daemon [_thread_blocked, id=28109, stack(0x00007f60e4805000,0x00007f60e4906000)]
+  0x00007f60e0010000 JavaThread "main" [_thread_blocked, id=28107, stack(0x00007f60eaed4000,0x00007f60eafd5000)]
+
+Other Threads:
+  0x00007f60e01b4000 VMThread [stack: 0x00007f60e4906000,0x00007f60e4a07000] [id=28108]
+=>0x00007f60e0202000 WatcherThread [stack: 0x00007f60c8eff000,0x00007f60c9000000] [id=28117]
+
+VM state:not at safepoint (normal execution)
+
+VM Mutex/Monitor currently owned by a thread:  ([mutex/lock_event])
+[0x00007f60e000cf50] PeriodicTask_lock - owner thread: 0x00007f60e0202000
+
+Heap:
+ def new generation   total 230848K, used 90766K [0x00000000a2400000, 0x00000000b1e70000, 0x00000000c1800000)
+  eden space 205248K,  44% used [0x00000000a2400000, 0x00000000a7ca3988, 0x00000000aec70000)
+  from space 25600K,   0% used [0x00000000aec70000, 0x00000000aec70000, 0x00000000b0570000)
+  to   space 25600K,   0% used [0x00000000b0570000, 0x00000000b0570000, 0x00000000b1e70000)
+ tenured generation   total 512768K, used 53740K [0x00000000c1800000, 0x00000000e0cc0000, 0x0000000100000000)
+   the space 512768K,  10% used [0x00000000c1800000, 0x00000000c4c7b340, 0x00000000c4c7b400, 0x00000000e0cc0000)
+ Metaspace       used 47915K, capacity 49080K, committed 49408K, reserved 1091584K
+  class space    used 6585K, capacity 6790K, committed 6912K, reserved 1048576K
+
+Card table byte_map: [0x00007f60e56b3000,0x00007f60e59a2000] byte_map_base: 0x00007f60e51a1000
+
+Polling page: 0x00007f60eaff4000
+
+CodeCache: size=245760Kb used=34771Kb max_used=34771Kb free=210988Kb
+ bounds [0x00007f60c9000000, 0x00007f60cb250000, 0x00007f60d8000000]
+ total_blobs=10874 nmethods=10170 adapters=613
+ compilation: enabled
+
+Compilation events (10 events):
+Event: 3657.965 Thread 0x00007f60e01f4000 12525       3       sun.font.XRGlyphCacheEntry::getHeight (16 bytes)
+Event: 3657.966 Thread 0x00007f60e01f4000 nmethod 12525 0x00007f60ca0a8150 code [0x00007f60ca0a82a0, 0x00007f60ca0a8410]
+Event: 3657.966 Thread 0x00007f60e01f4000 12526       3       sun.font.XRGlyphCacheEntry::getPixelCnt (10 bytes)
+Event: 3657.966 Thread 0x00007f60e01f4000 nmethod 12526 0x00007f60c9d3eb10 code [0x00007f60c9d3ec80, 0x00007f60c9d3eed0]
+Event: 5076.539 Thread 0x00007f60e01f0000 12528 % !   4       java.util.TimerThread::mainLoop @ 0 (232 bytes)
+Event: 5076.568 Thread 0x00007f60e01f0000 nmethod 12528% 0x00007f60cadb8810 code [0x00007f60cadb8a20, 0x00007f60cadb9be0]
+Event: 15577.867 Thread 0x00007f60e01f4000 12529 % !   3       sun.awt.X11.XToolkit::run @ 59 (410 bytes)
+Event: 15577.871 Thread 0x00007f60e01f4000 nmethod 12529% 0x00007f60cb200290 code [0x00007f60cb200c40, 0x00007f60cb207d78]
+Event: 16090.460 Thread 0x00007f60e01f4000 12530   !   3       sun.awt.X11.XToolkit::run (410 bytes)
+Event: 16090.468 Thread 0x00007f60e01f4000 nmethod 12530 0x00007f60cb1ad390 code [0x00007f60cb1add40, 0x00007f60cb1b38b8]
+
+GC Heap History (10 events):
+Event: 23227.606 GC heap before
+{Heap before GC invocations=210 (full 2):
+ def new generation   total 230848K, used 205248K [0x00000000a2400000, 0x00000000b1e70000, 0x00000000c1800000)
+  eden space 205248K, 100% used [0x00000000a2400000, 0x00000000aec70000, 0x00000000aec70000)
+  from space 25600K,   0% used [0x00000000b0570000, 0x00000000b0570000, 0x00000000b1e70000)
+  to   space 25600K,   0% used [0x00000000aec70000, 0x00000000aec70000, 0x00000000b0570000)
+ tenured generation   total 512768K, used 53740K [0x00000000c1800000, 0x00000000e0cc0000, 0x0000000100000000)
+   the space 512768K,  10% used [0x00000000c1800000, 0x00000000c4c7b340, 0x00000000c4c7b400, 0x00000000e0cc0000)
+ Metaspace       used 47915K, capacity 49080K, committed 49408K, reserved 1091584K
+  class space    used 6585K, capacity 6790K, committed 6912K, reserved 1048576K
+Event: 23227.608 GC heap after
+Heap after GC invocations=211 (full 2):
+ def new generation   total 230848K, used 0K [0x00000000a2400000, 0x00000000b1e70000, 0x00000000c1800000)
+  eden space 205248K,   0% used [0x00000000a2400000, 0x00000000a2400000, 0x00000000aec70000)
+  from space 25600K,   0% used [0x00000000aec70000, 0x00000000aec70000, 0x00000000b0570000)
+  to   space 25600K,   0% used [0x00000000b0570000, 0x00000000b0570000, 0x00000000b1e70000)
+ tenured generation   total 512768K, used 53740K [0x00000000c1800000, 0x00000000e0cc0000, 0x0000000100000000)
+   the space 512768K,  10% used [0x00000000c1800000, 0x00000000c4c7b340, 0x00000000c4c7b400, 0x00000000e0cc0000)
+ Metaspace       used 47915K, capacity 49080K, committed 49408K, reserved 1091584K
+  class space    used 6585K, capacity 6790K, committed 6912K, reserved 1048576K
+}
+Event: 23693.584 GC heap before
+{Heap before GC invocations=211 (full 2):
+ def new generation   total 230848K, used 205248K [0x00000000a2400000, 0x00000000b1e70000, 0x00000000c1800000)
+  eden space 205248K, 100% used [0x00000000a2400000, 0x00000000aec70000, 0x00000000aec70000)
+  from space 25600K,   0% used [0x00000000aec70000, 0x00000000aec70000, 0x00000000b0570000)
+  to   space 25600K,   0% used [0x00000000b0570000, 0x00000000b0570000, 0x00000000b1e70000)
+ tenured generation   total 512768K, used 53740K [0x00000000c1800000, 0x00000000e0cc0000, 0x0000000100000000)
+   the space 512768K,  10% used [0x00000000c1800000, 0x00000000c4c7b340, 0x00000000c4c7b400, 0x00000000e0cc0000)
+ Metaspace       used 47915K, capacity 49080K, committed 49408K, reserved 1091584K
+  class space    used 6585K, capacity 6790K, committed 6912K, reserved 1048576K
+Event: 23693.587 GC heap after
+Heap after GC invocations=212 (full 2):
+ def new generation   total 230848K, used 0K [0x00000000a2400000, 0x00000000b1e70000, 0x00000000c1800000)
+  eden space 205248K,   0% used [0x00000000a2400000, 0x00000000a2400000, 0x00000000aec70000)
+  from space 25600K,   0% used [0x00000000b0570000, 0x00000000b0570000, 0x00000000b1e70000)
+  to   space 25600K,   0% used [0x00000000aec70000, 0x00000000aec70000, 0x00000000b0570000)
+ tenured generation   total 512768K, used 53740K [0x00000000c1800000, 0x00000000e0cc0000, 0x0000000100000000)
+   the space 512768K,  10% used [0x00000000c1800000, 0x00000000c4c7b340, 0x00000000c4c7b400, 0x00000000e0cc0000)
+ Metaspace       used 47915K, capacity 49080K, committed 49408K, reserved 1091584K
+  class space    used 6585K, capacity 6790K, committed 6912K, reserved 1048576K
+}
+Event: 24159.697 GC heap before
+{Heap before GC invocations=212 (full 2):
+ def new generation   total 230848K, used 205248K [0x00000000a2400000, 0x00000000b1e70000, 0x00000000c1800000)
+  eden space 205248K, 100% used [0x00000000a2400000, 0x00000000aec70000, 0x00000000aec70000)
+  from space 25600K,   0% used [0x00000000b0570000, 0x00000000b0570000, 0x00000000b1e70000)
+  to   space 25600K,   0% used [0x00000000aec70000, 0x00000000aec70000, 0x00000000b0570000)
+ tenured generation   total 512768K, used 53740K [0x00000000c1800000, 0x00000000e0cc0000, 0x0000000100000000)
+   the space 512768K,  10% used [0x00000000c1800000, 0x00000000c4c7b340, 0x00000000c4c7b400, 0x00000000e0cc0000)
+ Metaspace       used 47915K, capacity 49080K, committed 49408K, reserved 1091584K
+  class space    used 6585K, capacity 6790K, committed 6912K, reserved 1048576K
+Event: 24159.700 GC heap after
+Heap after GC invocations=213 (full 2):
+ def new generation   total 230848K, used 0K [0x00000000a2400000, 0x00000000b1e70000, 0x00000000c1800000)
+  eden space 205248K,   0% used [0x00000000a2400000, 0x00000000a2400000, 0x00000000aec70000)
+  from space 25600K,   0% used [0x00000000aec70000, 0x00000000aec70000, 0x00000000b0570000)
+  to   space 25600K,   0% used [0x00000000b0570000, 0x00000000b0570000, 0x00000000b1e70000)
+ tenured generation   total 512768K, used 53740K [0x00000000c1800000, 0x00000000e0cc0000, 0x0000000100000000)
+   the space 512768K,  10% used [0x00000000c1800000, 0x00000000c4c7b340, 0x00000000c4c7b400, 0x00000000e0cc0000)
+ Metaspace       used 47915K, capacity 49080K, committed 49408K, reserved 1091584K
+  class space    used 6585K, capacity 6790K, committed 6912K, reserved 1048576K
+}
+Event: 24625.793 GC heap before
+{Heap before GC invocations=213 (full 2):
+ def new generation   total 230848K, used 205248K [0x00000000a2400000, 0x00000000b1e70000, 0x00000000c1800000)
+  eden space 205248K, 100% used [0x00000000a2400000, 0x00000000aec70000, 0x00000000aec70000)
+  from space 25600K,   0% used [0x00000000aec70000, 0x00000000aec70000, 0x00000000b0570000)
+  to   space 25600K,   0% used [0x00000000b0570000, 0x00000000b0570000, 0x00000000b1e70000)
+ tenured generation   total 512768K, used 53740K [0x00000000c1800000, 0x00000000e0cc0000, 0x0000000100000000)
+   the space 512768K,  10% used [0x00000000c1800000, 0x00000000c4c7b340, 0x00000000c4c7b400, 0x00000000e0cc0000)
+ Metaspace       used 47915K, capacity 49080K, committed 49408K, reserved 1091584K
+  class space    used 6585K, capacity 6790K, committed 6912K, reserved 1048576K
+Event: 24625.797 GC heap after
+Heap after GC invocations=214 (full 2):
+ def new generation   total 230848K, used 0K [0x00000000a2400000, 0x00000000b1e70000, 0x00000000c1800000)
+  eden space 205248K,   0% used [0x00000000a2400000, 0x00000000a2400000, 0x00000000aec70000)
+  from space 25600K,   0% used [0x00000000b0570000, 0x00000000b0570000, 0x00000000b1e70000)
+  to   space 25600K,   0% used [0x00000000aec70000, 0x00000000aec70000, 0x00000000b0570000)
+ tenured generation   total 512768K, used 53740K [0x00000000c1800000, 0x00000000e0cc0000, 0x0000000100000000)
+   the space 512768K,  10% used [0x00000000c1800000, 0x00000000c4c7b340, 0x00000000c4c7b400, 0x00000000e0cc0000)
+ Metaspace       used 47915K, capacity 49080K, committed 49408K, reserved 1091584K
+  class space    used 6585K, capacity 6790K, committed 6912K, reserved 1048576K
+}
+Event: 25091.858 GC heap before
+{Heap before GC invocations=214 (full 2):
+ def new generation   total 230848K, used 205248K [0x00000000a2400000, 0x00000000b1e70000, 0x00000000c1800000)
+  eden space 205248K, 100% used [0x00000000a2400000, 0x00000000aec70000, 0x00000000aec70000)
+  from space 25600K,   0% used [0x00000000b0570000, 0x00000000b0570000, 0x00000000b1e70000)
+  to   space 25600K,   0% used [0x00000000aec70000, 0x00000000aec70000, 0x00000000b0570000)
+ tenured generation   total 512768K, used 53740K [0x00000000c1800000, 0x00000000e0cc0000, 0x0000000100000000)
+   the space 512768K,  10% used [0x00000000c1800000, 0x00000000c4c7b340, 0x00000000c4c7b400, 0x00000000e0cc0000)
+ Metaspace       used 47915K, capacity 49080K, committed 49408K, reserved 1091584K
+  class space    used 6585K, capacity 6790K, committed 6912K, reserved 1048576K
+Event: 25091.861 GC heap after
+Heap after GC invocations=215 (full 2):
+ def new generation   total 230848K, used 0K [0x00000000a2400000, 0x00000000b1e70000, 0x00000000c1800000)
+  eden space 205248K,   0% used [0x00000000a2400000, 0x00000000a2400000, 0x00000000aec70000)
+  from space 25600K,   0% used [0x00000000aec70000, 0x00000000aec70000, 0x00000000b0570000)
+  to   space 25600K,   0% used [0x00000000b0570000, 0x00000000b0570000, 0x00000000b1e70000)
+ tenured generation   total 512768K, used 53740K [0x00000000c1800000, 0x00000000e0cc0000, 0x0000000100000000)
+   the space 512768K,  10% used [0x00000000c1800000, 0x00000000c4c7b340, 0x00000000c4c7b400, 0x00000000e0cc0000)
+ Metaspace       used 47915K, capacity 49080K, committed 49408K, reserved 1091584K
+  class space    used 6585K, capacity 6790K, committed 6912K, reserved 1048576K
+}
+
+Deoptimization events (10 events):
+Event: 137.747 Thread 0x00007f60e05e1800 Uncommon trap: reason=bimorphic action=maybe_recompile pc=0x00007f60caee9084 method=sun.awt.X11.XWindow.handleMotionNotify(Lsun/awt/X11/XEvent;)V @ 12
+Event: 137.752 Thread 0x00007f60e05e1800 Uncommon trap: reason=bimorphic action=maybe_recompile pc=0x00007f60caee9084 method=sun.awt.X11.XWindow.handleMotionNotify(Lsun/awt/X11/XEvent;)V @ 12
+Event: 137.753 Thread 0x00007f60e05e1800 Uncommon trap: reason=bimorphic action=maybe_recompile pc=0x00007f60caee9084 method=sun.awt.X11.XWindow.handleMotionNotify(Lsun/awt/X11/XEvent;)V @ 12
+Event: 138.066 Thread 0x00007f60e05e1800 Uncommon trap: reason=bimorphic action=maybe_recompile pc=0x00007f60cae90fb8 method=sun.awt.X11.XBaseWindow.dispatchEvent(Lsun/awt/X11/XEvent;)V @ 206
+Event: 138.313 Thread 0x00007f60e05e1800 Uncommon trap: reason=bimorphic action=maybe_recompile pc=0x00007f60cae90fb8 method=sun.awt.X11.XBaseWindow.dispatchEvent(Lsun/awt/X11/XEvent;)V @ 206
+Event: 1481.692 Thread 0x00007f60e08d5800 Uncommon trap: reason=class_check action=maybe_recompile pc=0x00007f60c96b50e0 method=java.util.Formatter$FormatSpecifier.printString(Ljava/lang/Object;Ljava/util/Locale;)V @ 98
+Event: 1481.710 Thread 0x00007f60e08d5800 Uncommon trap: reason=unreached action=reinterpret pc=0x00007f60c9df90d4 method=javax.swing.text.html.BlockView.spanSetFromAttributes(ILjavax/swing/SizeRequirements;Ljavax/swing/text/html/CSS$LengthValue;Ljavax/swing/text/html/CSS$LengthValue;)Z @ 5
+Event: 1481.715 Thread 0x00007f60e08d5800 Uncommon trap: reason=null_check action=make_not_entrant pc=0x00007f60cb0ccef4 method=javax.swing.text.html.CSS.getTableBorder(Ljavax/swing/text/AttributeSet;)I @ 22
+Event: 1481.715 Thread 0x00007f60e08d5800 Uncommon trap: reason=null_check action=make_not_entrant pc=0x00007f60cb0ee84c method=javax.swing.text.html.CSS.getTableBorder(Ljavax/swing/text/AttributeSet;)I @ 22
+Event: 1481.818 Thread 0x00007f60e08d5800 Uncommon trap: reason=class_check action=maybe_recompile pc=0x00007f60c96b50e0 method=java.util.Formatter$FormatSpecifier.printString(Ljava/lang/Object;Ljava/util/Locale;)V @ 98
+
+Internal exceptions (10 events):
+Event: 138.316 Thread 0x00007f60e08d5800 Exception <a 'java/security/PrivilegedActionException'> (0x00000000a56d1b40) thrown at [/HUDSON/workspace/8-2-build-linux-amd64/jdk8u5/2488/hotspot/src/share/vm/prims/jvm.cpp, line 1248]
+Event: 1481.695 Thread 0x00007f60e08d5800 Exception <a 'java/security/PrivilegedActionException'> (0x00000000a4f80d50) thrown at [/HUDSON/workspace/8-2-build-linux-amd64/jdk8u5/2488/hotspot/src/share/vm/prims/jvm.cpp, line 1248]
+Event: 1481.695 Thread 0x00007f60e08d5800 Exception <a 'java/security/PrivilegedActionException'> (0x00000000a4f87cd0) thrown at [/HUDSON/workspace/8-2-build-linux-amd64/jdk8u5/2488/hotspot/src/share/vm/prims/jvm.cpp, line 1248]
+Event: 1481.695 Thread 0x00007f60e08d5800 Exception <a 'java/security/PrivilegedActionException'> (0x00000000a4f8dcd0) thrown at [/HUDSON/workspace/8-2-build-linux-amd64/jdk8u5/2488/hotspot/src/share/vm/prims/jvm.cpp, line 1248]
+Event: 1481.695 Thread 0x00007f60e08d5800 Exception <a 'java/security/PrivilegedActionException'> (0x00000000a4f97eb0) thrown at [/HUDSON/workspace/8-2-build-linux-amd64/jdk8u5/2488/hotspot/src/share/vm/prims/jvm.cpp, line 1248]
+Event: 1481.702 Thread 0x00007f60e08d5800 Exception <a 'java/security/PrivilegedActionException'> (0x00000000a50434b8) thrown at [/HUDSON/workspace/8-2-build-linux-amd64/jdk8u5/2488/hotspot/src/share/vm/prims/jvm.cpp, line 1248]
+Event: 1481.711 Thread 0x00007f60e08d5800 Exception <a 'java/security/PrivilegedActionException'> (0x00000000a51254a8) thrown at [/HUDSON/workspace/8-2-build-linux-amd64/jdk8u5/2488/hotspot/src/share/vm/prims/jvm.cpp, line 1248]
+Event: 1481.711 Thread 0x00007f60e08d5800 Exception <a 'java/security/PrivilegedActionException'> (0x00000000a512aeb8) thrown at [/HUDSON/workspace/8-2-build-linux-amd64/jdk8u5/2488/hotspot/src/share/vm/prims/jvm.cpp, line 1248]
+Event: 1481.715 Thread 0x00007f60e08d5800 Implicit null exception at 0x00007f60cb0c62b8 to 0x00007f60cb0cceb1
+Event: 1481.715 Thread 0x00007f60e08d5800 Implicit null exception at 0x00007f60cb0e8da9 to 0x00007f60cb0ee815
+
+Events (10 events):
+Event: 23227.606 Executing VM operation: GenCollectForAllocation
+Event: 23227.608 Executing VM operation: GenCollectForAllocation done
+Event: 23693.584 Executing VM operation: GenCollectForAllocation
+Event: 23693.587 Executing VM operation: GenCollectForAllocation done
+Event: 24159.697 Executing VM operation: GenCollectForAllocation
+Event: 24159.700 Executing VM operation: GenCollectForAllocation done
+Event: 24625.793 Executing VM operation: GenCollectForAllocation
+Event: 24625.797 Executing VM operation: GenCollectForAllocation done
+Event: 25091.858 Executing VM operation: GenCollectForAllocation
+Event: 25091.861 Executing VM operation: GenCollectForAllocation done
+
+
+Dynamic libraries:
+00400000-00401000 r-xp 00000000 08:02 101321554                          /home/chris/altera/16.0/quartus/linux64/jre64/bin/java
+00600000-00601000 rw-p 00000000 08:02 101321554                          /home/chris/altera/16.0/quartus/linux64/jre64/bin/java
+01d41000-01d83000 rw-p 00000000 00:00 0                                  [heap]
+a2400000-b1e70000 rw-p 00000000 00:00 0 
+b1e70000-c1800000 ---p 00000000 00:00 0 
+c1800000-e0cc0000 rw-p 00000000 00:00 0 
+e0cc0000-100000000 ---p 00000000 00:00 0 
+100000000-1006c0000 rw-p 00000000 00:00 0 
+1006c0000-140000000 ---p 00000000 00:00 0 
+7f6028000000-7f6028021000 rw-p 00000000 00:00 0 
+7f6028021000-7f602c000000 ---p 00000000 00:00 0 
+7f602c000000-7f602c028000 rw-p 00000000 00:00 0 
+7f602c028000-7f6030000000 ---p 00000000 00:00 0 
+7f6030000000-7f603026e000 rw-p 00000000 00:00 0 
+7f603026e000-7f6034000000 ---p 00000000 00:00 0 
+7f6034000000-7f60340a2000 rw-p 00000000 00:00 0 
+7f60340a2000-7f6038000000 ---p 00000000 00:00 0 
+7f6038000000-7f60393ba000 rw-p 00000000 00:00 0 
+7f60393ba000-7f603c000000 ---p 00000000 00:00 0 
+7f603e10e000-7f603e28e000 rw-p 00000000 00:00 0 
+7f603e28e000-7f603e30e000 ---p 00000000 00:00 0 
+7f603e30e000-7f603e311000 ---p 00000000 00:00 0 
+7f603e311000-7f603e40f000 rw-p 00000000 00:00 0 
+7f603e40f000-7f603e412000 ---p 00000000 00:00 0 
+7f603e412000-7f603e510000 rw-p 00000000 00:00 0 
+7f603e510000-7f603e513000 ---p 00000000 00:00 0 
+7f603e513000-7f603e611000 rw-p 00000000 00:00 0 
+7f603e611000-7f603e6cf000 r-xp 00000000 08:02 101320345                  /home/chris/altera/16.0/quartus/linux64/libddb_dygr_fdi.so
+7f603e6cf000-7f603e8ce000 ---p 000be000 08:02 101320345                  /home/chris/altera/16.0/quartus/linux64/libddb_dygr_fdi.so
+7f603e8ce000-7f603e8d3000 rw-p 000bd000 08:02 101320345                  /home/chris/altera/16.0/quartus/linux64/libddb_dygr_fdi.so
+7f603e8d3000-7f603e8d4000 rw-p 00000000 00:00 0 
+7f603e8d4000-7f603e90d000 r-xp 00000000 08:02 101320512                  /home/chris/altera/16.0/quartus/linux64/libtsm_tapi.so
+7f603e90d000-7f603eb0c000 ---p 00039000 08:02 101320512                  /home/chris/altera/16.0/quartus/linux64/libtsm_tapi.so
+7f603eb0c000-7f603eb0f000 rw-p 00038000 08:02 101320512                  /home/chris/altera/16.0/quartus/linux64/libtsm_tapi.so
+7f603eb0f000-7f603ecdf000 r-xp 00000000 08:02 101319395                  /home/chris/altera/16.0/quartus/linux64/libtsm_pti.so
+7f603ecdf000-7f603eede000 ---p 001d0000 08:02 101319395                  /home/chris/altera/16.0/quartus/linux64/libtsm_pti.so
+7f603eede000-7f603eee8000 rw-p 001cf000 08:02 101319395                  /home/chris/altera/16.0/quartus/linux64/libtsm_pti.so
+7f603eee8000-7f603eeef000 rw-p 00000000 00:00 0 
+7f603eeef000-7f603efe1000 r-xp 00000000 08:02 101320440                  /home/chris/altera/16.0/quartus/linux64/libddb_fdi_data.so
+7f603efe1000-7f603f1e0000 ---p 000f2000 08:02 101320440                  /home/chris/altera/16.0/quartus/linux64/libddb_fdi_data.so
+7f603f1e0000-7f603f1ea000 rw-p 000f1000 08:02 101320440                  /home/chris/altera/16.0/quartus/linux64/libddb_fdi_data.so
+7f603f1ea000-7f603f1ed000 rw-p 00000000 00:00 0 
+7f603f1ed000-7f603f200000 r-xp 00000000 08:02 101319307                  /home/chris/altera/16.0/quartus/linux64/libsys_dist.so
+7f603f200000-7f603f3ff000 ---p 00013000 08:02 101319307                  /home/chris/altera/16.0/quartus/linux64/libsys_dist.so
+7f603f3ff000-7f603f401000 rw-p 00012000 08:02 101319307                  /home/chris/altera/16.0/quartus/linux64/libsys_dist.so
+7f603f401000-7f603f435000 r-xp 00000000 08:02 101320114                  /home/chris/altera/16.0/quartus/linux64/libtsm_ipsta.so
+7f603f435000-7f603f635000 ---p 00034000 08:02 101320114                  /home/chris/altera/16.0/quartus/linux64/libtsm_ipsta.so
+7f603f635000-7f603f637000 rw-p 00034000 08:02 101320114                  /home/chris/altera/16.0/quartus/linux64/libtsm_ipsta.so
+7f603f637000-7f603f67f000 r-xp 00000000 08:02 101319425                  /home/chris/altera/16.0/quartus/linux64/libddb_dspf.so
+7f603f67f000-7f603f87e000 ---p 00048000 08:02 101319425                  /home/chris/altera/16.0/quartus/linux64/libddb_dspf.so
+7f603f87e000-7f603f880000 rw-p 00047000 08:02 101319425                  /home/chris/altera/16.0/quartus/linux64/libddb_dspf.so
+7f603f880000-7f6040089000 r-xp 00000000 08:02 101319009                  /home/chris/altera/16.0/quartus/linux64/libddb_dcalc.so
+7f6040089000-7f6040288000 ---p 00809000 08:02 101319009                  /home/chris/altera/16.0/quartus/linux64/libddb_dcalc.so
+7f6040288000-7f6040333000 rw-p 00808000 08:02 101319009                  /home/chris/altera/16.0/quartus/linux64/libddb_dcalc.so
+7f6040333000-7f6040339000 rw-p 00000000 00:00 0 
+7f6040339000-7f60403c3000 r-xp 00000000 08:02 101320222                  /home/chris/altera/16.0/quartus/linux64/libtsm_qspc.so
+7f60403c3000-7f60405c2000 ---p 0008a000 08:02 101320222                  /home/chris/altera/16.0/quartus/linux64/libtsm_qspc.so
+7f60405c2000-7f60405c6000 rw-p 00089000 08:02 101320222                  /home/chris/altera/16.0/quartus/linux64/libtsm_qspc.so
+7f60405c6000-7f60405c7000 rw-p 00000000 00:00 0 
+7f60405c7000-7f60405e8000 r-xp 00000000 08:02 101320730                  /home/chris/altera/16.0/quartus/linux64/libccl_rpc.so
+7f60405e8000-7f60407e7000 ---p 00021000 08:02 101320730                  /home/chris/altera/16.0/quartus/linux64/libccl_rpc.so
+7f60407e7000-7f60407e9000 rw-p 00020000 08:02 101320730                  /home/chris/altera/16.0/quartus/linux64/libccl_rpc.so
+7f60407e9000-7f604080b000 r-xp 00000000 08:02 101320087                  /home/chris/altera/16.0/quartus/linux64/libccl_mps.so
+7f604080b000-7f6040a0a000 ---p 00022000 08:02 101320087                  /home/chris/altera/16.0/quartus/linux64/libccl_mps.so
+7f6040a0a000-7f6040a0c000 rw-p 00021000 08:02 101320087                  /home/chris/altera/16.0/quartus/linux64/libccl_mps.so
+7f6040a0c000-7f6040a5d000 r-xp 00000000 08:02 101320745                  /home/chris/altera/16.0/quartus/linux64/libzmq.so
+7f6040a5d000-7f6040c5d000 ---p 00051000 08:02 101320745                  /home/chris/altera/16.0/quartus/linux64/libzmq.so
+7f6040c5d000-7f6040c61000 rw-p 00051000 08:02 101320745                  /home/chris/altera/16.0/quartus/linux64/libzmq.so
+7f6040c61000-7f6040f4a000 r-xp 00000000 08:02 101320624                  /home/chris/altera/16.0/quartus/linux64/libtsm_tis.so
+7f6040f4a000-7f604114a000 ---p 002e9000 08:02 101320624                  /home/chris/altera/16.0/quartus/linux64/libtsm_tis.so
+7f604114a000-7f6041164000 rw-p 002e9000 08:02 101320624                  /home/chris/altera/16.0/quartus/linux64/libtsm_tis.so
+7f6041164000-7f6041179000 rw-p 00000000 00:00 0 
+7f6041179000-7f60418a4000 r-xp 00000000 08:02 101320230                  /home/chris/altera/16.0/quartus/linux64/libtsm_b2t.so
+7f60418a4000-7f6041aa3000 ---p 0072b000 08:02 101320230                  /home/chris/altera/16.0/quartus/linux64/libtsm_b2t.so
+7f6041aa3000-7f6041d67000 rw-p 0072a000 08:02 101320230                  /home/chris/altera/16.0/quartus/linux64/libtsm_b2t.so
+7f6041d67000-7f6041d73000 rw-p 00000000 00:00 0 
+7f6041d73000-7f60420d6000 r-xp 00000000 08:02 101319497                  /home/chris/altera/16.0/quartus/linux64/libdb_u2b2_core.so
+7f60420d6000-7f60422d6000 ---p 00363000 08:02 101319497                  /home/chris/altera/16.0/quartus/linux64/libdb_u2b2_core.so
+7f60422d6000-7f60422e4000 rw-p 00363000 08:02 101319497                  /home/chris/altera/16.0/quartus/linux64/libdb_u2b2_core.so
+7f60422e4000-7f60422f6000 rw-p 00000000 00:00 0 
+7f60422f6000-7f6042303000 r-xp 00000000 08:02 101320605                  /home/chris/altera/16.0/quartus/linux64/libdb_u2b2_routing.so
+7f6042303000-7f6042503000 ---p 0000d000 08:02 101320605                  /home/chris/altera/16.0/quartus/linux64/libdb_u2b2_routing.so
+7f6042503000-7f6042504000 rw-p 0000d000 08:02 101320605                  /home/chris/altera/16.0/quartus/linux64/libdb_u2b2_routing.so
+7f6042504000-7f60425b6000 r-xp 00000000 08:02 101319955                  /home/chris/altera/16.0/quartus/linux64/libdb_u2b2_cdb_tcl.so
+7f60425b6000-7f60427b6000 ---p 000b2000 08:02 101319955                  /home/chris/altera/16.0/quartus/linux64/libdb_u2b2_cdb_tcl.so
+7f60427b6000-7f60427b8000 rw-p 000b2000 08:02 101319955                  /home/chris/altera/16.0/quartus/linux64/libdb_u2b2_cdb_tcl.so
+7f60427b8000-7f60427c3000 rw-p 00000000 00:00 0 
+7f60427c3000-7f604290a000 r-xp 00000000 08:02 101320030                  /home/chris/altera/16.0/quartus/linux64/libddb_dlib.so
+7f604290a000-7f6042b09000 ---p 00147000 08:02 101320030                  /home/chris/altera/16.0/quartus/linux64/libddb_dlib.so
+7f6042b09000-7f6042b16000 rw-p 00146000 08:02 101320030                  /home/chris/altera/16.0/quartus/linux64/libddb_dlib.so
+7f6042b16000-7f6042b1d000 rw-p 00000000 00:00 0 
+7f6042b1d000-7f6042c76000 r-xp 00000000 08:02 101319387                  /home/chris/altera/16.0/quartus/linux64/libtsm_tdb.so
+7f6042c76000-7f6042e76000 ---p 00159000 08:02 101319387                  /home/chris/altera/16.0/quartus/linux64/libtsm_tdb.so
+7f6042e76000-7f6042e7e000 rw-p 00159000 08:02 101319387                  /home/chris/altera/16.0/quartus/linux64/libtsm_tdb.so
+7f6042e7e000-7f6042e82000 rw-p 00000000 00:00 0 
+7f6042e82000-7f6042f56000 r-xp 00000000 08:02 101319303                  /home/chris/altera/16.0/quartus/linux64/libdb_vdb.so
+7f6042f56000-7f6043156000 ---p 000d4000 08:02 101319303                  /home/chris/altera/16.0/quartus/linux64/libdb_vdb.so
+7f6043156000-7f604315a000 rw-p 000d4000 08:02 101319303                  /home/chris/altera/16.0/quartus/linux64/libdb_vdb.so
+7f604315a000-7f6043162000 rw-p 00000000 00:00 0 
+7f6043162000-7f604323b000 r-xp 00000000 08:02 101319398                  /home/chris/altera/16.0/quartus/linux64/libdb_tim.so
+7f604323b000-7f604343b000 ---p 000d9000 08:02 101319398                  /home/chris/altera/16.0/quartus/linux64/libdb_tim.so
+7f604343b000-7f6043440000 rw-p 000d9000 08:02 101319398                  /home/chris/altera/16.0/quartus/linux64/libdb_tim.so
+7f6043440000-7f604344c000 rw-p 00000000 00:00 0 
+7f604344c000-7f60435ce000 r-xp 00000000 08:02 101319107                  /home/chris/altera/16.0/quartus/linux64/libtsm_sin.so
+7f60435ce000-7f60437ce000 ---p 00182000 08:02 101319107                  /home/chris/altera/16.0/quartus/linux64/libtsm_sin.so
+7f60437ce000-7f60437ef000 rw-p 00182000 08:02 101319107                  /home/chris/altera/16.0/quartus/linux64/libtsm_sin.so
+7f60437ef000-7f60437f1000 rw-p 00000000 00:00 0 
+7f60437f1000-7f6043856000 r-xp 00000000 08:02 101319932                  /home/chris/altera/16.0/quartus/linux64/libtsm_ioo.so
+7f6043856000-7f6043a55000 ---p 00065000 08:02 101319932                  /home/chris/altera/16.0/quartus/linux64/libtsm_ioo.so
+7f6043a55000-7f6043a5c000 rw-p 00064000 08:02 101319932                  /home/chris/altera/16.0/quartus/linux64/libtsm_ioo.so
+7f6043a5c000-7f6043a5d000 rw-p 00000000 00:00 0 
+7f6043a5d000-7f6043aed000 r-xp 00000000 08:02 101320603                  /home/chris/altera/16.0/quartus/linux64/libcomp_qcu.so
+7f6043aed000-7f6043ced000 ---p 00090000 08:02 101320603                  /home/chris/altera/16.0/quartus/linux64/libcomp_qcu.so
+7f6043ced000-7f6043cf1000 rw-p 00090000 08:02 101320603                  /home/chris/altera/16.0/quartus/linux64/libcomp_qcu.so
+7f6043cf1000-7f6043cf6000 r-xp 00000000 08:02 101320415                  /home/chris/altera/16.0/quartus/linux64/libtpi_tset.so
+7f6043cf6000-7f6043ef5000 ---p 00005000 08:02 101320415                  /home/chris/altera/16.0/quartus/linux64/libtpi_tset.so
+7f6043ef5000-7f6043ef6000 rw-p 00004000 08:02 101320415                  /home/chris/altera/16.0/quartus/linux64/libtpi_tset.so
+7f6043ef6000-7f6043f31000 r-xp 00000000 08:02 101319074                  /home/chris/altera/16.0/quartus/linux64/libtpi_eti.so
+7f6043f31000-7f6044131000 ---p 0003b000 08:02 101319074                  /home/chris/altera/16.0/quartus/linux64/libtpi_eti.so
+7f6044131000-7f6044138000 rw-p 0003b000 08:02 101319074                  /home/chris/altera/16.0/quartus/linux64/libtpi_eti.so
+7f6044138000-7f60441fe000 r-xp 00000000 08:02 101319615                  /home/chris/altera/16.0/quartus/linux64/libsys_pjc.so
+7f60441fe000-7f60443fd000 ---p 000c6000 08:02 101319615                  /home/chris/altera/16.0/quartus/linux64/libsys_pjc.so
+7f60443fd000-7f604440b000 rw-p 000c5000 08:02 101319615                  /home/chris/altera/16.0/quartus/linux64/libsys_pjc.so
+7f604440b000-7f604440c000 rw-p 00000000 00:00 0 
+7f604440c000-7f6044413000 r-xp 00000000 08:02 101319841                  /home/chris/altera/16.0/quartus/linux64/libsys_cpt_hdb.so
+7f6044413000-7f6044613000 ---p 00007000 08:02 101319841                  /home/chris/altera/16.0/quartus/linux64/libsys_cpt_hdb.so
+7f6044613000-7f6044614000 rw-p 00007000 08:02 101319841                  /home/chris/altera/16.0/quartus/linux64/libsys_cpt_hdb.so
+7f6044614000-7f60446ba000 r-xp 00000000 08:02 101320687                  /home/chris/altera/16.0/quartus/linux64/libcomp_qhd.so
+7f60446ba000-7f60448b9000 ---p 000a6000 08:02 101320687                  /home/chris/altera/16.0/quartus/linux64/libcomp_qhd.so
+7f60448b9000-7f60448bf000 rw-p 000a5000 08:02 101320687                  /home/chris/altera/16.0/quartus/linux64/libcomp_qhd.so
+7f60448bf000-7f60448d2000 r-xp 00000000 08:02 101319598                  /home/chris/altera/16.0/quartus/linux64/libgcl_qjson.so
+7f60448d2000-7f6044ad1000 ---p 00013000 08:02 101319598                  /home/chris/altera/16.0/quartus/linux64/libgcl_qjson.so
+7f6044ad1000-7f6044ad2000 rw-p 00012000 08:02 101319598                  /home/chris/altera/16.0/quartus/linux64/libgcl_qjson.so
+7f6044ad2000-7f6044ad3000 r-xp 00000000 08:02 38543506                   /usr/lib/x86_64-linux-gnu/libgthread-2.0.so.0.4800.2
+7f6044ad3000-7f6044cd2000 ---p 00001000 08:02 38543506                   /usr/lib/x86_64-linux-gnu/libgthread-2.0.so.0.4800.2
+7f6044cd2000-7f6044cd3000 r--p 00000000 08:02 38543506                   /usr/lib/x86_64-linux-gnu/libgthread-2.0.so.0.4800.2
+7f6044cd3000-7f6044cd4000 rw-p 00001000 08:02 38543506                   /usr/lib/x86_64-linux-gnu/libgthread-2.0.so.0.4800.2
+7f6044cd4000-7f6044fd9000 r-xp 00000000 08:02 101320797                  /home/chris/altera/16.0/quartus/linux64/libQtCore.so
+7f6044fd9000-7f60451d8000 ---p 00305000 08:02 101320797                  /home/chris/altera/16.0/quartus/linux64/libQtCore.so
+7f60451d8000-7f60451e9000 rw-p 00304000 08:02 101320797                  /home/chris/altera/16.0/quartus/linux64/libQtCore.so
+7f60451e9000-7f6045327000 r-xp 00000000 08:02 101320677                  /home/chris/altera/16.0/quartus/linux64/libperiph_fpp.so
+7f6045327000-7f6045527000 ---p 0013e000 08:02 101320677                  /home/chris/altera/16.0/quartus/linux64/libperiph_fpp.so
+7f6045527000-7f604552c000 rw-p 0013e000 08:02 101320677                  /home/chris/altera/16.0/quartus/linux64/libperiph_fpp.so
+7f604552c000-7f604552d000 rw-p 00000000 00:00 0 
+7f604552d000-7f6045543000 r-xp 00000000 08:02 101320239                  /home/chris/altera/16.0/quartus/linux64/libdb_lampas.so
+7f6045543000-7f6045743000 ---p 00016000 08:02 101320239                  /home/chris/altera/16.0/quartus/linux64/libdb_lampas.so
+7f6045743000-7f6045744000 rw-p 00016000 08:02 101320239                  /home/chris/altera/16.0/quartus/linux64/libdb_lampas.so
+7f6045744000-7f60457e8000 r-xp 00000000 08:02 101320306                  /home/chris/altera/16.0/quartus/linux64/libdb_ares.so
+7f60457e8000-7f60459e7000 ---p 000a4000 08:02 101320306                  /home/chris/altera/16.0/quartus/linux64/libdb_ares.so
+7f60459e7000-7f60459ed000 rw-p 000a3000 08:02 101320306                  /home/chris/altera/16.0/quartus/linux64/libdb_ares.so
+7f60459ed000-7f6045ab8000 r-xp 00000000 08:02 101319173                  /home/chris/altera/16.0/quartus/linux64/libcomp_rapid.so
+7f6045ab8000-7f6045cb8000 ---p 000cb000 08:02 101319173                  /home/chris/altera/16.0/quartus/linux64/libcomp_rapid.so
+7f6045cb8000-7f6045cbb000 rw-p 000cb000 08:02 101319173                  /home/chris/altera/16.0/quartus/linux64/libcomp_rapid.so
+7f6045cbb000-7f6046155000 r-xp 00000000 08:02 101320633                  /home/chris/altera/16.0/quartus/linux64/libdb_u2b2_cdb.so
+7f6046155000-7f6046354000 ---p 0049a000 08:02 101320633                  /home/chris/altera/16.0/quartus/linux64/libdb_u2b2_cdb.so
+7f6046354000-7f6046371000 rw-p 00499000 08:02 101320633                  /home/chris/altera/16.0/quartus/linux64/libdb_u2b2_cdb.so
+7f6046371000-7f6046385000 rw-p 00000000 00:00 0 
+7f6046385000-7f604639f000 r-xp 00000000 08:02 101320287                  /home/chris/altera/16.0/quartus/linux64/libdb_u2b2_cfg.so
+7f604639f000-7f604659e000 ---p 0001a000 08:02 101320287                  /home/chris/altera/16.0/quartus/linux64/libdb_u2b2_cfg.so
+7f604659e000-7f604659f000 rw-p 00019000 08:02 101320287                  /home/chris/altera/16.0/quartus/linux64/libdb_u2b2_cfg.so
+7f604659f000-7f60465a0000 rw-p 00000000 00:00 0 
+7f60465a0000-7f60465c4000 r-xp 00000000 08:02 101319860                  /home/chris/altera/16.0/quartus/linux64/libdb_idb.so
+7f60465c4000-7f60467c3000 ---p 00024000 08:02 101319860                  /home/chris/altera/16.0/quartus/linux64/libdb_idb.so
+7f60467c3000-7f60467c6000 rw-p 00023000 08:02 101319860                  /home/chris/altera/16.0/quartus/linux64/libdb_idb.so
+7f60467c6000-7f60467c7000 rw-p 00000000 00:00 0 
+7f60467c7000-7f60467c9000 r-xp 00000000 08:02 101320578                  /home/chris/altera/16.0/quartus/linux64/libccl_qtl_string_match.so
+7f60467c9000-7f60469c8000 ---p 00002000 08:02 101320578                  /home/chris/altera/16.0/quartus/linux64/libccl_qtl_string_match.so
+7f60469c8000-7f60469c9000 rw-p 00001000 08:02 101320578                  /home/chris/altera/16.0/quartus/linux64/libccl_qtl_string_match.so
+7f60469c9000-7f60469d1000 r-xp 00000000 08:02 101320410                  /home/chris/altera/16.0/quartus/linux64/libccl_ipc.so
+7f60469d1000-7f6046bd0000 ---p 00008000 08:02 101320410                  /home/chris/altera/16.0/quartus/linux64/libccl_ipc.so
+7f6046bd0000-7f6046bd1000 rw-p 00007000 08:02 101320410                  /home/chris/altera/16.0/quartus/linux64/libccl_ipc.so
+7f6046bd1000-7f6046c08000 r-xp 00000000 08:02 101319320                  /home/chris/altera/16.0/quartus/linux64/libcomp_mpp.so
+7f6046c08000-7f6046e07000 ---p 00037000 08:02 101319320                  /home/chris/altera/16.0/quartus/linux64/libcomp_mpp.so
+7f6046e07000-7f6046e09000 rw-p 00036000 08:02 101319320                  /home/chris/altera/16.0/quartus/linux64/libcomp_mpp.so
+7f6046e09000-7f6046e39000 r-xp 00000000 08:02 101320673                  /home/chris/altera/16.0/quartus/linux64/libdb_logdb.so
+7f6046e39000-7f6047039000 ---p 00030000 08:02 101320673                  /home/chris/altera/16.0/quartus/linux64/libdb_logdb.so
+7f6047039000-7f604703b000 rw-p 00030000 08:02 101320673                  /home/chris/altera/16.0/quartus/linux64/libdb_logdb.so
+7f604703b000-7f6047046000 rw-p 00000000 00:00 0 
+7f6047046000-7f6047062000 r-xp 00000000 08:02 101320368                  /home/chris/altera/16.0/quartus/linux64/libcomp_rutil.so
+7f6047062000-7f6047262000 ---p 0001c000 08:02 101320368                  /home/chris/altera/16.0/quartus/linux64/libcomp_rutil.so
+7f6047262000-7f6047263000 rw-p 0001c000 08:02 101320368                  /home/chris/altera/16.0/quartus/linux64/libcomp_rutil.so
+7f6047263000-7f60472e3000 r-xp 00000000 08:02 101319131                  /home/chris/altera/16.0/quartus/linux64/libatm_atmx.so
+7f60472e3000-7f60474e2000 ---p 00080000 08:02 101319131                  /home/chris/altera/16.0/quartus/linux64/libatm_atmx.so
+7f60474e2000-7f60474e6000 rw-p 0007f000 08:02 101319131                  /home/chris/altera/16.0/quartus/linux64/libatm_atmx.so
+7f60474e6000-7f604777a000 r-xp 00000000 08:02 101320425                  /home/chris/altera/16.0/quartus/linux64/libdb_u2b.so
+7f604777a000-7f604797a000 ---p 00294000 08:02 101320425                  /home/chris/altera/16.0/quartus/linux64/libdb_u2b.so
+7f604797a000-7f6047987000 rw-p 00294000 08:02 101320425                  /home/chris/altera/16.0/quartus/linux64/libdb_u2b.so
+7f6047987000-7f6058d24000 r-xp 00000000 08:02 101320294                  /home/chris/altera/16.0/quartus/linux64/libdb_tinfo.so
+7f6058d24000-7f6058f24000 ---p 1139d000 08:02 101320294                  /home/chris/altera/16.0/quartus/linux64/libdb_tinfo.so
+7f6058f24000-7f605a9bf000 rw-p 1139d000 08:02 101320294                  /home/chris/altera/16.0/quartus/linux64/libdb_tinfo.so
+7f605a9bf000-7f605a9c1000 rw-p 00000000 00:00 0 
+7f605a9c1000-7f605a9ff000 r-xp 00000000 08:02 101320655                  /home/chris/altera/16.0/quartus/linux64/libdb_b2b.so
+7f605a9ff000-7f605abff000 ---p 0003e000 08:02 101320655                  /home/chris/altera/16.0/quartus/linux64/libdb_b2b.so
+7f605abff000-7f605ac08000 rw-p 0003e000 08:02 101320655                  /home/chris/altera/16.0/quartus/linux64/libdb_b2b.so
+7f605ac08000-7f605ac2e000 r-xp 00000000 08:02 101319564                  /home/chris/altera/16.0/quartus/linux64/libcomp_qexe.so
+7f605ac2e000-7f605ae2d000 ---p 00026000 08:02 101319564                  /home/chris/altera/16.0/quartus/linux64/libcomp_qexe.so
+7f605ae2d000-7f605ae30000 rw-p 00025000 08:02 101319564                  /home/chris/altera/16.0/quartus/linux64/libcomp_qexe.so
+7f605ae30000-7f605ae59000 r-xp 00000000 08:02 101320208                  /home/chris/altera/16.0/quartus/linux64/libsys_cloud.so
+7f605ae59000-7f605b059000 ---p 00029000 08:02 101320208                  /home/chris/altera/16.0/quartus/linux64/libsys_cloud.so
+7f605b059000-7f605b05b000 rw-p 00029000 08:02 101320208                  /home/chris/altera/16.0/quartus/linux64/libsys_cloud.so
+7f605b05b000-7f605b070000 r-xp 00000000 08:02 101319165                  /home/chris/altera/16.0/quartus/linux64/libccl_curl.so
+7f605b070000-7f605b26f000 ---p 00015000 08:02 101319165                  /home/chris/altera/16.0/quartus/linux64/libccl_curl.so
+7f605b26f000-7f605b270000 rw-p 00014000 08:02 101319165                  /home/chris/altera/16.0/quartus/linux64/libccl_curl.so
+7f605b270000-7f605b286000 r-xp 00000000 08:02 101319983                  /home/chris/altera/16.0/quartus/linux64/libccl_bat.so
+7f605b286000-7f605b485000 ---p 00016000 08:02 101319983                  /home/chris/altera/16.0/quartus/linux64/libccl_bat.so
+7f605b485000-7f605b487000 rw-p 00015000 08:02 101319983                  /home/chris/altera/16.0/quartus/linux64/libccl_bat.so
+7f605b487000-7f605b4c0000 r-xp 00000000 08:02 101320137                  /home/chris/altera/16.0/quartus/linux64/libdb_tim_rc.so
+7f605b4c0000-7f605b6c0000 ---p 00039000 08:02 101320137                  /home/chris/altera/16.0/quartus/linux64/libdb_tim_rc.so
+7f605b6c0000-7f605b6c2000 rw-p 00039000 08:02 101320137                  /home/chris/altera/16.0/quartus/linux64/libdb_tim_rc.so
+7f605b6c2000-7f605b6cd000 rw-p 00000000 00:00 0 
+7f605b6cd000-7f605c1b0000 r-xp 00000000 08:02 101319082                  /home/chris/altera/16.0/quartus/linux64/libdb_cut.so
+7f605c1b0000-7f605c3b0000 ---p 00ae3000 08:02 101319082                  /home/chris/altera/16.0/quartus/linux64/libdb_cut.so
+7f605c3b0000-7f605c3e1000 rw-p 00ae3000 08:02 101319082                  /home/chris/altera/16.0/quartus/linux64/libdb_cut.so
+7f605c3e1000-7f605c3f4000 rw-p 00000000 00:00 0 
+7f605c3f4000-7f605c3f9000 r-xp 00000000 08:02 101319787                  /home/chris/altera/16.0/quartus/linux64/libcomp_qcu_tb2.so
+7f605c3f9000-7f605c5f9000 ---p 00005000 08:02 101319787                  /home/chris/altera/16.0/quartus/linux64/libcomp_qcu_tb2.so
+7f605c5f9000-7f605c5fa000 rw-p 00005000 08:02 101319787                  /home/chris/altera/16.0/quartus/linux64/libcomp_qcu_tb2.so
+7f605c5fa000-7f605c627000 r-xp 00000000 08:02 101320166                  /home/chris/altera/16.0/quartus/linux64/libsynth_bdd.so
+7f605c627000-7f605c826000 ---p 0002d000 08:02 101320166                  /home/chris/altera/16.0/quartus/linux64/libsynth_bdd.so
+7f605c826000-7f605c828000 rw-p 0002c000 08:02 101320166                  /home/chris/altera/16.0/quartus/linux64/libsynth_bdd.so
+7f605c828000-7f605c8c8000 r-xp 00000000 08:02 101319766                  /home/chris/altera/16.0/quartus/linux64/libcbx_util.so
+7f605c8c8000-7f605cac8000 ---p 000a0000 08:02 101319766                  /home/chris/altera/16.0/quartus/linux64/libcbx_util.so
+7f605cac8000-7f605cac9000 rw-p 000a0000 08:02 101319766                  /home/chris/altera/16.0/quartus/linux64/libcbx_util.so
+7f605cac9000-7f605cb76000 r-xp 00000000 08:02 101319514                  /home/chris/altera/16.0/quartus/linux64/libmega_mfam.so
+7f605cb76000-7f605cd75000 ---p 000ad000 08:02 101319514                  /home/chris/altera/16.0/quartus/linux64/libmega_mfam.so
+7f605cd75000-7f605cd7a000 rw-p 000ac000 08:02 101319514                  /home/chris/altera/16.0/quartus/linux64/libmega_mfam.so
+7f605cd7a000-7f605cd7e000 rw-p 00000000 00:00 0 
+7f605cd7e000-7f605cd82000 r-xp 00000000 08:02 101320176                  /home/chris/altera/16.0/quartus/linux64/libmega_stl.so
+7f605cd82000-7f605cf82000 ---p 00004000 08:02 101320176                  /home/chris/altera/16.0/quartus/linux64/libmega_stl.so
+7f605cf82000-7f605cf83000 rw-p 00004000 08:02 101320176                  /home/chris/altera/16.0/quartus/linux64/libmega_stl.so
+7f605cf83000-7f605cf89000 r-xp 00000000 08:02 101320436                  /home/chris/altera/16.0/quartus/linux64/libsys_tb2.so
+7f605cf89000-7f605d188000 ---p 00006000 08:02 101320436                  /home/chris/altera/16.0/quartus/linux64/libsys_tb2.so
+7f605d188000-7f605d189000 rw-p 00005000 08:02 101320436                  /home/chris/altera/16.0/quartus/linux64/libsys_tb2.so
+7f605d189000-7f605d196000 r-xp 00000000 08:02 101319720                  /home/chris/altera/16.0/quartus/linux64/libdb_hinf.so
+7f605d196000-7f605d396000 ---p 0000d000 08:02 101319720                  /home/chris/altera/16.0/quartus/linux64/libdb_hinf.so
+7f605d396000-7f605d398000 rw-p 0000d000 08:02 101319720                  /home/chris/altera/16.0/quartus/linux64/libdb_hinf.so
+7f605d398000-7f605d4e0000 r-xp 00000000 08:02 101319515                  /home/chris/altera/16.0/quartus/linux64/libdb_constra.so
+7f605d4e0000-7f605d6e0000 ---p 00148000 08:02 101319515                  /home/chris/altera/16.0/quartus/linux64/libdb_constra.so
+7f605d6e0000-7f605d6e9000 rw-p 00148000 08:02 101319515                  /home/chris/altera/16.0/quartus/linux64/libdb_constra.so
+7f605d6e9000-7f605d6ea000 rw-p 00000000 00:00 0 
+7f605d6ea000-7f605d730000 r-xp 00000000 08:02 101320481                  /home/chris/altera/16.0/quartus/linux64/libdb_cdb_mgr.so
+7f605d730000-7f605d92f000 ---p 00046000 08:02 101320481                  /home/chris/altera/16.0/quartus/linux64/libdb_cdb_mgr.so
+7f605d92f000-7f605d932000 rw-p 00045000 08:02 101320481                  /home/chris/altera/16.0/quartus/linux64/libdb_cdb_mgr.so
+7f605d932000-7f605d933000 rw-p 00000000 00:00 0 
+7f605d933000-7f605d977000 r-xp 00000000 08:02 101320282                  /home/chris/altera/16.0/quartus/linux64/libdb_cdb_ibr.so
+7f605d977000-7f605db76000 ---p 00044000 08:02 101320282                  /home/chris/altera/16.0/quartus/linux64/libdb_cdb_ibr.so
+7f605db76000-7f605db7d000 rw-p 00043000 08:02 101320282                  /home/chris/altera/16.0/quartus/linux64/libdb_cdb_ibr.so
+7f605db7d000-7f605db91000 r-xp 00000000 08:02 101319810                  /home/chris/altera/16.0/quartus/linux64/libdb_u2b_bcm.so
+7f605db91000-7f605dd90000 ---p 00014000 08:02 101319810                  /home/chris/altera/16.0/quartus/linux64/libdb_u2b_bcm.so
+7f605dd90000-7f605dd92000 rw-p 00013000 08:02 101319810                  /home/chris/altera/16.0/quartus/linux64/libdb_u2b_bcm.so
+7f605dd92000-7f605ddc8000 r-xp 00000000 08:02 101320447                  /home/chris/altera/16.0/quartus/linux64/libdb_u2b_cfg.so
+7f605ddc8000-7f605dfc7000 ---p 00036000 08:02 101320447                  /home/chris/altera/16.0/quartus/linux64/libdb_u2b_cfg.so
+7f605dfc7000-7f605dfcc000 rw-p 00035000 08:02 101320447                  /home/chris/altera/16.0/quartus/linux64/libdb_u2b_cfg.so
+7f605dfcc000-7f605dfce000 rw-p 00000000 00:00 0 
+7f605dfce000-7f605e069000 r-xp 00000000 08:02 101319927                  /home/chris/altera/16.0/quartus/linux64/libdb_cdb_re.so
+7f605e069000-7f605e268000 ---p 0009b000 08:02 101319927                  /home/chris/altera/16.0/quartus/linux64/libdb_cdb_re.so
+7f605e268000-7f605e270000 rw-p 0009a000 08:02 101319927                  /home/chris/altera/16.0/quartus/linux64/libdb_cdb_re.so
+7f605e270000-7f605e272000 rw-p 00000000 00:00 0 
+7f605e272000-7f605e2a1000 r-xp 00000000 08:02 101319591                  /home/chris/altera/16.0/quartus/linux64/libdb_a2c.so
+7f605e2a1000-7f605e4a1000 ---p 0002f000 08:02 101319591                  /home/chris/altera/16.0/quartus/linux64/libdb_a2c.so
+7f605e4a1000-7f605e4a3000 rw-p 0002f000 08:02 101319591                  /home/chris/altera/16.0/quartus/linux64/libdb_a2c.so
+7f605e4a3000-7f605e4b8000 r-xp 00000000 08:02 101319364                  /home/chris/altera/16.0/quartus/linux64/libdb_msf.so
+7f605e4b8000-7f605e6b7000 ---p 00015000 08:02 101319364                  /home/chris/altera/16.0/quartus/linux64/libdb_msf.so
+7f605e6b7000-7f605e6b9000 rw-p 00014000 08:02 101319364                  /home/chris/altera/16.0/quartus/linux64/libdb_msf.so
+7f605e6b9000-7f605e6f3000 r-xp 00000000 08:02 101319694                  /home/chris/altera/16.0/quartus/linux64/libdb_cut_dev.so
+7f605e6f3000-7f605e8f2000 ---p 0003a000 08:02 101319694                  /home/chris/altera/16.0/quartus/linux64/libdb_cut_dev.so
+7f605e8f2000-7f605e8f4000 rw-p 00039000 08:02 101319694                  /home/chris/altera/16.0/quartus/linux64/libdb_cut_dev.so
+7f605e8f4000-7f605e98e000 r-xp 00000000 08:02 101319928                  /home/chris/altera/16.0/quartus/linux64/libddb_dbcm.so
+7f605e98e000-7f605eb8d000 ---p 0009a000 08:02 101319928                  /home/chris/altera/16.0/quartus/linux64/libddb_dbcm.so
+7f605eb8d000-7f605eb92000 rw-p 00099000 08:02 101319928                  /home/chris/altera/16.0/quartus/linux64/libddb_dbcm.so
+7f605eb92000-7f605eb94000 rw-p 00000000 00:00 0 
+7f605eb94000-7f605ebbc000 r-xp 00000000 08:02 101320501                  /home/chris/altera/16.0/quartus/linux64/libddb_ihc.so
+7f605ebbc000-7f605edbb000 ---p 00028000 08:02 101320501                  /home/chris/altera/16.0/quartus/linux64/libddb_ihc.so
+7f605edbb000-7f605edbc000 rw-p 00027000 08:02 101320501                  /home/chris/altera/16.0/quartus/linux64/libddb_ihc.so
+7f605edbc000-7f605edbd000 rw-p 00000000 00:00 0 
+7f605edbd000-7f605ef57000 r-xp 00000000 08:02 101320374                  /home/chris/altera/16.0/quartus/linux64/libddb_dygr_qdl.so
+7f605ef57000-7f605f156000 ---p 0019a000 08:02 101320374                  /home/chris/altera/16.0/quartus/linux64/libddb_dygr_qdl.so
+7f605f156000-7f605f199000 rw-p 00199000 08:02 101320374                  /home/chris/altera/16.0/quartus/linux64/libddb_dygr_qdl.so
+7f605f199000-7f605f483000 r-xp 00000000 08:02 101320737                  /home/chris/altera/16.0/quartus/linux64/libmxlqdl.so
+7f605f483000-7f605f682000 ---p 002ea000 08:02 101320737                  /home/chris/altera/16.0/quartus/linux64/libmxlqdl.so
+7f605f682000-7f605f69b000 rw-p 002e9000 08:02 101320737                  /home/chris/altera/16.0/quartus/linux64/libmxlqdl.so
+7f605f69b000-7f605f69d000 rw-p 00000000 00:00 0 
+7f605f69d000-7f605f793000 r-xp 00000000 08:02 101320749                  /home/chris/altera/16.0/quartus/linux64/libprotobuf.so.8.0.0
+7f605f793000-7f605f993000 ---p 000f6000 08:02 101320749                  /home/chris/altera/16.0/quartus/linux64/libprotobuf.so.8.0.0
+7f605f993000-7f605f999000 rw-p 000f6000 08:02 101320749                  /home/chris/altera/16.0/quartus/linux64/libprotobuf.so.8.0.0
+7f605f999000-7f605f9dd000 r-xp 00000000 08:02 101319750                  /home/chris/altera/16.0/quartus/linux64/libdb_cdb_atom_generic.so
+7f605f9dd000-7f605fbdd000 ---p 00044000 08:02 101319750                  /home/chris/altera/16.0/quartus/linux64/libdb_cdb_atom_generic.so
+7f605fbdd000-7f605fbe2000 rw-p 00044000 08:02 101319750                  /home/chris/altera/16.0/quartus/linux64/libdb_cdb_atom_generic.so
+7f605fbe2000-7f605fbe4000 r-xp 00000000 08:02 101319406                  /home/chris/altera/16.0/quartus/linux64/libdb_cal.so
+7f605fbe4000-7f605fde3000 ---p 00002000 08:02 101319406                  /home/chris/altera/16.0/quartus/linux64/libdb_cal.so
+7f605fde3000-7f605fde4000 rw-p 00001000 08:02 101319406                  /home/chris/altera/16.0/quartus/linux64/libdb_cal.so
+7f605fde4000-7f605fe16000 r-xp 00000000 08:02 101320502                  /home/chris/altera/16.0/quartus/linux64/libdb_cal_av_emif.so
+7f605fe16000-7f6060015000 ---p 00032000 08:02 101320502                  /home/chris/altera/16.0/quartus/linux64/libdb_cal_av_emif.so
+7f6060015000-7f6060017000 rw-p 00031000 08:02 101320502                  /home/chris/altera/16.0/quartus/linux64/libdb_cal_av_emif.so
+7f6060017000-7f6060076000 r-xp 00000000 08:02 101319518                  /home/chris/altera/16.0/quartus/linux64/libdb_cal_av_lvds.so
+7f6060076000-7f6060276000 ---p 0005f000 08:02 101319518                  /home/chris/altera/16.0/quartus/linux64/libdb_cal_av_lvds.so
+7f6060276000-7f6060278000 rw-p 0005f000 08:02 101319518                  /home/chris/altera/16.0/quartus/linux64/libdb_cal_av_lvds.so
+7f6060278000-7f60602cc000 r-xp 00000000 08:02 101319213                  /home/chris/altera/16.0/quartus/linux64/libdb_cal_nf_hssi.so
+7f60602cc000-7f60604cb000 ---p 00054000 08:02 101319213                  /home/chris/altera/16.0/quartus/linux64/libdb_cal_nf_hssi.so
+7f60604cb000-7f60604cd000 rw-p 00053000 08:02 101319213                  /home/chris/altera/16.0/quartus/linux64/libdb_cal_nf_hssi.so
+7f60604cd000-7f6060e11000 r-xp 00000000 08:02 101320329                  /home/chris/altera/16.0/quartus/linux64/libdb_cal_av_hssi.so
+7f6060e11000-7f6061010000 ---p 00944000 08:02 101320329                  /home/chris/altera/16.0/quartus/linux64/libdb_cal_av_hssi.so
+7f6061010000-7f606102b000 rw-p 00943000 08:02 101320329                  /home/chris/altera/16.0/quartus/linux64/libdb_cal_av_hssi.so
+7f606102b000-7f606102d000 rw-p 00000000 00:00 0 
+7f606102d000-7f6061106000 r-xp 00000000 08:02 101319649                  /home/chris/altera/16.0/quartus/linux64/libdb_cal_cv_pll.so
+7f6061106000-7f6061306000 ---p 000d9000 08:02 101319649                  /home/chris/altera/16.0/quartus/linux64/libdb_cal_cv_pll.so
+7f6061306000-7f6061309000 rw-p 000d9000 08:02 101319649                  /home/chris/altera/16.0/quartus/linux64/libdb_cal_cv_pll.so
+7f6061309000-7f60613f3000 r-xp 00000000 08:02 101319589                  /home/chris/altera/16.0/quartus/linux64/libdb_cal_av_pll.so
+7f60613f3000-7f60615f3000 ---p 000ea000 08:02 101319589                  /home/chris/altera/16.0/quartus/linux64/libdb_cal_av_pll.so
+7f60615f3000-7f60615f6000 rw-p 000ea000 08:02 101319589                  /home/chris/altera/16.0/quartus/linux64/libdb_cal_av_pll.so
+7f60615f6000-7f60626dd000 r-xp 00000000 08:02 101320579                  /home/chris/altera/16.0/quartus/linux64/libdb_cal_generic.so
+7f60626dd000-7f60628dc000 ---p 010e7000 08:02 101320579                  /home/chris/altera/16.0/quartus/linux64/libdb_cal_generic.so
+7f60628dc000-7f606290b000 rw-p 010e6000 08:02 101320579                  /home/chris/altera/16.0/quartus/linux64/libdb_cal_generic.so
+7f606290b000-7f606290f000 rw-p 00000000 00:00 0 
+7f606290f000-7f6062918000 r-xp 00000000 08:02 101319936                  /home/chris/altera/16.0/quartus/linux64/libdb_cal_util.so
+7f6062918000-7f6062b17000 ---p 00009000 08:02 101319936                  /home/chris/altera/16.0/quartus/linux64/libdb_cal_util.so
+7f6062b17000-7f6062b18000 rw-p 00008000 08:02 101319936                  /home/chris/altera/16.0/quartus/linux64/libdb_cal_util.so
+7f6062b18000-7f6062c00000 r-xp 00000000 08:02 101319003                  /home/chris/altera/16.0/quartus/linux64/libtsm_nlspc.so
+7f6062c00000-7f6062e00000 ---p 000e8000 08:02 101319003                  /home/chris/altera/16.0/quartus/linux64/libtsm_nlspc.so
+7f6062e00000-7f6062e05000 rw-p 000e8000 08:02 101319003                  /home/chris/altera/16.0/quartus/linux64/libtsm_nlspc.so
+7f6062e05000-7f6062e0a000 rw-p 00000000 00:00 0 
+7f6062e0a000-7f6062e22000 r-xp 00000000 08:02 101319675                  /home/chris/altera/16.0/quartus/linux64/libtsm_superlu.so
+7f6062e22000-7f6063022000 ---p 00018000 08:02 101319675                  /home/chris/altera/16.0/quartus/linux64/libtsm_superlu.so
+7f6063022000-7f6063023000 rw-p 00018000 08:02 101319675                  /home/chris/altera/16.0/quartus/linux64/libtsm_superlu.so
+7f6063023000-7f606302a000 r-xp 00000000 08:02 101320602                  /home/chris/altera/16.0/quartus/linux64/libtsm_blas.so
+7f606302a000-7f6063229000 ---p 00007000 08:02 101320602                  /home/chris/altera/16.0/quartus/linux64/libtsm_blas.so
+7f6063229000-7f606322a000 rw-p 00006000 08:02 101320602                  /home/chris/altera/16.0/quartus/linux64/libtsm_blas.so
+7f606322a000-7f606327d000 r-xp 00000000 08:02 101319774                  /home/chris/altera/16.0/quartus/linux64/libtsm_metis.so
+7f606327d000-7f606347c000 ---p 00053000 08:02 101319774                  /home/chris/altera/16.0/quartus/linux64/libtsm_metis.so
+7f606347c000-7f606347d000 rw-p 00052000 08:02 101319774                  /home/chris/altera/16.0/quartus/linux64/libtsm_metis.so
+7f606347d000-7f606367d000 rw-p 00000000 00:00 0 
+7f606367d000-7f6063727000 r-xp 00000000 08:02 101320535                  /home/chris/altera/16.0/quartus/linux64/libqcl_pll.so
+7f6063727000-7f6063927000 ---p 000aa000 08:02 101320535                  /home/chris/altera/16.0/quartus/linux64/libqcl_pll.so
+7f6063927000-7f606392a000 rw-p 000aa000 08:02 101320535                  /home/chris/altera/16.0/quartus/linux64/libqcl_pll.so
+7f606392a000-7f6063931000 r-xp 00000000 08:02 101320726                  /home/chris/altera/16.0/quartus/linux64/libdb_rbc_util.so
+7f6063931000-7f6063b31000 ---p 00007000 08:02 101320726                  /home/chris/altera/16.0/quartus/linux64/libdb_rbc_util.so
+7f6063b31000-7f6063b32000 rw-p 00007000 08:02 101320726                  /home/chris/altera/16.0/quartus/linux64/libdb_rbc_util.so
+7f6063b32000-7f6063b60000 r-xp 00000000 08:02 101320148                  /home/chris/altera/16.0/quartus/linux64/libatm_cga.so
+7f6063b60000-7f6063d60000 ---p 0002e000 08:02 101320148                  /home/chris/altera/16.0/quartus/linux64/libatm_cga.so
+7f6063d60000-7f6063d63000 rw-p 0002e000 08:02 101320148                  /home/chris/altera/16.0/quartus/linux64/libatm_cga.so
+7f6063d63000-7f6063df8000 rw-p 00000000 00:00 0 
+7f6063df8000-7f6063e1d000 r-xp 00000000 08:02 101320130                  /home/chris/altera/16.0/quartus/linux64/libdb_cdb_atom_factory.so
+7f6063e1d000-7f606401d000 ---p 00025000 08:02 101320130                  /home/chris/altera/16.0/quartus/linux64/libdb_cdb_atom_factory.so
+7f606401d000-7f606401f000 rw-p 00025000 08:02 101320130                  /home/chris/altera/16.0/quartus/linux64/libdb_cdb_atom_factory.so
+7f606401f000-7f60640a8000 r-xp 00000000 08:02 101320088                  /home/chris/altera/16.0/quartus/linux64/libdb_cdb_atom_syn.so
+7f60640a8000-7f60642a7000 ---p 00089000 08:02 101320088                  /home/chris/altera/16.0/quartus/linux64/libdb_cdb_atom_syn.so
+7f60642a7000-7f60642c1000 rw-p 00088000 08:02 101320088                  /home/chris/altera/16.0/quartus/linux64/libdb_cdb_atom_syn.so
+7f60642c1000-7f606461f000 r-xp 00000000 08:02 101319816                  /home/chris/altera/16.0/quartus/linux64/libdb_cdb_atom_cyclonev.so
+7f606461f000-7f606481f000 ---p 0035e000 08:02 101319816                  /home/chris/altera/16.0/quartus/linux64/libdb_cdb_atom_cyclonev.so
+7f606481f000-7f60648b4000 rw-p 0035e000 08:02 101319816                  /home/chris/altera/16.0/quartus/linux64/libdb_cdb_atom_cyclonev.so
+7f60648b4000-7f60648b6000 rw-p 00000000 00:00 0 
+7f60648b6000-7f6065500000 r-xp 00000000 08:02 101319083                  /home/chris/altera/16.0/quartus/linux64/libdb_cdb_atom_arriav.so
+7f6065500000-7f60656ff000 ---p 00c4a000 08:02 101319083                  /home/chris/altera/16.0/quartus/linux64/libdb_cdb_atom_arriav.so
+7f60656ff000-7f60659a5000 rw-p 00c49000 08:02 101319083                  /home/chris/altera/16.0/quartus/linux64/libdb_cdb_atom_arriav.so
+7f60659a5000-7f60659ad000 rw-p 00000000 00:00 0 
+7f60659ad000-7f6065e57000 r-xp 00000000 08:02 101319940                  /home/chris/altera/16.0/quartus/linux64/libdb_cdb_atom_nadder.so
+7f6065e57000-7f6066056000 ---p 004aa000 08:02 101319940                  /home/chris/altera/16.0/quartus/linux64/libdb_cdb_atom_nadder.so
+7f6066056000-7f6066168000 rw-p 004a9000 08:02 101319940                  /home/chris/altera/16.0/quartus/linux64/libdb_cdb_atom_nadder.so
+7f6066168000-7f606616b000 rw-p 00000000 00:00 0 
+7f606616b000-7f60664ab000 r-xp 00000000 08:02 101320520                  /home/chris/altera/16.0/quartus/linux64/libdb_cdb_atom_nightfury.so
+7f60664ab000-7f60666aa000 ---p 00340000 08:02 101320520                  /home/chris/altera/16.0/quartus/linux64/libdb_cdb_atom_nightfury.so
+7f60666aa000-7f606675d000 rw-p 0033f000 08:02 101320520                  /home/chris/altera/16.0/quartus/linux64/libdb_cdb_atom_nightfury.so
+7f606675d000-7f606675f000 rw-p 00000000 00:00 0 
+7f606675f000-7f60667a7000 r-xp 00000000 08:02 101319308                  /home/chris/altera/16.0/quartus/linux64/libdb_cdb_atom_dynamic.so
+7f60667a7000-7f60669a7000 ---p 00048000 08:02 101319308                  /home/chris/altera/16.0/quartus/linux64/libdb_cdb_atom_dynamic.so
+7f60669a7000-7f60669ac000 rw-p 00048000 08:02 101319308                  /home/chris/altera/16.0/quartus/linux64/libdb_cdb_atom_dynamic.so
+7f60669ac000-7f6067330000 r-xp 00000000 08:02 101319443                  /home/chris/altera/16.0/quartus/linux64/libdb_cdb_atom_stratixv.so
+7f6067330000-7f606752f000 ---p 00984000 08:02 101319443                  /home/chris/altera/16.0/quartus/linux64/libdb_cdb_atom_stratixv.so
+7f606752f000-7f6067728000 rw-p 00983000 08:02 101319443                  /home/chris/altera/16.0/quartus/linux64/libdb_cdb_atom_stratixv.so
+7f6067728000-7f606772e000 rw-p 00000000 00:00 0 
+7f606772e000-7f60679cc000 r-xp 00000000 08:02 101319135                  /home/chris/altera/16.0/quartus/linux64/libdb_cdb_atom_fusion.so
+7f60679cc000-7f6067bcb000 ---p 0029e000 08:02 101319135                  /home/chris/altera/16.0/quartus/linux64/libdb_cdb_atom_fusion.so
+7f6067bcb000-7f6067c65000 rw-p 0029d000 08:02 101319135                  /home/chris/altera/16.0/quartus/linux64/libdb_cdb_atom_fusion.so
+7f6067c65000-7f6067c67000 rw-p 00000000 00:00 0 
+7f6067c67000-7f6067f5d000 r-xp 00000000 08:02 101319691                  /home/chris/altera/16.0/quartus/linux64/libdb_cdb_atom_cuda.so
+7f6067f5d000-7f606815d000 ---p 002f6000 08:02 101319691                  /home/chris/altera/16.0/quartus/linux64/libdb_cdb_atom_cuda.so
+7f606815d000-7f606820c000 rw-p 002f6000 08:02 101319691                  /home/chris/altera/16.0/quartus/linux64/libdb_cdb_atom_cuda.so
+7f606820c000-7f606820e000 rw-p 00000000 00:00 0 
+7f606820e000-7f60685de000 r-xp 00000000 08:02 101320560                  /home/chris/altera/16.0/quartus/linux64/libdb_cdb_atom_titan.so
+7f60685de000-7f60687de000 ---p 003d0000 08:02 101320560                  /home/chris/altera/16.0/quartus/linux64/libdb_cdb_atom_titan.so
+7f60687de000-7f60688b2000 rw-p 003d0000 08:02 101320560                  /home/chris/altera/16.0/quartus/linux64/libdb_cdb_atom_titan.so
+7f60688b2000-7f60688b4000 rw-p 00000000 00:00 0 
+7f60688b4000-7f6068b6a000 r-xp 00000000 08:02 101319428                  /home/chris/altera/16.0/quartus/linux64/libdb_cdb_atom_tgx.so
+7f6068b6a000-7f6068d6a000 ---p 002b6000 08:02 101319428                  /home/chris/altera/16.0/quartus/linux64/libdb_cdb_atom_tgx.so
+7f6068d6a000-7f6068dfc000 rw-p 002b6000 08:02 101319428                  /home/chris/altera/16.0/quartus/linux64/libdb_cdb_atom_tgx.so
+7f6068dfc000-7f6068dfe000 rw-p 00000000 00:00 0 
+7f6068dfe000-7f6068ef8000 r-xp 00000000 08:02 101320467                  /home/chris/altera/16.0/quartus/linux64/libdb_cdb_atom_stingray.so
+7f6068ef8000-7f60690f8000 ---p 000fa000 08:02 101320467                  /home/chris/altera/16.0/quartus/linux64/libdb_cdb_atom_stingray.so
+7f60690f8000-7f606912b000 rw-p 000fa000 08:02 101320467                  /home/chris/altera/16.0/quartus/linux64/libdb_cdb_atom_stingray.so
+7f606912b000-7f60697de000 r-xp 00000000 08:02 101319156                  /home/chris/altera/16.0/quartus/linux64/libdb_cdb_atom_hcx.so
+7f60697de000-7f60699de000 ---p 006b3000 08:02 101319156                  /home/chris/altera/16.0/quartus/linux64/libdb_cdb_atom_hcx.so
+7f60699de000-7f6069b7c000 rw-p 006b3000 08:02 101319156                  /home/chris/altera/16.0/quartus/linux64/libdb_cdb_atom_hcx.so
+7f6069b7c000-7f6069b81000 rw-p 00000000 00:00 0 
+7f6069b81000-7f6069d1d000 r-xp 00000000 08:02 101319231                  /home/chris/altera/16.0/quartus/linux64/libdb_cdb_atom_ygr.so
+7f6069d1d000-7f6069f1d000 ---p 0019c000 08:02 101319231                  /home/chris/altera/16.0/quartus/linux64/libdb_cdb_atom_ygr.so
+7f6069f1d000-7f6069f71000 rw-p 0019c000 08:02 101319231                  /home/chris/altera/16.0/quartus/linux64/libdb_cdb_atom_ygr.so
+7f6069f71000-7f6069f72000 rw-p 00000000 00:00 0 
+7f6069f72000-7f606a233000 r-xp 00000000 08:02 101320212                  /home/chris/altera/16.0/quartus/linux64/libdb_cdb_atom_arm.so
+7f606a233000-7f606a433000 ---p 002c1000 08:02 101320212                  /home/chris/altera/16.0/quartus/linux64/libdb_cdb_atom_arm.so
+7f606a433000-7f606a4ce000 rw-p 002c1000 08:02 101320212                  /home/chris/altera/16.0/quartus/linux64/libdb_cdb_atom_arm.so
+7f606a4ce000-7f606a4cf000 rw-p 00000000 00:00 0 
+7f606a4cf000-7f606a633000 r-xp 00000000 08:02 101320722                  /home/chris/altera/16.0/quartus/linux64/libdb_cdb_atom.so
+7f606a633000-7f606a832000 ---p 00164000 08:02 101320722                  /home/chris/altera/16.0/quartus/linux64/libdb_cdb_atom.so
+7f606a832000-7f606a84c000 rw-p 00163000 08:02 101320722                  /home/chris/altera/16.0/quartus/linux64/libdb_cdb_atom.so
+7f606a84c000-7f606a84d000 rw-p 00000000 00:00 0 
+7f606a84d000-7f606a85a000 r-xp 00000000 08:02 101319998                  /home/chris/altera/16.0/quartus/linux64/libddb_dloc.so
+7f606a85a000-7f606aa5a000 ---p 0000d000 08:02 101319998                  /home/chris/altera/16.0/quartus/linux64/libddb_dloc.so
+7f606aa5a000-7f606aa5b000 rw-p 0000d000 08:02 101319998                  /home/chris/altera/16.0/quartus/linux64/libddb_dloc.so
+7f606aa5b000-7f606ac43000 r-xp 00000000 08:02 101319257                  /home/chris/altera/16.0/quartus/linux64/libdb_cdb_atom_db.so
+7f606ac43000-7f606ae43000 ---p 001e8000 08:02 101319257                  /home/chris/altera/16.0/quartus/linux64/libdb_cdb_atom_db.so
+7f606ae43000-7f606aecf000 rw-p 001e8000 08:02 101319257                  /home/chris/altera/16.0/quartus/linux64/libdb_cdb_atom_db.so
+7f606aecf000-7f606aef7000 rw-p 00000000 00:00 0 
+7f606aef7000-7f606b3e2000 r-xp 00000000 08:02 101319946                  /home/chris/altera/16.0/quartus/linux64/libdb_cdb_sgate.so
+7f606b3e2000-7f606b5e2000 ---p 004eb000 08:02 101319946                  /home/chris/altera/16.0/quartus/linux64/libdb_cdb_sgate.so
+7f606b5e2000-7f606b5fc000 rw-p 004eb000 08:02 101319946                  /home/chris/altera/16.0/quartus/linux64/libdb_cdb_sgate.so
+7f606b5fc000-7f606b602000 rw-p 00000000 00:00 0 
+7f606b602000-7f606b68b000 r-xp 00000000 08:02 101320186                  /home/chris/altera/16.0/quartus/linux64/libdb_idu.so
+7f606b68b000-7f606b88a000 ---p 00089000 08:02 101320186                  /home/chris/altera/16.0/quartus/linux64/libdb_idu.so
+7f606b88a000-7f606b88f000 rw-p 00088000 08:02 101320186                  /home/chris/altera/16.0/quartus/linux64/libdb_idu.so
+7f606b88f000-7f606b977000 r-xp 00000000 08:02 101320205                  /home/chris/altera/16.0/quartus/linux64/libdb_rdb.so
+7f606b977000-7f606bb77000 ---p 000e8000 08:02 101320205                  /home/chris/altera/16.0/quartus/linux64/libdb_rdb.so
+7f606bb77000-7f606bb83000 rw-p 000e8000 08:02 101320205                  /home/chris/altera/16.0/quartus/linux64/libdb_rdb.so
+7f606bb83000-7f606bb86000 rw-p 00000000 00:00 0 
+7f606bb86000-7f606bb8c000 r-xp 00000000 08:02 101319140                  /home/chris/altera/16.0/quartus/linux64/libdb_rstr.so
+7f606bb8c000-7f606bd8b000 ---p 00006000 08:02 101319140                  /home/chris/altera/16.0/quartus/linux64/libdb_rstr.so
+7f606bd8b000-7f606bd8c000 rw-p 00005000 08:02 101319140                  /home/chris/altera/16.0/quartus/linux64/libdb_rstr.so
+7f606bd8c000-7f606bd9b000 r-xp 00000000 08:02 101319867                  /home/chris/altera/16.0/quartus/linux64/libdb_dbmui.so
+7f606bd9b000-7f606bf9a000 ---p 0000f000 08:02 101319867                  /home/chris/altera/16.0/quartus/linux64/libdb_dbmui.so
+7f606bf9a000-7f606bf9c000 rw-p 0000e000 08:02 101319867                  /home/chris/altera/16.0/quartus/linux64/libdb_dbmui.so
+7f606bf9c000-7f606bfaa000 r-xp 00000000 08:02 101320406                  /home/chris/altera/16.0/quartus/linux64/libsys_flow_util.so
+7f606bfaa000-7f606c1aa000 ---p 0000e000 08:02 101320406                  /home/chris/altera/16.0/quartus/linux64/libsys_flow_util.so
+7f606c1aa000-7f606c1ab000 rw-p 0000e000 08:02 101320406                  /home/chris/altera/16.0/quartus/linux64/libsys_flow_util.so
+7f606c1ab000-7f606c228000 r-xp 00000000 08:02 101320678                  /home/chris/altera/16.0/quartus/linux64/libdb_kpt.so
+7f606c228000-7f606c428000 ---p 0007d000 08:02 101320678                  /home/chris/altera/16.0/quartus/linux64/libdb_kpt.so
+7f606c428000-7f606c42d000 rw-p 0007d000 08:02 101320678                  /home/chris/altera/16.0/quartus/linux64/libdb_kpt.so
+7f606c42d000-7f606c46a000 r-xp 00000000 08:02 101319944                  /home/chris/altera/16.0/quartus/linux64/libqcl_pllc.so
+7f606c46a000-7f606c669000 ---p 0003d000 08:02 101319944                  /home/chris/altera/16.0/quartus/linux64/libqcl_pllc.so
+7f606c669000-7f606c66b000 rw-p 0003c000 08:02 101319944                  /home/chris/altera/16.0/quartus/linux64/libqcl_pllc.so
+7f606c66b000-7f606c6ce000 r-xp 00000000 08:02 101319449                  /home/chris/altera/16.0/quartus/linux64/libdb_cdb.so
+7f606c6ce000-7f606c8cd000 ---p 00063000 08:02 101319449                  /home/chris/altera/16.0/quartus/linux64/libdb_cdb.so
+7f606c8cd000-7f606c8d2000 rw-p 00062000 08:02 101319449                  /home/chris/altera/16.0/quartus/linux64/libdb_cdb.so
+7f606c8d2000-7f606c8d3000 rw-p 00000000 00:00 0 
+7f606c8d3000-7f606c8d9000 r-xp 00000000 08:02 101320214                  /home/chris/altera/16.0/quartus/linux64/libdb_hut.so
+7f606c8d9000-7f606cad8000 ---p 00006000 08:02 101320214                  /home/chris/altera/16.0/quartus/linux64/libdb_hut.so
+7f606cad8000-7f606cad9000 rw-p 00005000 08:02 101320214                  /home/chris/altera/16.0/quartus/linux64/libdb_hut.so
+7f606cad9000-7f606cafe000 r-xp 00000000 08:02 101320411                  /home/chris/altera/16.0/quartus/linux64/libccl_mio.so
+7f606cafe000-7f606ccfd000 ---p 00025000 08:02 101320411                  /home/chris/altera/16.0/quartus/linux64/libccl_mio.so
+7f606ccfd000-7f606ccff000 rw-p 00024000 08:02 101320411                  /home/chris/altera/16.0/quartus/linux64/libccl_mio.so
+7f606ccff000-7f606cd00000 r-xp 00000000 08:02 101320274                  /home/chris/altera/16.0/quartus/linux64/libcomp_qcu_facade.so
+7f606cd00000-7f606ceff000 ---p 00001000 08:02 101320274                  /home/chris/altera/16.0/quartus/linux64/libcomp_qcu_facade.so
+7f606ceff000-7f606cf00000 rw-p 00000000 08:02 101320274                  /home/chris/altera/16.0/quartus/linux64/libcomp_qcu_facade.so
+7f606cf00000-7f606cf03000 r-xp 00000000 08:02 101319753                  /home/chris/altera/16.0/quartus/linux64/libatm_autil.so
+7f606cf03000-7f606d102000 ---p 00003000 08:02 101319753                  /home/chris/altera/16.0/quartus/linux64/libatm_autil.so
+7f606d102000-7f606d103000 rw-p 00002000 08:02 101319753                  /home/chris/altera/16.0/quartus/linux64/libatm_autil.so
+7f606d103000-7f606d2d6000 r-xp 00000000 08:02 101320013                  /home/chris/altera/16.0/quartus/linux64/libdb_hdb.so
+7f606d2d6000-7f606d4d6000 ---p 001d3000 08:02 101320013                  /home/chris/altera/16.0/quartus/linux64/libdb_hdb.so
+7f606d4d6000-7f606d4e9000 rw-p 001d3000 08:02 101320013                  /home/chris/altera/16.0/quartus/linux64/libdb_hdb.so
+7f606d4e9000-7f606d4f0000 rw-p 00000000 00:00 0 
+7f606d4f0000-7f606d553000 r-xp 00000000 08:02 101319478                  /home/chris/altera/16.0/quartus/linux64/libdb_qdb.so
+7f606d553000-7f606d753000 ---p 00063000 08:02 101319478                  /home/chris/altera/16.0/quartus/linux64/libdb_qdb.so
+7f606d753000-7f606d759000 rw-p 00063000 08:02 101319478                  /home/chris/altera/16.0/quartus/linux64/libdb_qdb.so
+7f606d759000-7f606d76b000 r-xp 00000000 08:02 101319570                  /home/chris/altera/16.0/quartus/linux64/libsys_afm.so
+7f606d76b000-7f606d96a000 ---p 00012000 08:02 101319570                  /home/chris/altera/16.0/quartus/linux64/libsys_afm.so
+7f606d96a000-7f606d96c000 rw-p 00011000 08:02 101319570                  /home/chris/altera/16.0/quartus/linux64/libsys_afm.so
+7f606d96c000-7f606d979000 r-xp 00000000 08:02 101320526                  /home/chris/altera/16.0/quartus/linux64/libdb_dbm.so
+7f606d979000-7f606db79000 ---p 0000d000 08:02 101320526                  /home/chris/altera/16.0/quartus/linux64/libdb_dbm.so
+7f606db79000-7f606db7a000 rw-p 0000d000 08:02 101320526                  /home/chris/altera/16.0/quartus/linux64/libdb_dbm.so
+7f606db7a000-7f606dd94000 r-xp 00000000 08:02 101320259                  /home/chris/altera/16.0/quartus/linux64/libdb_acf.so
+7f606dd94000-7f606df93000 ---p 0021a000 08:02 101320259                  /home/chris/altera/16.0/quartus/linux64/libdb_acf.so
+7f606df93000-7f606e008000 rw-p 00219000 08:02 101320259                  /home/chris/altera/16.0/quartus/linux64/libdb_acf.so
+7f606e008000-7f606e00d000 r-xp 00000000 08:02 101319565                  /home/chris/altera/16.0/quartus/linux64/libccl_ntfq.so
+7f606e00d000-7f606e20c000 ---p 00005000 08:02 101319565                  /home/chris/altera/16.0/quartus/linux64/libccl_ntfq.so
+7f606e20c000-7f606e20d000 rw-p 00004000 08:02 101319565                  /home/chris/altera/16.0/quartus/linux64/libccl_ntfq.so
+7f606e20d000-7f606e211000 r-xp 00000000 08:02 101320552                  /home/chris/altera/16.0/quartus/linux64/libccl_ntf.so
+7f606e211000-7f606e410000 ---p 00004000 08:02 101320552                  /home/chris/altera/16.0/quartus/linux64/libccl_ntf.so
+7f606e410000-7f606e411000 rw-p 00003000 08:02 101320552                  /home/chris/altera/16.0/quartus/linux64/libccl_ntf.so
+7f606e411000-7f606e419000 r-xp 00000000 08:02 101320457                  /home/chris/altera/16.0/quartus/linux64/libccl_cksum.so
+7f606e419000-7f606e618000 ---p 00008000 08:02 101320457                  /home/chris/altera/16.0/quartus/linux64/libccl_cksum.so
+7f606e618000-7f606e619000 rw-p 00007000 08:02 101320457                  /home/chris/altera/16.0/quartus/linux64/libccl_cksum.so
+7f606e619000-7f606e63b000 r-xp 00000000 08:02 101319333                  /home/chris/altera/16.0/quartus/linux64/libddb_dmgr.so
+7f606e63b000-7f606e83b000 ---p 00022000 08:02 101319333                  /home/chris/altera/16.0/quartus/linux64/libddb_dmgr.so
+7f606e83b000-7f606e83c000 rw-p 00022000 08:02 101319333                  /home/chris/altera/16.0/quartus/linux64/libddb_dmgr.so
+7f606e83c000-7f606e8b0000 r-xp 00000000 08:02 101319631                  /home/chris/altera/16.0/quartus/linux64/libddb_dpow.so
+7f606e8b0000-7f606eab0000 ---p 00074000 08:02 101319631                  /home/chris/altera/16.0/quartus/linux64/libddb_dpow.so
+7f606eab0000-7f606eab3000 rw-p 00074000 08:02 101319631                  /home/chris/altera/16.0/quartus/linux64/libddb_dpow.so
+7f606eab3000-7f606eab4000 rw-p 00000000 00:00 0 
+7f606eab4000-7f606eb1c000 r-xp 00000000 08:02 101319543                  /home/chris/altera/16.0/quartus/linux64/libddb_dtm.so
+7f606eb1c000-7f606ed1c000 ---p 00068000 08:02 101319543                  /home/chris/altera/16.0/quartus/linux64/libddb_dtm.so
+7f606ed1c000-7f606ed21000 rw-p 00068000 08:02 101319543                  /home/chris/altera/16.0/quartus/linux64/libddb_dtm.so
+7f606ed21000-7f606ed22000 rw-p 00000000 00:00 0 
+7f606ed22000-7f606f0fe000 r-xp 00000000 08:02 101319914                  /home/chris/altera/16.0/quartus/linux64/libddb_dygr.so
+7f606f0fe000-7f606f2fd000 ---p 003dc000 08:02 101319914                  /home/chris/altera/16.0/quartus/linux64/libddb_dygr.so
+7f606f2fd000-7f606f346000 rw-p 003db000 08:02 101319914                  /home/chris/altera/16.0/quartus/linux64/libddb_dygr.so
+7f606f346000-7f606f34c000 rw-p 00000000 00:00 0 
+7f606f34c000-7f606f38a000 r-xp 00000000 08:02 101319987                  /home/chris/altera/16.0/quartus/linux64/libddb_dmig.so
+7f606f38a000-7f606f589000 ---p 0003e000 08:02 101319987                  /home/chris/altera/16.0/quartus/linux64/libddb_dmig.so
+7f606f589000-7f606f58b000 rw-p 0003d000 08:02 101319987                  /home/chris/altera/16.0/quartus/linux64/libddb_dmig.so
+7f606f58b000-7f606f58c000 rw-p 00000000 00:00 0 
+7f606f58c000-7f606f6dd000 r-xp 00000000 08:02 101320050                  /home/chris/altera/16.0/quartus/linux64/libddb_dev.so
+7f606f6dd000-7f606f8dd000 ---p 00151000 08:02 101320050                  /home/chris/altera/16.0/quartus/linux64/libddb_dev.so
+7f606f8dd000-7f606f8e4000 rw-p 00151000 08:02 101320050                  /home/chris/altera/16.0/quartus/linux64/libddb_dev.so
+7f606f8e4000-7f606f915000 rw-p 00000000 00:00 0 
+7f606f915000-7f606fa65000 r-xp 00000000 08:02 101319010                  /home/chris/altera/16.0/quartus/linux64/libsys_cpt.so
+7f606fa65000-7f606fc64000 ---p 00150000 08:02 101319010                  /home/chris/altera/16.0/quartus/linux64/libsys_cpt.so
+7f606fc64000-7f606fc7c000 rw-p 0014f000 08:02 101319010                  /home/chris/altera/16.0/quartus/linux64/libsys_cpt.so
+7f606fc7c000-7f606fc83000 rw-p 00000000 00:00 0 
+7f606fc83000-7f60711ce000 r-xp 00000000 08:02 101319304                  /home/chris/altera/16.0/quartus/linux64/libatm_astr.so
+7f60711ce000-7f60713ce000 ---p 0154b000 08:02 101319304                  /home/chris/altera/16.0/quartus/linux64/libatm_astr.so
+7f60713ce000-7f607157f000 rw-p 0154b000 08:02 101319304                  /home/chris/altera/16.0/quartus/linux64/libatm_astr.so
+7f607157f000-7f60715a0000 rw-p 00000000 00:00 0 
+7f60715a0000-7f60761e5000 r-xp 00000000 08:02 101320557                  /home/chris/altera/16.0/quartus/linux64/libdb_wys.so
+7f60761e5000-7f60763e4000 ---p 04c45000 08:02 101320557                  /home/chris/altera/16.0/quartus/linux64/libdb_wys.so
+7f60763e4000-7f6076855000 rw-p 04c44000 08:02 101320557                  /home/chris/altera/16.0/quartus/linux64/libdb_wys.so
+7f6076855000-7f60769bf000 rw-p 00000000 00:00 0 
+7f60769bf000-7f60769de000 r-xp 00000000 08:02 101319647                  /home/chris/altera/16.0/quartus/linux64/libdb_cdb_atom_definition.so
+7f60769de000-7f6076bdd000 ---p 0001f000 08:02 101319647                  /home/chris/altera/16.0/quartus/linux64/libdb_cdb_atom_definition.so
+7f6076bdd000-7f6076be0000 rw-p 0001e000 08:02 101319647                  /home/chris/altera/16.0/quartus/linux64/libdb_cdb_atom_definition.so
+7f6076be0000-7f6076be7000 r-xp 00000000 08:02 101319063                  /home/chris/altera/16.0/quartus/linux64/libccl_put.so
+7f6076be7000-7f6076de6000 ---p 00007000 08:02 101319063                  /home/chris/altera/16.0/quartus/linux64/libccl_put.so
+7f6076de6000-7f6076de7000 rw-p 00006000 08:02 101319063                  /home/chris/altera/16.0/quartus/linux64/libccl_put.so
+7f6076de7000-7f6077122000 r-xp 00000000 08:02 101320521                  /home/chris/altera/16.0/quartus/linux64/libddb_dstr.so
+7f6077122000-7f6077322000 ---p 0033b000 08:02 101320521                  /home/chris/altera/16.0/quartus/linux64/libddb_dstr.so
+7f6077322000-7f6077381000 rw-p 0033b000 08:02 101320521                  /home/chris/altera/16.0/quartus/linux64/libddb_dstr.so
+7f6077381000-7f607738f000 r-xp 00000000 08:02 101319830                  /home/chris/altera/16.0/quartus/linux64/libccl_dyn.so
+7f607738f000-7f607758e000 ---p 0000e000 08:02 101319830                  /home/chris/altera/16.0/quartus/linux64/libccl_dyn.so
+7f607758e000-7f6077590000 rw-p 0000d000 08:02 101319830                  /home/chris/altera/16.0/quartus/linux64/libccl_dyn.so
+7f6077590000-7f607786b000 r-xp 00000000 08:02 101319948                  /home/chris/altera/16.0/quartus/linux64/libdb_dbs.so
+7f607786b000-7f6077a6a000 ---p 002db000 08:02 101319948                  /home/chris/altera/16.0/quartus/linux64/libdb_dbs.so
+7f6077a6a000-7f6077aeb000 rw-p 002da000 08:02 101319948                  /home/chris/altera/16.0/quartus/linux64/libdb_dbs.so
+7f6077aeb000-7f6077b0e000 r-xp 00000000 08:02 101319848                  /home/chris/altera/16.0/quartus/linux64/libccl_qsym.so
+7f6077b0e000-7f6077d0e000 ---p 00023000 08:02 101319848                  /home/chris/altera/16.0/quartus/linux64/libccl_qsym.so
+7f6077d0e000-7f6077d10000 rw-p 00023000 08:02 101319848                  /home/chris/altera/16.0/quartus/linux64/libccl_qsym.so
+7f6077d10000-7f6077dc2000 r-xp 00000000 08:02 101319877                  /home/chris/altera/16.0/quartus/linux64/libccl_msg.so
+7f6077dc2000-7f6077fc2000 ---p 000b2000 08:02 101319877                  /home/chris/altera/16.0/quartus/linux64/libccl_msg.so
+7f6077fc2000-7f6077fcb000 rw-p 000b2000 08:02 101319877                  /home/chris/altera/16.0/quartus/linux64/libccl_msg.so
+7f6077fcb000-7f6078000000 rw-p 00000000 00:00 0 
+7f6078000000-7f60784e4000 rw-p 00000000 00:00 0 
+7f60784e4000-7f607c000000 ---p 00000000 00:00 0 
+7f607c043000-7f607c045000 r-xp 00000000 08:02 101319938                  /home/chris/altera/16.0/quartus/linux64/libccl_itcl.so
+7f607c045000-7f607c244000 ---p 00002000 08:02 101319938                  /home/chris/altera/16.0/quartus/linux64/libccl_itcl.so
+7f607c244000-7f607c245000 rw-p 00001000 08:02 101319938                  /home/chris/altera/16.0/quartus/linux64/libccl_itcl.so
+7f607c245000-7f607c252000 r-xp 00000000 08:02 101319845                  /home/chris/altera/16.0/quartus/linux64/libccl_xml.so
+7f607c252000-7f607c451000 ---p 0000d000 08:02 101319845                  /home/chris/altera/16.0/quartus/linux64/libccl_xml.so
+7f607c451000-7f607c453000 rw-p 0000c000 08:02 101319845                  /home/chris/altera/16.0/quartus/linux64/libccl_xml.so
+7f607c453000-7f607c792000 r-xp 00000000 08:02 101320733                  /home/chris/altera/16.0/quartus/linux64/libaxerces-c.so
+7f607c792000-7f607c991000 ---p 0033f000 08:02 101320733                  /home/chris/altera/16.0/quartus/linux64/libaxerces-c.so
+7f607c991000-7f607c9cf000 rw-p 0033e000 08:02 101320733                  /home/chris/altera/16.0/quartus/linux64/libaxerces-c.so
+7f607c9cf000-7f607c9d0000 rw-p 00000000 00:00 0 
+7f607c9d0000-7f607c9d1000 r-xp 00000000 08:02 101319604                  /home/chris/altera/16.0/quartus/linux64/libccl_interface.so
+7f607c9d1000-7f607cbd0000 ---p 00001000 08:02 101319604                  /home/chris/altera/16.0/quartus/linux64/libccl_interface.so
+7f607cbd0000-7f607cbd1000 rw-p 00000000 08:02 101319604                  /home/chris/altera/16.0/quartus/linux64/libccl_interface.so
+7f607cbd1000-7f607cbeb000 r-xp 00000000 08:02 101319502                  /home/chris/altera/16.0/quartus/linux64/libccl_big.so
+7f607cbeb000-7f607cdea000 ---p 0001a000 08:02 101319502                  /home/chris/altera/16.0/quartus/linux64/libccl_big.so
+7f607cdea000-7f607cdeb000 rw-p 00019000 08:02 101319502                  /home/chris/altera/16.0/quartus/linux64/libccl_big.so
+7f607cdeb000-7f607cdec000 rw-p 00000000 00:00 0 
+7f607cdec000-7f607ce05000 r-xp 00000000 08:02 101319252                  /home/chris/altera/16.0/quartus/linux64/libdb_pdb.so
+7f607ce05000-7f607d004000 ---p 00019000 08:02 101319252                  /home/chris/altera/16.0/quartus/linux64/libdb_pdb.so
+7f607d004000-7f607d006000 rw-p 00018000 08:02 101319252                  /home/chris/altera/16.0/quartus/linux64/libdb_pdb.so
+7f607d006000-7f607d00d000 r-xp 00000000 08:02 101320275                  /home/chris/altera/16.0/quartus/linux64/libccl_tst.so
+7f607d00d000-7f607d20d000 ---p 00007000 08:02 101320275                  /home/chris/altera/16.0/quartus/linux64/libccl_tst.so
+7f607d20d000-7f607d20e000 rw-p 00007000 08:02 101320275                  /home/chris/altera/16.0/quartus/linux64/libccl_tst.so
+7f607d20e000-7f607d211000 r-xp 00000000 08:02 101320549                  /home/chris/altera/16.0/quartus/linux64/libccl_clw.so
+7f607d211000-7f607d411000 ---p 00003000 08:02 101320549                  /home/chris/altera/16.0/quartus/linux64/libccl_clw.so
+7f607d411000-7f607d412000 rw-p 00003000 08:02 101320549                  /home/chris/altera/16.0/quartus/linux64/libccl_clw.so
+7f607d412000-7f607d459000 r-xp 00000000 08:02 101319234                  /home/chris/altera/16.0/quartus/linux64/libccl_atcl.so
+7f607d459000-7f607d658000 ---p 00047000 08:02 101319234                  /home/chris/altera/16.0/quartus/linux64/libccl_atcl.so
+7f607d658000-7f607d65d000 rw-p 00046000 08:02 101319234                  /home/chris/altera/16.0/quartus/linux64/libccl_atcl.so
+7f607d65d000-7f607d67b000 r-xp 00000000 08:02 101319903                  /home/chris/altera/16.0/quartus/linux64/libccl_fstr.so
+7f607d67b000-7f607d87b000 ---p 0001e000 08:02 101319903                  /home/chris/altera/16.0/quartus/linux64/libccl_fstr.so
+7f607d87b000-7f607d87f000 rw-p 0001e000 08:02 101319903                  /home/chris/altera/16.0/quartus/linux64/libccl_fstr.so
+7f607d87f000-7f607d8a5000 r-xp 00000000 08:02 101319020                  /home/chris/altera/16.0/quartus/linux64/libccl_qtl.so
+7f607d8a5000-7f607daa5000 ---p 00026000 08:02 101319020                  /home/chris/altera/16.0/quartus/linux64/libccl_qtl.so
+7f607daa5000-7f607daaa000 rw-p 00026000 08:02 101319020                  /home/chris/altera/16.0/quartus/linux64/libccl_qtl.so
+7f607daaa000-7f607dacd000 r-xp 00000000 08:02 101320269                  /home/chris/altera/16.0/quartus/linux64/libccl_cfg_ini.so
+7f607dacd000-7f607dccd000 ---p 00023000 08:02 101320269                  /home/chris/altera/16.0/quartus/linux64/libccl_cfg_ini.so
+7f607dccd000-7f607dcd2000 rw-p 00023000 08:02 101320269                  /home/chris/altera/16.0/quartus/linux64/libccl_cfg_ini.so
+7f607dcd2000-7f607dcd3000 rw-p 00000000 00:00 0 
+7f607dcd3000-7f607dcf0000 r-xp 00000000 08:02 101320496                  /home/chris/altera/16.0/quartus/linux64/libccl_zlib.so
+7f607dcf0000-7f607deef000 ---p 0001d000 08:02 101320496                  /home/chris/altera/16.0/quartus/linux64/libccl_zlib.so
+7f607deef000-7f607def0000 rw-p 0001c000 08:02 101320496                  /home/chris/altera/16.0/quartus/linux64/libccl_zlib.so
+7f607def0000-7f607df4b000 r-xp 00000000 08:02 101319685                  /home/chris/altera/16.0/quartus/linux64/libccl_gen.so
+7f607df4b000-7f607e14a000 ---p 0005b000 08:02 101319685                  /home/chris/altera/16.0/quartus/linux64/libccl_gen.so
+7f607e14a000-7f607e14d000 rw-p 0005a000 08:02 101319685                  /home/chris/altera/16.0/quartus/linux64/libccl_gen.so
+7f607e14d000-7f607e174000 r-xp 00000000 08:02 101319900                  /home/chris/altera/16.0/quartus/linux64/libccl_fio.so
+7f607e174000-7f607e374000 ---p 00027000 08:02 101319900                  /home/chris/altera/16.0/quartus/linux64/libccl_fio.so
+7f607e374000-7f607e379000 rw-p 00027000 08:02 101319900                  /home/chris/altera/16.0/quartus/linux64/libccl_fio.so
+7f607e379000-7f607e3ab000 r-xp 00000000 08:02 101320753                  /home/chris/altera/16.0/quartus/linux64/libtbb.so.2
+7f607e3ab000-7f607e5ab000 ---p 00032000 08:02 101320753                  /home/chris/altera/16.0/quartus/linux64/libtbb.so.2
+7f607e5ab000-7f607e5af000 rw-p 00032000 08:02 101320753                  /home/chris/altera/16.0/quartus/linux64/libtbb.so.2
+7f607e5af000-7f607e5b1000 rw-p 00000000 00:00 0 
+7f607e5b1000-7f607e5d1000 r-xp 00000000 08:02 101320408                  /home/chris/altera/16.0/quartus/linux64/libccl_mem.so
+7f607e5d1000-7f607e7d1000 ---p 00020000 08:02 101320408                  /home/chris/altera/16.0/quartus/linux64/libccl_mem.so
+7f607e7d1000-7f607e7d2000 rw-p 00020000 08:02 101320408                  /home/chris/altera/16.0/quartus/linux64/libccl_mem.so
+7f607e7d2000-7f607e7d3000 ---p 00000000 00:00 0 
+7f607e7d3000-7f607f1d3000 rw-p 00000000 00:00 0 
+7f607f1d3000-7f607f1ea000 r-xp 00000000 08:02 101320747                  /home/chris/altera/16.0/quartus/linux64/libtbbmalloc.so.2
+7f607f1ea000-7f607f3ea000 ---p 00017000 08:02 101320747                  /home/chris/altera/16.0/quartus/linux64/libtbbmalloc.so.2
+7f607f3ea000-7f607f3ed000 rw-p 00017000 08:02 101320747                  /home/chris/altera/16.0/quartus/linux64/libtbbmalloc.so.2
+7f607f3ed000-7f6080000000 rw-p 00000000 00:00 0 
+7f6080000000-7f608067a000 rw-p 00000000 00:00 0 
+7f608067a000-7f6084000000 ---p 00000000 00:00 0 
+7f6084000000-7f6084021000 rw-p 00000000 00:00 0 
+7f6084021000-7f6088000000 ---p 00000000 00:00 0 
+7f6088000000-7f6088021000 rw-p 00000000 00:00 0 
+7f6088021000-7f608c000000 ---p 00000000 00:00 0 
+7f608c000000-7f608c021000 rw-p 00000000 00:00 0 
+7f608c021000-7f6090000000 ---p 00000000 00:00 0 
+7f6090000000-7f60937da000 rw-p 00000000 00:00 0 
+7f60937da000-7f6094000000 ---p 00000000 00:00 0 
+7f6094000000-7f6094276000 rw-p 00000000 00:00 0 
+7f6094276000-7f6098000000 ---p 00000000 00:00 0 
+7f6098068000-7f6098089000 r-xp 00000000 08:02 101319388                  /home/chris/altera/16.0/quartus/linux64/libccl_err.so
+7f6098089000-7f6098289000 ---p 00021000 08:02 101319388                  /home/chris/altera/16.0/quartus/linux64/libccl_err.so
+7f6098289000-7f609828b000 rw-p 00021000 08:02 101319388                  /home/chris/altera/16.0/quartus/linux64/libccl_err.so
+7f609828b000-7f6098299000 rw-p 00000000 00:00 0 
+7f6098299000-7f60982a1000 r-xp 00000000 08:02 101319952                  /home/chris/altera/16.0/quartus/linux64/libccl_ver.so
+7f60982a1000-7f60984a0000 ---p 00008000 08:02 101319952                  /home/chris/altera/16.0/quartus/linux64/libccl_ver.so
+7f60984a0000-7f60984a1000 rw-p 00007000 08:02 101319952                  /home/chris/altera/16.0/quartus/linux64/libccl_ver.so
+7f60984a1000-7f60984a3000 r-xp 00000000 08:02 101320716                  /home/chris/altera/16.0/quartus/linux64/libqcl_pll_tcl.so
+7f60984a3000-7f60986a2000 ---p 00002000 08:02 101320716                  /home/chris/altera/16.0/quartus/linux64/libqcl_pll_tcl.so
+7f60986a2000-7f60986a3000 rw-p 00001000 08:02 101320716                  /home/chris/altera/16.0/quartus/linux64/libqcl_pll_tcl.so
+7f60986a3000-7f60986b2000 r-xp 00000000 08:02 101320719                  /home/chris/altera/16.0/quartus/linux64/libccl_thr.so
+7f60986b2000-7f60988b1000 ---p 0000f000 08:02 101320719                  /home/chris/altera/16.0/quartus/linux64/libccl_thr.so
+7f60988b1000-7f60988b2000 rw-p 0000e000 08:02 101320719                  /home/chris/altera/16.0/quartus/linux64/libccl_thr.so
+7f60988b2000-7f60988d5000 rw-p 00000000 00:00 0 
+7f60988d5000-7f60988d6000 r-xp 00000000 08:02 101320740                  /home/chris/altera/16.0/quartus/linux64/libtbbamalloc.so
+7f60988d6000-7f6098ad5000 ---p 00001000 08:02 101320740                  /home/chris/altera/16.0/quartus/linux64/libtbbamalloc.so
+7f6098ad5000-7f6098ad6000 rw-p 00000000 08:02 101320740                  /home/chris/altera/16.0/quartus/linux64/libtbbamalloc.so
+7f6098ad6000-7f6098ad8000 r-xp 00000000 08:02 101320744                  /home/chris/altera/16.0/quartus/linux64/libtbbmalloc_proxy.so.2
+7f6098ad8000-7f6098cd8000 ---p 00002000 08:02 101320744                  /home/chris/altera/16.0/quartus/linux64/libtbbmalloc_proxy.so.2
+7f6098cd8000-7f6098cd9000 rw-p 00002000 08:02 101320744                  /home/chris/altera/16.0/quartus/linux64/libtbbmalloc_proxy.so.2
+7f6098cd9000-7f6098e82000 r-xp 00000000 08:02 101320734                  /home/chris/altera/16.0/quartus/linux64/libtcl8.6.so
+7f6098e82000-7f6099082000 ---p 001a9000 08:02 101320734                  /home/chris/altera/16.0/quartus/linux64/libtcl8.6.so
+7f6099082000-7f6099092000 rw-p 001a9000 08:02 101320734                  /home/chris/altera/16.0/quartus/linux64/libtcl8.6.so
+7f6099092000-7f6099093000 rw-p 00000000 00:00 0 
+7f6099093000-7f6099099000 r-xp 00000000 08:02 101319960                  /home/chris/altera/16.0/quartus/linux64/libtcl_jni_bridge.so
+7f6099099000-7f6099298000 ---p 00006000 08:02 101319960                  /home/chris/altera/16.0/quartus/linux64/libtcl_jni_bridge.so
+7f6099298000-7f6099299000 rw-p 00005000 08:02 101319960                  /home/chris/altera/16.0/quartus/linux64/libtcl_jni_bridge.so
+7f6099299000-7f6099499000 rw-p 00000000 00:00 0 
+7f6099499000-7f60995b7000 r-xp 00000000 08:02 101320066                  /home/chris/altera/16.0/quartus/linux64/libsld_filejni.so
+7f60995b7000-7f60997b6000 ---p 0011e000 08:02 101320066                  /home/chris/altera/16.0/quartus/linux64/libsld_filejni.so
+7f60997b6000-7f60997c7000 rw-p 0011d000 08:02 101320066                  /home/chris/altera/16.0/quartus/linux64/libsld_filejni.so
+7f60997c7000-7f60999cd000 rw-p 00000000 00:00 0 
+7f60999cd000-7f6099bcd000 rw-p 00000000 00:00 0 
+7f6099bcd000-7f6099dcd000 rw-p 00000000 00:00 0 
+7f6099dcd000-7f6099df7000 r-xp 00000000 08:02 101321633                  /home/chris/altera/16.0/quartus/linux64/jre64/lib/amd64/libdcpr.so
+7f6099df7000-7f6099ff6000 ---p 0002a000 08:02 101321633                  /home/chris/altera/16.0/quartus/linux64/jre64/lib/amd64/libdcpr.so
+7f6099ff6000-7f6099ff9000 rw-p 00029000 08:02 101321633                  /home/chris/altera/16.0/quartus/linux64/jre64/lib/amd64/libdcpr.so
+7f6099ff9000-7f609a1f9000 rw-p 00000000 00:00 0 
+7f609a1f9000-7f609a3f9000 rw-p 00000000 00:00 0 
+7f609a3f9000-7f609a5f9000 r-xp 00000000 08:02 101320735                  /home/chris/altera/16.0/quartus/linux64/libnlview.so
+7f609a5f9000-7f609a608000 rw-p 00200000 08:02 101320735                  /home/chris/altera/16.0/quartus/linux64/libnlview.so
+7f609a608000-7f609a80a000 rw-p 00000000 00:00 0 
+7f609a80a000-7f609aa0a000 rw-p 00000000 00:00 0 
+7f609aa0a000-7f609ac0a000 rw-p 00000000 00:00 0 
+7f609ac7f000-7f609aca1000 r-xp 00000000 08:02 101320809                  /home/chris/altera/16.0/quartus/linux64/liblzma.so.5
+7f609aca1000-7f609ada0000 ---p 00022000 08:02 101320809                  /home/chris/altera/16.0/quartus/linux64/liblzma.so.5
+7f609ada0000-7f609ada1000 rw-p 00021000 08:02 101320809                  /home/chris/altera/16.0/quartus/linux64/liblzma.so.5
+7f609ada1000-7f609ada4000 ---p 00000000 00:00 0 
+7f609ada4000-7f609b0a2000 rw-p 00000000 00:00 0 
+7f609b0a2000-7f609b2a2000 rw-p 00000000 00:00 0 
+7f609b2a2000-7f609b4a2000 rw-p 00000000 00:00 0 
+7f609b4a2000-7f609b50b000 r-xp 00000000 08:02 101321679                  /home/chris/altera/16.0/quartus/linux64/jre64/lib/amd64/libt2k.so
+7f609b50b000-7f609b70a000 ---p 00069000 08:02 101321679                  /home/chris/altera/16.0/quartus/linux64/jre64/lib/amd64/libt2k.so
+7f609b70a000-7f609b711000 rw-p 00068000 08:02 101321679                  /home/chris/altera/16.0/quartus/linux64/jre64/lib/amd64/libt2k.so
+7f609b711000-7f609b721000 rw-p 00000000 00:00 0 
+7f609b721000-7f609b78f000 r-xp 00000000 08:02 140775947                  /lib/x86_64-linux-gnu/libpcre.so.3.13.2
+7f609b78f000-7f609b98f000 ---p 0006e000 08:02 140775947                  /lib/x86_64-linux-gnu/libpcre.so.3.13.2
+7f609b98f000-7f609b990000 r--p 0006e000 08:02 140775947                  /lib/x86_64-linux-gnu/libpcre.so.3.13.2
+7f609b990000-7f609b991000 rw-p 0006f000 08:02 140775947                  /lib/x86_64-linux-gnu/libpcre.so.3.13.2
+7f609b991000-7f609b998000 r-xp 00000000 08:02 38543278                   /usr/lib/x86_64-linux-gnu/libffi.so.6.0.4
+7f609b998000-7f609bb97000 ---p 00007000 08:02 38543278                   /usr/lib/x86_64-linux-gnu/libffi.so.6.0.4
+7f609bb97000-7f609bb98000 r--p 00006000 08:02 38543278                   /usr/lib/x86_64-linux-gnu/libffi.so.6.0.4
+7f609bb98000-7f609bb99000 rw-p 00007000 08:02 38543278                   /usr/lib/x86_64-linux-gnu/libffi.so.6.0.4
+7f609bbef000-7f609bbff000 r-xp 00000000 08:02 101321666                  /home/chris/altera/16.0/quartus/linux64/jre64/lib/amd64/libnio.so
+7f609bbff000-7f609bdff000 ---p 00010000 08:02 101321666                  /home/chris/altera/16.0/quartus/linux64/jre64/lib/amd64/libnio.so
+7f609bdff000-7f609be00000 rw-p 00010000 08:02 101321666                  /home/chris/altera/16.0/quartus/linux64/jre64/lib/amd64/libnio.so
+7f609be00000-7f609c000000 rw-p 00000000 00:00 0 
+7f609c000000-7f609c021000 rw-p 00000000 00:00 0 
+7f609c021000-7f60a0000000 ---p 00000000 00:00 0 
+7f60a0011000-7f60a0028000 r-xp 00000000 08:02 140771422                  /lib/x86_64-linux-gnu/libresolv-2.23.so
+7f60a0028000-7f60a0228000 ---p 00017000 08:02 140771422                  /lib/x86_64-linux-gnu/libresolv-2.23.so
+7f60a0228000-7f60a0229000 r--p 00017000 08:02 140771422                  /lib/x86_64-linux-gnu/libresolv-2.23.so
+7f60a0229000-7f60a022a000 rw-p 00018000 08:02 140771422                  /lib/x86_64-linux-gnu/libresolv-2.23.so
+7f60a022a000-7f60a022c000 rw-p 00000000 00:00 0 
+7f60a022c000-7f60a024b000 r-xp 00000000 08:02 140775976                  /lib/x86_64-linux-gnu/libselinux.so.1
+7f60a024b000-7f60a044a000 ---p 0001f000 08:02 140775976                  /lib/x86_64-linux-gnu/libselinux.so.1
+7f60a044a000-7f60a044b000 r--p 0001e000 08:02 140775976                  /lib/x86_64-linux-gnu/libselinux.so.1
+7f60a044b000-7f60a044c000 rw-p 0001f000 08:02 140775976                  /lib/x86_64-linux-gnu/libselinux.so.1
+7f60a044c000-7f60a044e000 rw-p 00000000 00:00 0 
+7f60a044e000-7f60a0467000 r-xp 00000000 08:02 140775790                  /lib/x86_64-linux-gnu/libz.so.1.2.8
+7f60a0467000-7f60a0666000 ---p 00019000 08:02 140775790                  /lib/x86_64-linux-gnu/libz.so.1.2.8
+7f60a0666000-7f60a0667000 r--p 00018000 08:02 140775790                  /lib/x86_64-linux-gnu/libz.so.1.2.8
+7f60a0667000-7f60a0668000 rw-p 00019000 08:02 140775790                  /lib/x86_64-linux-gnu/libz.so.1.2.8
+7f60a06c1000-7f60a0745000 rw-s 00000000 00:05 25886737                   /SYSV00000000 (deleted)
+7f60a0745000-7f60a0748000 ---p 00000000 00:00 0 
+7f60a0748000-7f60a0846000 rw-p 00000000 00:00 0 
+7f60a0846000-7f60a0849000 ---p 00000000 00:00 0 
+7f60a0849000-7f60a0c48000 rw-p 00000000 00:00 0 
+7f60a0c48000-7f60a0c5e000 r-xp 00000000 08:02 101321637                  /home/chris/altera/16.0/quartus/linux64/jre64/lib/amd64/libnet.so
+7f60a0c5e000-7f60a0e5d000 ---p 00016000 08:02 101321637                  /home/chris/altera/16.0/quartus/linux64/jre64/lib/amd64/libnet.so
+7f60a0e5d000-7f60a0e5e000 rw-p 00015000 08:02 101321637                  /home/chris/altera/16.0/quartus/linux64/jre64/lib/amd64/libnet.so
+7f60a0e5e000-7f60a105e000 rw-p 00000000 00:00 0 
+7f60a105e000-7f60a1066000 r-xp 00000000 08:02 101320815                  /home/chris/altera/16.0/quartus/linux64/libboost_chrono.so.1.59.0
+7f60a1066000-7f60a1265000 ---p 00008000 08:02 101320815                  /home/chris/altera/16.0/quartus/linux64/libboost_chrono.so.1.59.0
+7f60a1265000-7f60a1266000 rw-p 00007000 08:02 101320815                  /home/chris/altera/16.0/quartus/linux64/libboost_chrono.so.1.59.0
+7f60a1266000-7f60a126a000 r-xp 00000000 08:02 101320832                  /home/chris/altera/16.0/quartus/linux64/libboost_timer.so.1.59.0
+7f60a126a000-7f60a1469000 ---p 00004000 08:02 101320832                  /home/chris/altera/16.0/quartus/linux64/libboost_timer.so.1.59.0
+7f60a1469000-7f60a146a000 rw-p 00003000 08:02 101320832                  /home/chris/altera/16.0/quartus/linux64/libboost_timer.so.1.59.0
+7f60a146a000-7f60a1478000 r-xp 00000000 08:02 101321849                  /home/chris/altera/16.0/quartus/linux64/libgomp.so.1
+7f60a1478000-7f60a1677000 ---p 0000e000 08:02 101321849                  /home/chris/altera/16.0/quartus/linux64/libgomp.so.1
+7f60a1677000-7f60a1678000 rw-p 0000d000 08:02 101321849                  /home/chris/altera/16.0/quartus/linux64/libgomp.so.1
+7f60a1678000-7f60a1762000 r-xp 00000000 08:02 101321850                  /home/chris/altera/16.0/quartus/linux64/libstdc++.so.6
+7f60a1762000-7f60a1961000 ---p 000ea000 08:02 101321850                  /home/chris/altera/16.0/quartus/linux64/libstdc++.so.6
+7f60a1961000-7f60a1969000 r--p 000e9000 08:02 101321850                  /home/chris/altera/16.0/quartus/linux64/libstdc++.so.6
+7f60a1969000-7f60a196b000 rw-p 000f1000 08:02 101321850                  /home/chris/altera/16.0/quartus/linux64/libstdc++.so.6
+7f60a196b000-7f60a1980000 rw-p 00000000 00:00 0 
+7f60a1980000-7f60a1a3c000 r-xp 00000000 08:02 101320817                  /home/chris/altera/16.0/quartus/linux64/libboost_unit_test_framework.so.1.59.0
+7f60a1a3c000-7f60a1c3b000 ---p 000bc000 08:02 101320817                  /home/chris/altera/16.0/quartus/linux64/libboost_unit_test_framework.so.1.59.0
+7f60a1c3b000-7f60a1c42000 rw-p 000bb000 08:02 101320817                  /home/chris/altera/16.0/quartus/linux64/libboost_unit_test_framework.so.1.59.0
+7f60a1c42000-7f60a1c44000 rw-p 00000000 00:00 0 
+7f60a1c44000-7f60a1d53000 r-xp 00000000 08:02 140775860                  /lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.2
+7f60a1d53000-7f60a1f52000 ---p 0010f000 08:02 140775860                  /lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.2
+7f60a1f52000-7f60a1f53000 r--p 0010e000 08:02 140775860                  /lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.2
+7f60a1f53000-7f60a1f54000 rw-p 0010f000 08:02 140775860                  /lib/x86_64-linux-gnu/libglib-2.0.so.0.4800.2
+7f60a1f54000-7f60a1f55000 rw-p 00000000 00:00 0 
+7f60a1f55000-7f60a1fa7000 r-xp 00000000 08:02 38543433                   /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.4800.2
+7f60a1fa7000-7f60a21a6000 ---p 00052000 08:02 38543433                   /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.4800.2
+7f60a21a6000-7f60a21a7000 r--p 00051000 08:02 38543433                   /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.4800.2
+7f60a21a7000-7f60a21a8000 rw-p 00052000 08:02 38543433                   /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.4800.2
+7f60a21c5000-7f60a21c8000 ---p 00000000 00:00 0 
+7f60a21c8000-7f60a21fe000 rw-p 00000000 00:00 0 
+7f60a21fe000-7f60a2201000 ---p 00000000 00:00 0 
+7f60a2201000-7f60a2237000 rw-p 00000000 00:00 0 
+7f60a2237000-7f60a224a000 r--s 00089000 08:02 101583870                  /home/chris/altera/16.0/quartus/dsp_builder/bin64/dspb_entities.jar
+7f60a224a000-7f60a2255000 r--s 00000000 08:02 208404574                  /var/cache/fontconfig/945677eb7aeaf62f1d50efc3fb3ec7d8-le64.cache-6
+7f60a2255000-7f60a225b000 r--s 00000000 08:02 208404556                  /var/cache/fontconfig/2cd17615ca594fa2959ae173292e504c-le64.cache-6
+7f60a225b000-7f60a225c000 r--s 00000000 08:02 208404553                  /var/cache/fontconfig/0d8c3b2ac0904cb8a57a757ad11a4a08-le64.cache-6
+7f60a225c000-7f60a2271000 r--s 00000000 08:02 208404550                  /var/cache/fontconfig/04aabc0a78ac019cf9454389977116d2-le64.cache-6
+7f60a2271000-7f60a2275000 r--s 00000000 08:02 208404560                  /var/cache/fontconfig/385c0604a188198f04d133e54aba7fe7-le64.cache-6
+7f60a2275000-7f60a2278000 r--s 00000000 08:02 208404570                  /var/cache/fontconfig/767a8244fc0220cfb567a839d0392e0b-le64.cache-6
+7f60a2278000-7f60a227d000 r--s 00000000 08:02 208404573                  /var/cache/fontconfig/8801497958630a81b71ace7c5f9b32a8-le64.cache-6
+7f60a227d000-7f60a2284000 r--s 00000000 08:02 208404557                  /var/cache/fontconfig/3047814df9a2f067bd2d96a2b9c36e5a-le64.cache-6
+7f60a2284000-7f60a2297000 r--s 00000000 08:02 208404584                  /var/cache/fontconfig/d52a8644073d54c13679302ca1180695-le64.cache-6
+7f60a2297000-7f60a22a2000 r--s 00000000 08:02 208406042                  /var/cache/fontconfig/d589a48862398ed80a3d6066f4f56f4c-le64.cache-6
+7f60a22a2000-7f60a22a5000 ---p 00000000 00:00 0 
+7f60a22a5000-7f60a23a3000 rw-p 00000000 00:00 0 
+7f60a23a3000-7f60a2406000 r-xp 00000000 08:02 101320821                  /home/chris/altera/16.0/quartus/linux64/libboost_program_options.so.1.59.0
+7f60a2406000-7f60a2606000 ---p 00063000 08:02 101320821                  /home/chris/altera/16.0/quartus/linux64/libboost_program_options.so.1.59.0
+7f60a2606000-7f60a260a000 rw-p 00063000 08:02 101320821                  /home/chris/altera/16.0/quartus/linux64/libboost_program_options.so.1.59.0
+7f60a260a000-7f60a278a000 r-xp 00000000 08:02 38543395                   /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.4800.2
+7f60a278a000-7f60a298a000 ---p 00180000 08:02 38543395                   /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.4800.2
+7f60a298a000-7f60a298e000 r--p 00180000 08:02 38543395                   /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.4800.2
+7f60a298e000-7f60a2990000 rw-p 00184000 08:02 38543395                   /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.4800.2
+7f60a2990000-7f60a2992000 rw-p 00000000 00:00 0 
+7f60a2992000-7f60a2993000 r--s 00000000 08:02 208404555                  /var/cache/fontconfig/1ac9eb803944fde146138c791f5cc56a-le64.cache-6
+7f60a2993000-7f60a2994000 r--s 00000000 08:02 208404587                  /var/cache/fontconfig/dc05db6664285cc2f12bf69c139ae4c3-le64.cache-6
+7f60a2994000-7f60a2995000 r--s 00000000 08:02 208407114                  /var/cache/fontconfig/4794a0821666d79190d59a36cb4f44b5-le64.cache-6
+7f60a2995000-7f60a2996000 r--s 00000000 08:02 208404580                  /var/cache/fontconfig/bab58bb527bb656aaa9f116d68a48d89-le64.cache-6
+7f60a2996000-7f60a299c000 r--s 00000000 08:02 208404578                  /var/cache/fontconfig/b47c4e1ecd0709278f4910c18777a504-le64.cache-6
+7f60a299c000-7f60a299e000 r-xp 00000000 08:02 101320836                  /home/chris/altera/16.0/quartus/linux64/libboost_system.so.1.59.0
+7f60a299e000-7f60a2b9e000 ---p 00002000 08:02 101320836                  /home/chris/altera/16.0/quartus/linux64/libboost_system.so.1.59.0
+7f60a2b9e000-7f60a2b9f000 rw-p 00002000 08:02 101320836                  /home/chris/altera/16.0/quartus/linux64/libboost_system.so.1.59.0
+7f60a2b9f000-7f60a2bb5000 r-xp 00000000 08:02 101320758                  /home/chris/altera/16.0/quartus/linux64/libboost_filesystem.so.1.59.0
+7f60a2bb5000-7f60a2db5000 ---p 00016000 08:02 101320758                  /home/chris/altera/16.0/quartus/linux64/libboost_filesystem.so.1.59.0
+7f60a2db5000-7f60a2db6000 rw-p 00016000 08:02 101320758                  /home/chris/altera/16.0/quartus/linux64/libboost_filesystem.so.1.59.0
+7f60a2db6000-7f60a2e03000 r-xp 00000000 08:02 101320837                  /home/chris/altera/16.0/quartus/linux64/libboost_serialization.so.1.59.0
+7f60a2e03000-7f60a3002000 ---p 0004d000 08:02 101320837                  /home/chris/altera/16.0/quartus/linux64/libboost_serialization.so.1.59.0
+7f60a3002000-7f60a3006000 rw-p 0004c000 08:02 101320837                  /home/chris/altera/16.0/quartus/linux64/libboost_serialization.so.1.59.0
+7f60a3006000-7f60a30f5000 r-xp 00000000 08:02 101320807                  /home/chris/altera/16.0/quartus/linux64/libboost_regex.so.1.59.0
+7f60a30f5000-7f60a32f4000 ---p 000ef000 08:02 101320807                  /home/chris/altera/16.0/quartus/linux64/libboost_regex.so.1.59.0
+7f60a32f4000-7f60a32fa000 rw-p 000ee000 08:02 101320807                  /home/chris/altera/16.0/quartus/linux64/libboost_regex.so.1.59.0
+7f60a32fa000-7f60a32fd000 r-xp 00000000 08:02 38543409                   /usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.4800.2
+7f60a32fd000-7f60a34fc000 ---p 00003000 08:02 38543409                   /usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.4800.2
+7f60a34fc000-7f60a34fd000 r--p 00002000 08:02 38543409                   /usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.4800.2
+7f60a34fd000-7f60a34fe000 rw-p 00003000 08:02 38543409                   /usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.4800.2
+7f60a34fe000-7f60a34ff000 r--s 00000000 08:02 208404564                  /var/cache/fontconfig/56cf4f4769d0f4abc89a4895d7bd3ae1-le64.cache-6
+7f60a34ff000-7f60a3500000 r--s 00000000 08:02 208404579                  /var/cache/fontconfig/b9d506c9ac06c20b433354fa67a72993-le64.cache-6
+7f60a3500000-7f60a3501000 r--s 00000000 08:02 208404563                  /var/cache/fontconfig/551ecf3b0e8b0bca0f25c0944f561853-le64.cache-6
+7f60a3501000-7f60a350e000 r--s 00000000 08:02 208408103                  /var/cache/fontconfig/089dead882dea3570ffc31a9898cfb69-le64.cache-6
+7f60a350e000-7f60a350f000 r--s 00000000 08:02 208404558                  /var/cache/fontconfig/30829fa25452a46451e813d634d7f916-le64.cache-6
+7f60a350f000-7f60a3510000 r--s 00000000 08:02 208404552                  /var/cache/fontconfig/0c9eb80ebd1c36541ebe2852d3bb0c49-le64.cache-6
+7f60a3510000-7f60a3513000 r--s 00000000 08:02 208404569                  /var/cache/fontconfig/75114ca45c98e8a441da0ff356701271-le64.cache-6
+7f60a3513000-7f60a351e000 r--s 00000000 08:02 208404572                  /var/cache/fontconfig/83bf95040141907cd45bb53cf7c1c148-le64.cache-6
+7f60a352d000-7f60a354d000 r--s 001d6000 08:02 101583874                  /home/chris/altera/16.0/quartus/dsp_builder/bin64/extlibs/castor-1.0.3.jar
+7f60a354d000-7f60a35eb000 r-xp 00000000 08:02 101320536                  /home/chris/altera/16.0/quartus/linux64/libccl_sqlite3.so
+7f60a35eb000-7f60a37ea000 ---p 0009e000 08:02 101320536                  /home/chris/altera/16.0/quartus/linux64/libccl_sqlite3.so
+7f60a37ea000-7f60a37ef000 rw-p 0009d000 08:02 101320536                  /home/chris/altera/16.0/quartus/linux64/libccl_sqlite3.so
+7f60a37ef000-7f60a37fc000 r-xp 00000000 08:02 101319431                  /home/chris/altera/16.0/quartus/linux64/libccl_sqlite3_jdbc_jni_bridge.so
+7f60a37fc000-7f60a39fb000 ---p 0000d000 08:02 101319431                  /home/chris/altera/16.0/quartus/linux64/libccl_sqlite3_jdbc_jni_bridge.so
+7f60a39fb000-7f60a39fc000 rw-p 0000c000 08:02 101319431                  /home/chris/altera/16.0/quartus/linux64/libccl_sqlite3_jdbc_jni_bridge.so
+7f60a39fc000-7f60a3bfc000 rw-p 00000000 00:00 0 
+7f60a3bfc000-7f60a3bff000 ---p 00000000 00:00 0 
+7f60a3bff000-7f60a3cfd000 rw-p 00000000 00:00 0 
+7f60a3cfd000-7f60a3d00000 ---p 00000000 00:00 0 
+7f60a3d00000-7f60a3dfe000 rw-p 00000000 00:00 0 
+7f60a3dfe000-7f60a3e01000 ---p 00000000 00:00 0 
+7f60a3e01000-7f60a3eff000 rw-p 00000000 00:00 0 
+7f60a3eff000-7f60a3f02000 ---p 00000000 00:00 0 
+7f60a3f02000-7f60a4000000 rw-p 00000000 00:00 0 
+7f60a4000000-7f60a4021000 rw-p 00000000 00:00 0 
+7f60a4021000-7f60a8000000 ---p 00000000 00:00 0 
+7f60a8000000-7f60a826e000 rw-p 00000000 00:00 0 
+7f60a826e000-7f60ac000000 ---p 00000000 00:00 0 
+7f60ac000000-7f60adb0f000 rw-p 00000000 00:00 0 
+7f60adb0f000-7f60b0000000 ---p 00000000 00:00 0 
+7f60b0000000-7f60b0caa000 rw-p 00000000 00:00 0 
+7f60b0caa000-7f60b4000000 ---p 00000000 00:00 0 
+7f60b4000000-7f60b5cc4000 rw-p 00000000 00:00 0 
+7f60b5cc4000-7f60b8000000 ---p 00000000 00:00 0 
+7f60b8000000-7f60b9eca000 rw-p 00000000 00:00 0 
+7f60b9eca000-7f60bc000000 ---p 00000000 00:00 0 
+7f60bc000000-7f60bc021000 rw-p 00000000 00:00 0 
+7f60bc021000-7f60c0000000 ---p 00000000 00:00 0 
+7f60c0000000-7f60c0021000 rw-p 00000000 00:00 0 
+7f60c0021000-7f60c4000000 ---p 00000000 00:00 0 
+7f60c4000000-7f60c4021000 rw-p 00000000 00:00 0 
+7f60c4021000-7f60c8000000 ---p 00000000 00:00 0 
+7f60c8000000-7f60c8012000 r--s 00000000 08:02 208404576                  /var/cache/fontconfig/9b89f8e3dae116d678bbf48e5f21f69b-le64.cache-6
+7f60c801f000-7f60c808f000 r--s 006c2000 08:02 101326413                  /home/chris/altera/16.0/quartus/cusp/bin/cusp-engine.jar
+7f60c808f000-7f60c80a4000 r-xp 00000000 08:02 101321851                  /home/chris/altera/16.0/quartus/linux64/libgcc_s.so.1
+7f60c80a4000-7f60c82a4000 ---p 00015000 08:02 101321851                  /home/chris/altera/16.0/quartus/linux64/libgcc_s.so.1
+7f60c82a4000-7f60c82a5000 rw-p 00015000 08:02 101321851                  /home/chris/altera/16.0/quartus/linux64/libgcc_s.so.1
+7f60c82a5000-7f60c830a000 r-xp 00000000 08:02 101321676                  /home/chris/altera/16.0/quartus/linux64/jre64/lib/amd64/libfontmanager.so
+7f60c830a000-7f60c8509000 ---p 00065000 08:02 101321676                  /home/chris/altera/16.0/quartus/linux64/jre64/lib/amd64/libfontmanager.so
+7f60c8509000-7f60c850d000 rw-p 00064000 08:02 101321676                  /home/chris/altera/16.0/quartus/linux64/jre64/lib/amd64/libfontmanager.so
+7f60c850d000-7f60c851e000 rw-p 00000000 00:00 0 
+7f60c851e000-7f60c852d000 r-xp 00000000 08:02 38542914                   /usr/lib/x86_64-linux-gnu/libXi.so.6.1.0
+7f60c852d000-7f60c872c000 ---p 0000f000 08:02 38542914                   /usr/lib/x86_64-linux-gnu/libXi.so.6.1.0
+7f60c872c000-7f60c872d000 r--p 0000e000 08:02 38542914                   /usr/lib/x86_64-linux-gnu/libXi.so.6.1.0
+7f60c872d000-7f60c872e000 rw-p 0000f000 08:02 38542914                   /usr/lib/x86_64-linux-gnu/libXi.so.6.1.0
+7f60c872e000-7f60c8733000 r-xp 00000000 08:02 38542932                   /usr/lib/x86_64-linux-gnu/libXtst.so.6.1.0
+7f60c8733000-7f60c8932000 ---p 00005000 08:02 38542932                   /usr/lib/x86_64-linux-gnu/libXtst.so.6.1.0
+7f60c8932000-7f60c8933000 r--p 00004000 08:02 38542932                   /usr/lib/x86_64-linux-gnu/libXtst.so.6.1.0
+7f60c8933000-7f60c8934000 rw-p 00005000 08:02 38542932                   /usr/lib/x86_64-linux-gnu/libXtst.so.6.1.0
+7f60c8934000-7f60c8937000 r--s 00000000 08:02 208404588                  /var/cache/fontconfig/e13b20fdb08344e0e664864cc2ede53d-le64.cache-6
+7f60c8937000-7f60c893b000 r--s 00000000 08:02 208406044                  /var/cache/fontconfig/7ef2298fde41cc6eeb7af42e48b7d293-le64.cache-6
+7f60c893c000-7f60c8944000 r--s 00051000 08:02 101583876                  /home/chris/altera/16.0/quartus/dsp_builder/bin64/extlibs/velocity-1.4.jar
+7f60c8944000-7f60c8957000 r--s 00345000 08:02 101321578                  /home/chris/altera/16.0/quartus/linux64/jre64/lib/resources.jar
+7f60c8957000-7f60c89a8000 r-xp 00000000 08:02 101321652                  /home/chris/altera/16.0/quartus/linux64/jre64/lib/amd64/libawt_xawt.so
+7f60c89a8000-7f60c8ba7000 ---p 00051000 08:02 101321652                  /home/chris/altera/16.0/quartus/linux64/jre64/lib/amd64/libawt_xawt.so
+7f60c8ba7000-7f60c8bab000 rw-p 00050000 08:02 101321652                  /home/chris/altera/16.0/quartus/linux64/jre64/lib/amd64/libawt_xawt.so
+7f60c8bab000-7f60c8bac000 rw-p 00000000 00:00 0 
+7f60c8bac000-7f60c8c4f000 r-xp 00000000 08:02 101321629                  /home/chris/altera/16.0/quartus/linux64/jre64/lib/amd64/libawt.so
+7f60c8c4f000-7f60c8e4e000 ---p 000a3000 08:02 101321629                  /home/chris/altera/16.0/quartus/linux64/jre64/lib/amd64/libawt.so
+7f60c8e4e000-7f60c8e5a000 rw-p 000a2000 08:02 101321629                  /home/chris/altera/16.0/quartus/linux64/jre64/lib/amd64/libawt.so
+7f60c8e5a000-7f60c8e7e000 rw-p 00000000 00:00 0 
+7f60c8e7e000-7f60c8e9a000 r--s 00393000 08:02 101321716                  /home/chris/altera/16.0/quartus/linux64/jre64/lib/ext/cldrdata.jar
+7f60c8e9a000-7f60c8ea5000 r--s 00210000 08:02 101321723                  /home/chris/altera/16.0/quartus/linux64/jre64/lib/ext/localedata.jar
+7f60c8ea5000-7f60c8ee2000 r--s 0024e000 08:02 101325431                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/xbean.jar
+7f60c8ee2000-7f60c8ee4000 r--s 00008000 08:02 101325463                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/wraplf.jar
+7f60c8ee4000-7f60c8ee5000 r--s 00002000 08:02 101325461                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/swing-worker.jar
+7f60c8ee5000-7f60c8ee7000 r--s 00014000 08:02 101325427                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/org-netbeans-swing-outline-RELEASE691-sources.jar
+7f60c8ee7000-7f60c8eed000 r--s 0002e000 08:02 101325393                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/l2fprod-common-sheet.jar
+7f60c8eed000-7f60c8eef000 r--s 00004000 08:02 101325382                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/jsr173_1.0_api.jar
+7f60c8eef000-7f60c8ef3000 r--s 00031000 08:02 101325430                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/jline-2.12.jar
+7f60c8ef3000-7f60c8eff000 r--s 0008f000 08:02 101325449                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/jgraphx.jar
+7f60c8eff000-7f60c8f00000 ---p 00000000 00:00 0 
+7f60c8f00000-7f60c9000000 rw-p 00000000 00:00 0 
+7f60c9000000-7f60cb250000 rwxp 00000000 00:00 0 
+7f60cb250000-7f60d8000000 ---p 00000000 00:00 0 
+7f60d8000000-7f60d8221000 rw-p 00000000 00:00 0 
+7f60d8221000-7f60dc000000 ---p 00000000 00:00 0 
+7f60dc000000-7f60dc170000 rw-p 00000000 00:00 0 
+7f60dc170000-7f60e0000000 ---p 00000000 00:00 0 
+7f60e0000000-7f60e094a000 rw-p 00000000 00:00 0 
+7f60e094a000-7f60e4000000 ---p 00000000 00:00 0 
+7f60e4000000-7f60e4001000 r--s 00011000 08:02 101325466                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/miglayout-swing.jar
+7f60e4001000-7f60e4012000 r--s 0014c000 08:02 101325407                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/jfreechart-1.0.13.jar
+7f60e4012000-7f60e4018000 r--s 00046000 08:02 101325455                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/jcommon-1.0.16.jar
+7f60e4018000-7f60e4050000 r--s 00217000 08:02 101325386                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/docking-frames-core.jar
+7f60e4050000-7f60e4066000 r--s 000bc000 08:02 101325405                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/docking-frames-common.jar
+7f60e4066000-7f60e4068000 r--s 00003000 08:02 101325460                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.util.elf.jar
+7f60e4068000-7f60e406a000 r--s 00002000 08:02 101325387                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.tools.sopcformats.jar
+7f60e406a000-7f60e406b000 r--s 00002000 08:02 101325322                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.tools.exampledesigns.jar
+7f60e406b000-7f60e406c000 r--s 00006000 08:02 101325468                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.systemconsole.spdy.jar
+7f60e406c000-7f60e406d000 r--s 0000b000 08:02 101325324                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.systemconsole.sldhubchannel.jar
+7f60e406d000-7f60e406f000 r--s 00006000 08:02 101325462                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.systemconsole.gdbserver.jar
+7f60e406f000-7f60e4070000 r--s 00007000 08:02 101325330                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.systemconsole.issp.jar
+7f60e4070000-7f60e4073000 r--s 0000d000 08:02 101325464                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.systemconsole.monitor.jar
+7f60e4073000-7f60e407a000 r--s 0003f000 08:02 101325363                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.systemconsole.busanalyzer.jar
+7f60e407a000-7f60e4088000 r--s 0007f000 08:02 101325394                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/commons-collections-3.2.1.jar
+7f60e4088000-7f60e4089000 r--s 00003000 08:02 101325359                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.systemconsole.iobus.jar
+7f60e4089000-7f60e408a000 r--s 00002000 08:02 101325417                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.systemconsole.helper.jar
+7f60e408a000-7f60e408f000 r--s 0002c000 08:02 101325332                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.systemconsole.dashboard.jar
+7f60e408f000-7f60e4093000 r--s 00020000 08:02 101325326                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.systemconsole.trace.gui.jar
+7f60e4093000-7f60e4098000 r--s 00029000 08:02 101325428                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.systemconsole.trace.database.jar
+7f60e4098000-7f60e4099000 r--s 00001000 08:02 101325350                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.systemconsole.plugin.memory.jar
+7f60e4099000-7f60e409b000 r--s 00003000 08:02 101325327                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.systemconsole.plugin.pli.jar
+7f60e409b000-7f60e409c000 r--s 00006000 08:02 101325370                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.systemconsole.tcpchannel.jar
+7f60e409c000-7f60e409f000 r--s 00011000 08:02 101325429                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.systemconsole.usb.jar
+7f60e409f000-7f60e40a3000 r--s 0001c000 08:02 101325435                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.systemconsole.trace.drivers.jar
+7f60e40a3000-7f60e40a4000 r--s 00001000 08:02 101325356                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.systemconsole.matlabapi.jar
+7f60e40a4000-7f60e40a7000 r--s 0001c000 08:02 101325452                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.systemconsole.app.jar
+7f60e40a7000-7f60e40a9000 r--s 0000c000 08:02 101325415                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.sopcmodel.components.hwtclvalidator.jar
+7f60e40a9000-7f60e40ab000 r--s 00003000 08:02 101325366                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.script.debugwindow.jar
+7f60e40ab000-7f60e40ad000 r--s 00001000 08:02 101325361                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.nios2.trace.jar
+7f60e40ad000-7f60e40af000 r--s 00009000 08:02 101325451                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.nios2.rtl.trace.jar
+7f60e40af000-7f60e40c1000 r--s 00091000 08:02 101325341                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.nios2.isa.jar
+7f60e40c1000-7f60e40ca000 r--s 00076000 08:02 101325404                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/jmwizc.jar
+7f60e40ca000-7f60e40cc000 r--s 00007000 08:02 101325338                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.qsys.ipxact.module.jar
+7f60e40cc000-7f60e40ce000 r--s 0000a000 08:02 101325344                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.widgets.jar
+7f60e40ce000-7f60e40fe000 r--s 00411000 08:02 101325418                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.sopceditor.jar
+7f60e40fe000-7f60e4101000 ---p 00000000 00:00 0 
+7f60e4101000-7f60e41ff000 rw-p 00000000 00:00 0 
+7f60e41ff000-7f60e4202000 ---p 00000000 00:00 0 
+7f60e4202000-7f60e4300000 rw-p 00000000 00:00 0 
+7f60e4300000-7f60e4303000 ---p 00000000 00:00 0 
+7f60e4303000-7f60e4401000 rw-p 00000000 00:00 0 
+7f60e4401000-7f60e4404000 ---p 00000000 00:00 0 
+7f60e4404000-7f60e4502000 rw-p 00000000 00:00 0 
+7f60e4502000-7f60e4505000 ---p 00000000 00:00 0 
+7f60e4505000-7f60e4603000 rw-p 00000000 00:00 0 
+7f60e4603000-7f60e4606000 ---p 00000000 00:00 0 
+7f60e4606000-7f60e4704000 rw-p 00000000 00:00 0 
+7f60e4704000-7f60e4707000 ---p 00000000 00:00 0 
+7f60e4707000-7f60e4805000 rw-p 00000000 00:00 0 
+7f60e4805000-7f60e4808000 ---p 00000000 00:00 0 
+7f60e4808000-7f60e4906000 rw-p 00000000 00:00 0 
+7f60e4906000-7f60e4907000 ---p 00000000 00:00 0 
+7f60e4907000-7f60e4a07000 rw-p 00000000 00:00 0 
+7f60e4a07000-7f60e4a08000 r--s 0000e000 08:02 101325465                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.sopcmodel.components.atlantic.packetformatconverter.jar
+7f60e4a08000-7f60e4a0d000 r--s 00055000 08:02 101325459                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.qsys.hypericonnect.jar
+7f60e4a0d000-7f60e4a11000 r--s 00035000 08:02 101325425                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.sopcmodel.sbtools.jar
+7f60e4a11000-7f60e4a13000 r--s 00007000 08:02 101325447                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.qsys.blackboxmodule.jar
+7f60e4a13000-7f60e4a14000 r--s 00003000 08:02 101325412                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.qsys.ui.jar
+7f60e4a14000-7f60e4a17000 r--s 00020000 08:02 101325369                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.iplauncher.jar
+7f60e4a17000-7f60e4a19000 r--s 0000e000 08:02 101325434                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.ip.regenerator.jar
+7f60e4a19000-7f60e4a1c000 r--s 00024000 08:02 101325402                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.genman.jar
+7f60e4a1c000-7f60e4a1f000 r--s 0002d000 08:02 101325448                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.embeddedsw.launch.jar
+7f60e4a1f000-7f60e4a20000 r--s 00006000 08:02 101325416                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.systemconsole.configrom.jar
+7f60e4a20000-7f60e4a21000 r--s 00000000 08:02 101325329                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.jtagsimulator.jar
+7f60e4a21000-7f60e4a22000 r--s 00002000 08:02 101325383                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.systemconsole.lightclient.jar
+7f60e4a22000-7f60e4a24000 r--s 00007000 08:02 101325381                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.systemconsole.driver.jar
+7f60e4a24000-7f60e4a2c000 r--s 00048000 08:02 101325450                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.systemconsole.plugin.jtag.jar
+7f60e4a2c000-7f60e4a3a000 r--s 00072000 08:02 101325374                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.systemconsole.plugin.elf.jar
+7f60e4a3a000-7f60e4a3e000 r--s 00036000 08:02 101325446                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.systemconsole.gui.jar
+7f60e4a3e000-7f60e4a41000 r--s 00038000 08:02 101325454                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.systemconsole.scripting.jar
+7f60e4a41000-7f60e4a47000 r--s 0004a000 08:02 101325421                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.systemconsole.designs.jar
+7f60e4a47000-7f60e4a52000 r--s 00184000 08:02 101325414                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.systemconsole.jar
+7f60e4a52000-7f60e4a59000 r--s 00056000 08:02 101325441                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.embeddedsw.flash.jar
+7f60e4a59000-7f60e4a5a000 r--s 00004000 08:02 101325323                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.embeddedsw.cpexample.jar
+7f60e4a5a000-7f60e4a5b000 r--s 00003000 08:02 101325336                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.tcl.ui.jar
+7f60e4a5b000-7f60e4a5c000 r--s 0001f000 08:02 101325334                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.embeddedsw.bsp.scripting.jar
+7f60e4a5c000-7f60e4a5e000 r--s 00006000 08:02 101325347                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.embeddedsw.bsp.plugin.lwhal.jar
+7f60e4a5e000-7f60e4a61000 r--s 0000b000 08:02 101325321                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.embeddedsw.bsp.plugin.hal.jar
+7f60e4a61000-7f60e4a65000 r--s 0001c000 08:02 101325343                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.embeddedsw.bsp.plugin.core.jar
+7f60e4a65000-7f60e4a67000 r--s 0000f000 08:02 101325385                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.embeddedsw.commandline.jar
+7f60e4a67000-7f60e4a74000 r--s 00084000 08:02 101325401                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.embeddedsw.bsp.editor.jar
+7f60e4a74000-7f60e4a7b000 r--s 00063000 08:02 101325423                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.megawizard2.jar
+7f60e4a7b000-7f60e4a7f000 r--s 00029000 08:02 101325419                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.sopcmodel.components.atlantic.jar
+7f60e4a7f000-7f60e4a8a000 r--s 00074000 08:02 101325406                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/velocity-dep-1.4.jar
+7f60e4a8a000-7f60e4a92000 r--s 00051000 08:02 101325439                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/velocity-1.4.jar
+7f60e4a92000-7f60e4a96000 r--s 0001f000 08:02 101325403                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/explicitlayout.jar
+7f60e4a96000-7f60e4a98000 r--s 00006000 08:02 101325319                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.sopcfactories.jar
+7f60e4a98000-7f60e4a9a000 r--s 0001a000 08:02 101325388                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.sopclibrary.jar
+7f60e4a9a000-7f60e4a9b000 r--s 00000000 08:02 101325433                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.librarian.jar
+7f60e4a9b000-7f60e4a9c000 r--s 00002000 08:02 101325438                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.sopcplatform.jar
+7f60e4a9c000-7f60e4a9d000 r--s 00000000 08:02 101325339                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.service.jre.jar
+7f60e4a9d000-7f60e4a9e000 r--s 00000000 08:02 101325325                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/xmlbeans-2.2.0.jar
+7f60e4a9e000-7f60e4aa2000 r--s 0001e000 08:02 101325432                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.embeddedsw.utilities.jar
+7f60e4aa2000-7f60e4aa3000 r--s 00003000 08:02 101325349                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.sopcmodel.embeddedsw.jar
+7f60e4aa3000-7f60e4aa5000 r--s 00016000 08:02 101325372                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.embeddedsw.swinfo.jar
+7f60e4aa5000-7f60e4aa9000 r--s 0000d000 08:02 101325437                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.embeddedsw.bsp.schema.jar
+7f60e4aa9000-7f60e4aaa000 r--s 0000b000 08:02 101325320                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.embeddedsw.bsp.elements.jar
+7f60e4aaa000-7f60e4aaf000 r--s 0008b000 08:02 101325420                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.embeddedsw.bsp.jar
+7f60e4aaf000-7f60e4ab2000 r--s 00014000 08:02 101325355                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.embeddedsw.app_lib.jar
+7f60e4ab2000-7f60e4ab8000 r--s 0007a000 08:02 101325351                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/jacl1.3.2a.jar
+7f60e4ab8000-7f60e4abc000 r--s 0002a000 08:02 101325457                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.tcl.interpreter.jar
+7f60e4abc000-7f60e4abf000 r--s 00012000 08:02 101325357                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.sopcreport.build.jar
+7f60e4abf000-7f60e4ac1000 r--s 00007000 08:02 101325409                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.sopcreport.jar
+7f60e4ac1000-7f60e4ac3000 r--s 0000d000 08:02 101325379                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.sopcmodel.atlantic.jar
+7f60e4ac3000-7f60e4ac4000 r--s 0000c000 08:02 101325364                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/commons-logging-1.1.jar
+7f60e4ac4000-7f60e4ac7000 r--s 0003e000 08:02 101325352                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.utilities.jar
+7f60e4ac7000-7f60e4ac9000 r--s 00007000 08:02 101325398                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.qsys.model.common.jar
+7f60e4ac9000-7f60e4ace000 r--s 0000f000 08:02 101325345                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.privateinterfaces.jar
+7f60e4ace000-7f60e4ad1000 r--s 0000b000 08:02 101325348                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.entityinterfaces.jar
+7f60e4ad1000-7f60e4ae1000 r--s 000e8000 08:02 101325390                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.sopcmodel.jar
+7f60e4ae1000-7f60e4ae9000 r--s 00051000 08:02 101325396                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.qsys.ipxact.jar
+7f60e4ae9000-7f60e4cbe000 r--s 033af000 08:02 101321562                  /home/chris/altera/16.0/quartus/linux64/jre64/lib/rt.jar
+7f60e4cbe000-7f60e54be000 rw-p 00000000 00:00 0 
+7f60e54be000-7f60e55b9000 rw-p 00000000 00:00 0 
+7f60e55b9000-7f60e56b3000 ---p 00000000 00:00 0 
+7f60e56b3000-7f60e5731000 rw-p 00000000 00:00 0 
+7f60e5731000-7f60e57ad000 ---p 00000000 00:00 0 
+7f60e57ad000-7f60e58a8000 rw-p 00000000 00:00 0 
+7f60e58a8000-7f60e59a1000 ---p 00000000 00:00 0 
+7f60e59a1000-7f60e5a2c000 rw-p 00000000 00:00 0 
+7f60e5a2c000-7f60e5d62000 ---p 00000000 00:00 0 
+7f60e5d62000-7f60e5d7e000 r-xp 00000000 08:02 101321668                  /home/chris/altera/16.0/quartus/linux64/jre64/lib/amd64/libzip.so
+7f60e5d7e000-7f60e5f7d000 ---p 0001c000 08:02 101321668                  /home/chris/altera/16.0/quartus/linux64/jre64/lib/amd64/libzip.so
+7f60e5f7d000-7f60e5f7e000 rw-p 0001b000 08:02 101321668                  /home/chris/altera/16.0/quartus/linux64/jre64/lib/amd64/libzip.so
+7f60e5f7e000-7f60e5f89000 r-xp 00000000 08:02 140771411                  /lib/x86_64-linux-gnu/libnss_files-2.23.so
+7f60e5f89000-7f60e6188000 ---p 0000b000 08:02 140771411                  /lib/x86_64-linux-gnu/libnss_files-2.23.so
+7f60e6188000-7f60e6189000 r--p 0000a000 08:02 140771411                  /lib/x86_64-linux-gnu/libnss_files-2.23.so
+7f60e6189000-7f60e618a000 rw-p 0000b000 08:02 140771411                  /lib/x86_64-linux-gnu/libnss_files-2.23.so
+7f60e618a000-7f60e6190000 rw-p 00000000 00:00 0 
+7f60e6190000-7f60e619b000 r-xp 00000000 08:02 140771414                  /lib/x86_64-linux-gnu/libnss_nis-2.23.so
+7f60e619b000-7f60e639a000 ---p 0000b000 08:02 140771414                  /lib/x86_64-linux-gnu/libnss_nis-2.23.so
+7f60e639a000-7f60e639b000 r--p 0000a000 08:02 140771414                  /lib/x86_64-linux-gnu/libnss_nis-2.23.so
+7f60e639b000-7f60e639c000 rw-p 0000b000 08:02 140771414                  /lib/x86_64-linux-gnu/libnss_nis-2.23.so
+7f60e639c000-7f60e63b2000 r-xp 00000000 08:02 140771333                  /lib/x86_64-linux-gnu/libnsl-2.23.so
+7f60e63b2000-7f60e65b1000 ---p 00016000 08:02 140771333                  /lib/x86_64-linux-gnu/libnsl-2.23.so
+7f60e65b1000-7f60e65b2000 r--p 00015000 08:02 140771333                  /lib/x86_64-linux-gnu/libnsl-2.23.so
+7f60e65b2000-7f60e65b3000 rw-p 00016000 08:02 140771333                  /lib/x86_64-linux-gnu/libnsl-2.23.so
+7f60e65b3000-7f60e65b5000 rw-p 00000000 00:00 0 
+7f60e65b5000-7f60e65bd000 r-xp 00000000 08:02 140771420                  /lib/x86_64-linux-gnu/libnss_compat-2.23.so
+7f60e65bd000-7f60e67bc000 ---p 00008000 08:02 140771420                  /lib/x86_64-linux-gnu/libnss_compat-2.23.so
+7f60e67bc000-7f60e67bd000 r--p 00007000 08:02 140771420                  /lib/x86_64-linux-gnu/libnss_compat-2.23.so
+7f60e67bd000-7f60e67be000 rw-p 00008000 08:02 140771420                  /lib/x86_64-linux-gnu/libnss_compat-2.23.so
+7f60e67be000-7f60e67e8000 r-xp 00000000 08:02 101321636                  /home/chris/altera/16.0/quartus/linux64/jre64/lib/amd64/libjava.so
+7f60e67e8000-7f60e69e8000 ---p 0002a000 08:02 101321636                  /home/chris/altera/16.0/quartus/linux64/jre64/lib/amd64/libjava.so
+7f60e69e8000-7f60e69ea000 rw-p 0002a000 08:02 101321636                  /home/chris/altera/16.0/quartus/linux64/jre64/lib/amd64/libjava.so
+7f60e69ea000-7f60e69f7000 r-xp 00000000 08:02 101321655                  /home/chris/altera/16.0/quartus/linux64/jre64/lib/amd64/libverify.so
+7f60e69f7000-7f60e6bf7000 ---p 0000d000 08:02 101321655                  /home/chris/altera/16.0/quartus/linux64/jre64/lib/amd64/libverify.so
+7f60e6bf7000-7f60e6bf9000 rw-p 0000d000 08:02 101321655                  /home/chris/altera/16.0/quartus/linux64/jre64/lib/amd64/libverify.so
+7f60e6bf9000-7f60e6bfe000 r-xp 00000000 08:02 38542908                   /usr/lib/x86_64-linux-gnu/libXfixes.so.3.1.0
+7f60e6bfe000-7f60e6dfd000 ---p 00005000 08:02 38542908                   /usr/lib/x86_64-linux-gnu/libXfixes.so.3.1.0
+7f60e6dfd000-7f60e6dfe000 r--p 00004000 08:02 38542908                   /usr/lib/x86_64-linux-gnu/libXfixes.so.3.1.0
+7f60e6dfe000-7f60e6dff000 rw-p 00005000 08:02 38542908                   /usr/lib/x86_64-linux-gnu/libXfixes.so.3.1.0
+7f60e6dff000-7f60e6e08000 r-xp 00000000 08:02 38542926                   /usr/lib/x86_64-linux-gnu/libXrender.so.1.3.0
+7f60e6e08000-7f60e7007000 ---p 00009000 08:02 38542926                   /usr/lib/x86_64-linux-gnu/libXrender.so.1.3.0
+7f60e7007000-7f60e7008000 r--p 00008000 08:02 38542926                   /usr/lib/x86_64-linux-gnu/libXrender.so.1.3.0
+7f60e7008000-7f60e7009000 rw-p 00009000 08:02 38542926                   /usr/lib/x86_64-linux-gnu/libXrender.so.1.3.0
+7f60e7009000-7f60e7012000 r-xp 00000000 08:02 38542900                   /usr/lib/x86_64-linux-gnu/libXcursor.so.1.0.2
+7f60e7012000-7f60e7211000 ---p 00009000 08:02 38542900                   /usr/lib/x86_64-linux-gnu/libXcursor.so.1.0.2
+7f60e7211000-7f60e7212000 r--p 00008000 08:02 38542900                   /usr/lib/x86_64-linux-gnu/libXcursor.so.1.0.2
+7f60e7212000-7f60e7213000 rw-p 00009000 08:02 38542900                   /usr/lib/x86_64-linux-gnu/libXcursor.so.1.0.2
+7f60e7213000-7f60e721a000 r-xp 00000000 08:02 140771416                  /lib/x86_64-linux-gnu/librt-2.23.so
+7f60e721a000-7f60e7419000 ---p 00007000 08:02 140771416                  /lib/x86_64-linux-gnu/librt-2.23.so
+7f60e7419000-7f60e741a000 r--p 00006000 08:02 140771416                  /lib/x86_64-linux-gnu/librt-2.23.so
+7f60e741a000-7f60e741b000 rw-p 00007000 08:02 140771416                  /lib/x86_64-linux-gnu/librt-2.23.so
+7f60e741b000-7f60e78a6000 r--p 00000000 08:02 38535488                   /usr/lib/locale/locale-archive
+7f60e78a6000-7f60e78a7000 ---p 00000000 00:00 0 
+7f60e78a7000-7f60e82a7000 rw-p 00000000 00:00 0 
+7f60e82a7000-7f60e82a8000 r--s 00000000 08:02 101450263                  /home/chris/altera/16.0/quartus/common/librarian/factories/dspb_entities.jar
+7f60e82a8000-7f60e82ab000 r--s 00013000 08:02 101583877                  /home/chris/altera/16.0/quartus/dsp_builder/bin64/extlibs/velocity-tools-1.2.jar
+7f60e82ab000-7f60e82b6000 r--s 00074000 08:02 101583875                  /home/chris/altera/16.0/quartus/dsp_builder/bin64/extlibs/velocity-dep-1.4.jar
+7f60e82b6000-7f60e82bf000 r--s 00034000 08:02 101583872                  /home/chris/altera/16.0/quartus/dsp_builder/bin64/simulink_model.jar
+7f60e82bf000-7f60e82c1000 r--s 0000f000 08:02 101583873                  /home/chris/altera/16.0/quartus/dsp_builder/bin64/extlibs/JSAP-2.0a.jar
+7f60e82c1000-7f60e82d0000 r--s 00085000 08:02 101583871                  /home/chris/altera/16.0/quartus/dsp_builder/bin64/dspb.jar
+7f60e82d0000-7f60e82d1000 r--s 00000000 08:02 101450265                  /home/chris/altera/16.0/quartus/common/librarian/factories/mdl_factory.jar
+7f60e82d1000-7f60e82d3000 r--s 00003000 08:02 101450266                  /home/chris/altera/16.0/quartus/common/librarian/factories/cusp-factory.jar
+7f60e82d3000-7f60e82d6000 ---p 00000000 00:00 0 
+7f60e82d6000-7f60e83d4000 rw-p 00000000 00:00 0 
+7f60e83d4000-7f60e83d9000 r-xp 00000000 08:02 38542904                   /usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0
+7f60e83d9000-7f60e85d8000 ---p 00005000 08:02 38542904                   /usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0
+7f60e85d8000-7f60e85d9000 r--p 00004000 08:02 38542904                   /usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0
+7f60e85d9000-7f60e85da000 rw-p 00005000 08:02 38542904                   /usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0
+7f60e85da000-7f60e85dc000 r-xp 00000000 08:02 38542893                   /usr/lib/x86_64-linux-gnu/libXau.so.6.0.0
+7f60e85dc000-7f60e87dc000 ---p 00002000 08:02 38542893                   /usr/lib/x86_64-linux-gnu/libXau.so.6.0.0
+7f60e87dc000-7f60e87dd000 r--p 00002000 08:02 38542893                   /usr/lib/x86_64-linux-gnu/libXau.so.6.0.0
+7f60e87dd000-7f60e87de000 rw-p 00003000 08:02 38542893                   /usr/lib/x86_64-linux-gnu/libXau.so.6.0.0
+7f60e87de000-7f60e87ff000 r-xp 00000000 08:02 38544302                   /usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0
+7f60e87ff000-7f60e89fe000 ---p 00021000 08:02 38544302                   /usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0
+7f60e89fe000-7f60e89ff000 r--p 00020000 08:02 38544302                   /usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0
+7f60e89ff000-7f60e8a00000 rw-p 00021000 08:02 38544302                   /usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0
+7f60e8a00000-7f60e8a11000 r-xp 00000000 08:02 38542906                   /usr/lib/x86_64-linux-gnu/libXext.so.6.4.0
+7f60e8a11000-7f60e8c10000 ---p 00011000 08:02 38542906                   /usr/lib/x86_64-linux-gnu/libXext.so.6.4.0
+7f60e8c10000-7f60e8c11000 r--p 00010000 08:02 38542906                   /usr/lib/x86_64-linux-gnu/libXext.so.6.4.0
+7f60e8c11000-7f60e8c12000 rw-p 00011000 08:02 38542906                   /usr/lib/x86_64-linux-gnu/libXext.so.6.4.0
+7f60e8c12000-7f60e8d47000 r-xp 00000000 08:02 38542889                   /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+7f60e8d47000-7f60e8f47000 ---p 00135000 08:02 38542889                   /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+7f60e8f47000-7f60e8f48000 r--p 00135000 08:02 38542889                   /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+7f60e8f48000-7f60e8f4c000 rw-p 00136000 08:02 38542889                   /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+7f60e8f4c000-7f60e8fa7000 r-xp 00000000 08:02 101321657                  /home/chris/altera/16.0/quartus/linux64/jre64/lib/amd64/libsplashscreen.so
+7f60e8fa7000-7f60e91a7000 ---p 0005b000 08:02 101321657                  /home/chris/altera/16.0/quartus/linux64/jre64/lib/amd64/libsplashscreen.so
+7f60e91a7000-7f60e91a8000 rw-p 0005b000 08:02 101321657                  /home/chris/altera/16.0/quartus/linux64/jre64/lib/amd64/libsplashscreen.so
+7f60e91a8000-7f60e91ab000 rw-p 00000000 00:00 0 
+7f60e91ab000-7f60e92b3000 r-xp 00000000 08:02 140771425                  /lib/x86_64-linux-gnu/libm-2.23.so
+7f60e92b3000-7f60e94b2000 ---p 00108000 08:02 140771425                  /lib/x86_64-linux-gnu/libm-2.23.so
+7f60e94b2000-7f60e94b3000 r--p 00107000 08:02 140771425                  /lib/x86_64-linux-gnu/libm-2.23.so
+7f60e94b3000-7f60e94b4000 rw-p 00108000 08:02 140771425                  /lib/x86_64-linux-gnu/libm-2.23.so
+7f60e94b4000-7f60ea0ce000 r-xp 00000000 08:02 101321689                  /home/chris/altera/16.0/quartus/linux64/jre64/lib/amd64/server/libjvm.so
+7f60ea0ce000-7f60ea2cd000 ---p 00c1a000 08:02 101321689                  /home/chris/altera/16.0/quartus/linux64/jre64/lib/amd64/server/libjvm.so
+7f60ea2cd000-7f60ea396000 rw-p 00c19000 08:02 101321689                  /home/chris/altera/16.0/quartus/linux64/jre64/lib/amd64/server/libjvm.so
+7f60ea396000-7f60ea3d7000 rw-p 00000000 00:00 0 
+7f60ea3d7000-7f60ea597000 r-xp 00000000 08:02 140775837                  /lib/x86_64-linux-gnu/libc-2.23.so
+7f60ea597000-7f60ea797000 ---p 001c0000 08:02 140775837                  /lib/x86_64-linux-gnu/libc-2.23.so
+7f60ea797000-7f60ea79b000 r--p 001c0000 08:02 140775837                  /lib/x86_64-linux-gnu/libc-2.23.so
+7f60ea79b000-7f60ea79d000 rw-p 001c4000 08:02 140775837                  /lib/x86_64-linux-gnu/libc-2.23.so
+7f60ea79d000-7f60ea7a1000 rw-p 00000000 00:00 0 
+7f60ea7a1000-7f60ea7a4000 r-xp 00000000 08:02 140771419                  /lib/x86_64-linux-gnu/libdl-2.23.so
+7f60ea7a4000-7f60ea9a3000 ---p 00003000 08:02 140771419                  /lib/x86_64-linux-gnu/libdl-2.23.so
+7f60ea9a3000-7f60ea9a4000 r--p 00002000 08:02 140771419                  /lib/x86_64-linux-gnu/libdl-2.23.so
+7f60ea9a4000-7f60ea9a5000 rw-p 00003000 08:02 140771419                  /lib/x86_64-linux-gnu/libdl-2.23.so
+7f60ea9a5000-7f60ea9bc000 r-xp 00000000 08:02 101321688                  /home/chris/altera/16.0/quartus/linux64/jre64/lib/amd64/jli/libjli.so
+7f60ea9bc000-7f60eabbb000 ---p 00017000 08:02 101321688                  /home/chris/altera/16.0/quartus/linux64/jre64/lib/amd64/jli/libjli.so
+7f60eabbb000-7f60eabbc000 rw-p 00016000 08:02 101321688                  /home/chris/altera/16.0/quartus/linux64/jre64/lib/amd64/jli/libjli.so
+7f60eabbc000-7f60eabd4000 r-xp 00000000 08:02 140771413                  /lib/x86_64-linux-gnu/libpthread-2.23.so
+7f60eabd4000-7f60eadd3000 ---p 00018000 08:02 140771413                  /lib/x86_64-linux-gnu/libpthread-2.23.so
+7f60eadd3000-7f60eadd4000 r--p 00017000 08:02 140771413                  /lib/x86_64-linux-gnu/libpthread-2.23.so
+7f60eadd4000-7f60eadd5000 rw-p 00018000 08:02 140771413                  /lib/x86_64-linux-gnu/libpthread-2.23.so
+7f60eadd5000-7f60eadd9000 rw-p 00000000 00:00 0 
+7f60eadd9000-7f60eadff000 r-xp 00000000 08:02 140771342                  /lib/x86_64-linux-gnu/ld-2.23.so
+7f60eadff000-7f60eae00000 r--s 00014000 08:02 101325391                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/javasysmon.jar
+7f60eae00000-7f60eae01000 r--s 0000b000 08:02 101325453                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.sopcdocument.jar
+7f60eae01000-7f60eae06000 r--s 00054000 08:02 101325467                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.sopcmodel.transforms.jar
+7f60eae06000-7f60eae0c000 r--s 00031000 08:02 101325413                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/jaxb-core.jar
+7f60eae0c000-7f60eae10000 r--s 00015000 08:02 101325436                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/jaxb-api.jar
+7f60eae10000-7f60eae21000 r--s 000d0000 08:02 101325342                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/jaxb-impl.jar
+7f60eae21000-7f60eae29000 r--s 00051000 08:02 101325384                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.qsys.cmsis.jar
+7f60eae29000-7f60eae2f000 r--s 00050000 08:02 101325375                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.sopc.generator.jar
+7f60eae2f000-7f60eae36000 r--s 0007c000 08:02 101325399                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.sopcmodel.components.tclmodule.jar
+7f60eae36000-7f60eae3c000 r--s 00045000 08:02 101325346                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/hamcrest-all-1.3.jar
+7f60eae3c000-7f60eae3f000 r--s 0002a000 08:02 101325376                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.hdlwriter.jar
+7f60eae3f000-7f60eae42000 r--s 0000e000 08:02 101325440                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.minieval2.jar
+7f60eae42000-7f60eae43000 r--s 00006000 08:02 101325411                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.hdlcomponent.jar
+7f60eae43000-7f60eae46000 r--s 00036000 08:02 101325335                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/org-netbeans-swing-outline.jar
+7f60eae46000-7f60eae48000 r--s 00010000 08:02 101325397                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.sopc.qsymbol.jar
+7f60eae48000-7f60eae4a000 r--s 00000000 08:02 101325331                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.version.jar
+7f60eae4a000-7f60eae4c000 r--s 00018000 08:02 101325371                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.jdbcsqlite.jar
+7f60eae4c000-7f60eae4e000 r--s 0000e000 08:02 101325368                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.infrastructure.jar
+7f60eae4e000-7f60eae56000 r--s 0004f000 08:02 101325373                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.ui.ientity.jar
+7f60eae56000-7f60eae5c000 r--s 00048000 08:02 101325367                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/commons-lang3-3.1.jar
+7f60eae5c000-7f60eae86000 r--s 001e9000 08:02 101325380                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/guava-15.0.jar
+7f60eae86000-7f60eae87000 r--s 00005000 08:02 101325318                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.ui.quartus.jar
+7f60eae87000-7f60eae89000 r--s 00004000 08:02 101325458                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/mydoggy-res.jar
+7f60eae89000-7f60eae8b000 r--s 00007000 08:02 101325426                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/mydoggy-api.jar
+7f60eae8b000-7f60eae9b000 r--s 000a4000 08:02 101325392                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/mydoggy-plaf.jar
+7f60eae9b000-7f60eae9d000 r--s 00010000 08:02 101325410                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/miglayout15-swing.jar
+7f60eae9d000-7f60eaea7000 r--s 00052000 08:02 101325340                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.ui.jar
+7f60eaea7000-7f60eaeb5000 r--s 0007b000 08:02 101325456                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.componenteditor2.jar
+7f60eaeb5000-7f60eaeb9000 r--s 00022000 08:02 101325328                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/binding-2.0.6.jar
+7f60eaeb9000-7f60eaec0000 r--s 00094000 08:02 101325353                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/beansbinding-1.2.1.jar
+7f60eaec0000-7f60eaec3000 r--s 00011000 08:02 101325377                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/basicmodel.jar
+7f60eaec3000-7f60eaec7000 r--s 0004a000 08:02 101325400                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/appframework-1.03.jar
+7f60eaec7000-7f60eaed4000 r--s 0007c000 08:02 101325408                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/commons-collections.jar
+7f60eaed4000-7f60eaed7000 ---p 00000000 00:00 0 
+7f60eaed7000-7f60eafd9000 rw-p 00000000 00:00 0 
+7f60eafd9000-7f60eafda000 r--s 00007000 08:02 101325445                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/asm-commons-3.1.jar
+7f60eafda000-7f60eafdb000 r--s 0000a000 08:02 101325442                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/asm-3.1.jar
+7f60eafdb000-7f60eafdc000 r--s 00002000 08:02 101325444                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/TableLayout.jar
+7f60eafdc000-7f60eafde000 r--s 00009000 08:02 101325424                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/commons-pool.jar
+7f60eafde000-7f60eafe0000 r--s 00008000 08:02 101325362                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/commons-logging.jar
+7f60eafe0000-7f60eafe3000 r--s 0001f000 08:02 101325365                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/commons-beanutils.jar
+7f60eafe3000-7f60eafe6000 r--s 00018000 08:02 101325337                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/commons-digester.jar
+7f60eafe6000-7f60eafea000 r--s 00036000 08:02 101325443                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/QuickServer.jar
+7f60eafea000-7f60eafeb000 r--s 0000d000 08:02 101325354                  /home/chris/altera/16.0/quartus/sopc_builder/model/lib/Nlview.jar
+7f60eafeb000-7f60eaff3000 rw-s 00000000 08:02 90177548                   /tmp/hsperfdata_chris/28105
+7f60eaff3000-7f60eaff4000 rw-p 00000000 00:00 0 
+7f60eaff4000-7f60eaff5000 r--p 00000000 00:00 0 
+7f60eaff5000-7f60eaffc000 r--s 00000000 08:02 38801404                   /usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache
+7f60eaffc000-7f60eaffe000 rw-p 00000000 00:00 0 
+7f60eaffe000-7f60eafff000 r--p 00025000 08:02 140771342                  /lib/x86_64-linux-gnu/ld-2.23.so
+7f60eafff000-7f60eb000000 rw-p 00026000 08:02 140771342                  /lib/x86_64-linux-gnu/ld-2.23.so
+7f60eb000000-7f60eb001000 rw-p 00000000 00:00 0 
+7fffc73bf000-7fffc73e3000 rw-p 00000000 00:00 0                          [stack]
+7fffc73f3000-7fffc73f5000 r--p 00000000 00:00 0                          [vvar]
+7fffc73f5000-7fffc73f7000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
+
+VM Arguments:
+jvm_args: -Xmx1500M -XX:+UseSerialGC 
+java_command: com.altera.ipedit.QsysEditorApp /home/chris/FPGA/chris/Qsys/soc_design.qsys --project-dir=/home/chris/FPGA/chris/ --system-info=DEVICE_FAMILY=Cyclone V --system-info=DEVICE=5CEBA4F23C7 --system-info=DEVICE_SPEEDGRADE=7 --host-controller
+java_class_path (initial): /home/chris/altera/16.0/quartus/sopc_builder/model/lib/Nlview.jar:/home/chris/altera/16.0/quartus/sopc_builder/model/lib/QuickServer.jar:/home/chris/altera/16.0/quartus/sopc_builder/model/lib/TableLayout.jar:/home/chris/altera/16.0/quartus/sopc_builder/model/lib/appframework-1.03.jar:/home/chris/altera/16.0/quartus/sopc_builder/model/lib/asm-3.1.jar:/home/chris/altera/16.0/quartus/sopc_builder/model/lib/asm-commons-3.1.jar:/home/chris/altera/16.0/quartus/sopc_builder/model/lib/basicmodel.jar:/home/chris/altera/16.0/quartus/sopc_builder/model/lib/beansbinding-1.2.1.jar:/home/chris/altera/16.0/quartus/sopc_builder/model/lib/binding-2.0.6.jar:/home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.componenteditor2.jar:/home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.embeddedsw.app_lib.jar:/home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.embeddedsw.bsp.editor.jar:/home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.embeddedsw.bsp.elements.jar:/home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.embeddedsw.bsp.jar:/home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.embeddedsw.bsp.plugin.core.jar:/home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.embeddedsw.bsp.plugin.hal.jar:/home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.embeddedsw.bsp.plugin.lwhal.jar:/home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.embeddedsw.bsp.schema.jar:/home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.embeddedsw.bsp.scripting.jar:/home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.embeddedsw.commandline.jar:/home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.embeddedsw.cpexample.jar:/home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.embeddedsw.flash.jar:/home/chris/altera/16.0/quartus/sopc_builder/model/lib/com.altera.embeddedsw.launch.jar:/home/chris/altera/16.0/quartus/sopc_bu
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+PATH=/home/chris/altera/16.0/quartus/linux64:/home/chris/altera/16.0/quartus/adm:/home/chris/altera/16.0/quartus/linux64:/home/chris/bin:/home/chris/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+LD_LIBRARY_PATH=/home/chris/altera/16.0/quartus/linux64:/home/chris/altera/16.0/quartus/linux64:
+SHELL=/bin/bash
+DISPLAY=:0
+
+Signal Handlers:
+SIGSEGV: [libjvm.so+0xa2fc90], sa_mask[0]=0x7ffbfeff, sa_flags=0x10000004
+SIGBUS: [libjvm.so+0xa2fc90], sa_mask[0]=0x7ffbfeff, sa_flags=0x10000004
+SIGFPE: [libjvm.so+0x89b4b0], sa_mask[0]=0x7ffbfeff, sa_flags=0x10000004
+SIGPIPE: SIG_IGN, sa_mask[0]=0x00001000, sa_flags=0x10000000
+SIGXFSZ: [libjvm.so+0x89b4b0], sa_mask[0]=0x7ffbfeff, sa_flags=0x10000004
+SIGILL: [libjvm.so+0x89b4b0], sa_mask[0]=0x7ffbfeff, sa_flags=0x10000004
+SIGUSR1: SIG_DFL, sa_mask[0]=0x00000000, sa_flags=0x00000000
+SIGUSR2: [libjvm.so+0x89cc50], sa_mask[0]=0x00000000, sa_flags=0x10000004
+SIGHUP: [libjvm.so+0x89df00], sa_mask[0]=0x7ffbfeff, sa_flags=0x10000004
+SIGINT: [libjvm.so+0x89df00], sa_mask[0]=0x7ffbfeff, sa_flags=0x10000004
+SIGTERM: [libjvm.so+0x89df00], sa_mask[0]=0x7ffbfeff, sa_flags=0x10000004
+SIGQUIT: [libjvm.so+0x89df00], sa_mask[0]=0x7ffbfeff, sa_flags=0x10000004
+
+
+---------------  S Y S T E M  ---------------
+
+OS:DISTRIB_ID=Ubuntu
+DISTRIB_RELEASE=16.04
+DISTRIB_CODENAME=xenial
+DISTRIB_DESCRIPTION="Ubuntu 16.04.2 LTS"
+
+uname:Linux 4.8.0-58-generic #63~16.04.1-Ubuntu SMP Mon Jun 26 18:08:51 UTC 2017 x86_64
+libc:glibc 2.23 NPTL 2.23 
+rlimit: STACK 10240k, CORE 0k, NPROC 127520, NOFILE 65536, AS infinity
+load average:0.00 0.00 0.00
+
+/proc/meminfo:
+MemTotal:       32897712 kB
+MemFree:        26362788 kB
+MemAvailable:   28718076 kB
+Buffers:          329348 kB
+Cached:          2378040 kB
+SwapCached:            0 kB
+Active:          5128544 kB
+Inactive:         947832 kB
+Active(anon):    3370852 kB
+Inactive(anon):    83940 kB
+Active(file):    1757692 kB
+Inactive(file):   863892 kB
+Unevictable:          16 kB
+Mlocked:              16 kB
+SwapTotal:      33505276 kB
+SwapFree:       33505276 kB
+Dirty:               164 kB
+Writeback:             0 kB
+AnonPages:       2917908 kB
+Mapped:           783684 kB
+Shmem:             85756 kB
+Slab:             252288 kB
+SReclaimable:     197684 kB
+SUnreclaim:        54604 kB
+KernelStack:       10640 kB
+PageTables:        45704 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:    49954132 kB
+Committed_AS:    7692124 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:           0 kB
+VmallocChunk:          0 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:   1863680 kB
+ShmemHugePages:        0 kB
+ShmemPmdMapped:        0 kB
+CmaTotal:              0 kB
+CmaFree:               0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+DirectMap4k:      266420 kB
+DirectMap2M:    10170368 kB
+DirectMap1G:    23068672 kB
+
+
+CPU:total 8 (4 cores per cpu, 2 threads per core) family 6 model 60 stepping 3, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, avx, avx2, aes, clmul, erms, ht, tsc, tscinvbit
+
+/proc/cpuinfo:
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 60
+model name	: Intel(R) Core(TM) i7-4770 CPU @ 3.40GHz
+stepping	: 3
+microcode	: 0x8
+cpu MHz		: 3618.933
+cache size	: 8192 KB
+physical id	: 0
+siblings	: 8
+core id		: 0
+cpu cores	: 4
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm epb tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm xsaveopt dtherm ida arat pln pts
+bugs		:
+bogomips	: 6784.24
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 60
+model name	: Intel(R) Core(TM) i7-4770 CPU @ 3.40GHz
+stepping	: 3
+microcode	: 0x8
+cpu MHz		: 3400.000
+cache size	: 8192 KB
+physical id	: 0
+siblings	: 8
+core id		: 1
+cpu cores	: 4
+apicid		: 2
+initial apicid	: 2
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm epb tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm xsaveopt dtherm ida arat pln pts
+bugs		:
+bogomips	: 6784.24
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 2
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 60
+model name	: Intel(R) Core(TM) i7-4770 CPU @ 3.40GHz
+stepping	: 3
+microcode	: 0x8
+cpu MHz		: 3789.306
+cache size	: 8192 KB
+physical id	: 0
+siblings	: 8
+core id		: 2
+cpu cores	: 4
+apicid		: 4
+initial apicid	: 4
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm epb tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm xsaveopt dtherm ida arat pln pts
+bugs		:
+bogomips	: 6784.24
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 3
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 60
+model name	: Intel(R) Core(TM) i7-4770 CPU @ 3.40GHz
+stepping	: 3
+microcode	: 0x8
+cpu MHz		: 3442.749
+cache size	: 8192 KB
+physical id	: 0
+siblings	: 8
+core id		: 3
+cpu cores	: 4
+apicid		: 6
+initial apicid	: 6
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm epb tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm xsaveopt dtherm ida arat pln pts
+bugs		:
+bogomips	: 6784.24
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 4
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 60
+model name	: Intel(R) Core(TM) i7-4770 CPU @ 3.40GHz
+stepping	: 3
+microcode	: 0x8
+cpu MHz		: 3409.545
+cache size	: 8192 KB
+physical id	: 0
+siblings	: 8
+core id		: 0
+cpu cores	: 4
+apicid		: 1
+initial apicid	: 1
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm epb tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm xsaveopt dtherm ida arat pln pts
+bugs		:
+bogomips	: 6784.24
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 5
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 60
+model name	: Intel(R) Core(TM) i7-4770 CPU @ 3.40GHz
+stepping	: 3
+microcode	: 0x8
+cpu MHz		: 3575.146
+cache size	: 8192 KB
+physical id	: 0
+siblings	: 8
+core id		: 1
+cpu cores	: 4
+apicid		: 3
+initial apicid	: 3
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm epb tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm xsaveopt dtherm ida arat pln pts
+bugs		:
+bogomips	: 6784.24
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 6
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 60
+model name	: Intel(R) Core(TM) i7-4770 CPU @ 3.40GHz
+stepping	: 3
+microcode	: 0x8
+cpu MHz		: 3400.415
+cache size	: 8192 KB
+physical id	: 0
+siblings	: 8
+core id		: 2
+cpu cores	: 4
+apicid		: 5
+initial apicid	: 5
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm epb tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm xsaveopt dtherm ida arat pln pts
+bugs		:
+bogomips	: 6784.24
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 7
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 60
+model name	: Intel(R) Core(TM) i7-4770 CPU @ 3.40GHz
+stepping	: 3
+microcode	: 0x8
+cpu MHz		: 3584.069
+cache size	: 8192 KB
+physical id	: 0
+siblings	: 8
+core id		: 3
+cpu cores	: 4
+apicid		: 7
+initial apicid	: 7
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm epb tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm xsaveopt dtherm ida arat pln pts
+bugs		:
+bogomips	: 6784.24
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+
+
+Memory: 4k page, physical 32897712k(26362788k free), swap 33505276k(33505276k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (25.5-b02) for linux-amd64 JRE (1.8.0_05-b13), built on Mar 18 2014 00:29:27 by "java_re" with gcc 4.3.0 20080428 (Red Hat 4.3.0-8)
+
+time: Mon Jul 17 23:09:51 2017
+elapsed time: 25288 seconds
+

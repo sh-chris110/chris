@@ -1,0 +1,131 @@
+/*
+ * "Hello World" example.
+ *
+ * This example prints 'Hello from Nios II' to the STDOUT stream. It runs on
+ * the Nios II 'standard', 'full_featured', 'fast', and 'low_cost' example
+ * designs. It runs with or without the MicroC/OS-II RTOS and requires a STDOUT
+ * device in your system's hardware.
+ * The memory footprint of this hosted application is ~69 kbytes by default
+ * using the standard reference design.
+ *
+ * For a reduced footprint version of this template, and an explanation of how
+ * to reduce the memory footprint for a given application, see the
+ * "small_hello_world" template.
+ *
+ */
+
+#include <stdio.h>
+#include "altera_up_avalon_rs232.h"
+#include <unistd.h>
+#include "alt_types.h"
+
+//#include "altera_avalon_pio_regs.h"
+#include <io.h>
+#include "system.h"
+
+#if UART
+void print_cmdline(alt_up_rs232_dev *rs232){
+	while (1) {
+		if (alt_up_rs232_get_available_space_in_write_FIFO(rs232) > 5) {
+			alt_up_rs232_write_data(rs232, '\n');
+			alt_up_rs232_write_data(rs232, 'c');
+			alt_up_rs232_write_data(rs232, 'm');
+			alt_up_rs232_write_data(rs232, 'd');
+			alt_up_rs232_write_data(rs232, '>');
+
+			return;
+		}
+
+		usleep(5);
+	}
+}
+
+unsigned int read_data(alt_up_rs232_dev *rs232) {
+	alt_u8 data = '0';
+	alt_u8 parity;
+	unsigned int number = 0;
+	unsigned int ret = 0;
+	unsigned int all_number = 0;
+	unsigned int memory_base = SDRAM_BASE;
+	while (1) {
+		number = alt_up_rs232_get_used_space_in_read_FIFO(rs232);
+		for(int i = 0; i < number; i++) {
+			alt_up_rs232_read_data(rs232, &data, &parity);
+			alt_up_rs232_write_data(rs232, data);
+			IOWR_8DIRECT(memory_base, all_number, data);
+			all_number++;
+			printf("%c", data);
+			ret |= alt_up_rs232_check_parity(parity);
+			if (data == '\n' || data == '\r') {
+				return all_number;
+			}
+		}
+	}
+
+	return ret;
+}
+#endif
+
+unsigned int caculate_convolution(){
+	int ret = 0;
+	return ret;
+}
+
+int main()
+{
+  printf ("begin write\n");
+  printf("Hello from Nios II1111!\n");
+  printf ("begin write\n");
+  printf ("begin write\n");
+  printf ("begin write\n");
+
+  // Test DMA
+
+ //  unsigned int general_dma = (unsigned int) 0x4041800;
+
+   unsigned int memory_base = (unsigned int)0x2000000;
+   int n_width = 800;
+   int n_heigth = 600;
+   int n_size = n_width * n_heigth;
+   printf ("begin write\n");
+   for (int i=0; i < n_size; i++) {
+ 	  IOWR_8DIRECT(memory_base, i, (char)i%255);
+   }
+
+   for (int i=0; i < n_size; i++) {
+ 	  printf ("%c", IORD_8DIRECT(memory_base, i));
+   }
+   printf ("\nend read\n");
+   while(1) {
+	   usleep(2);
+	   //printf ("running\n");
+   }
+
+#if UART
+  alt_up_rs232_dev rs232 = {0};
+
+  rs232.base = UART_COM_BASE;
+
+  unsigned int ret = 0;
+  unsigned int memory_base = SDRAM_BASE;
+//  unsigned int offset = 0x0;
+
+  while(1) {
+
+	  print_cmdline(&rs232);
+	  ret = read_data(&rs232);
+	  printf ("\n");
+	  for (int c = 0; c < ret; c++) {
+		  alt_u8 mem_test = IORD_8DIRECT(memory_base, c);
+		  printf ("%c", mem_test);
+	  }
+
+	  printf ("\n");
+
+  }
+#endif
+
+
+
+  return 0;
+}

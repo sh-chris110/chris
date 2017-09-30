@@ -1,0 +1,17 @@
+	component system is
+		port (
+			dram_addr    : out   std_logic_vector(12 downto 0);                    -- addr
+			dram_ba      : out   std_logic_vector(1 downto 0);                     -- ba
+			dram_cas_n   : out   std_logic;                                        -- cas_n
+			dram_cke     : out   std_logic;                                        -- cke
+			dram_cs_n    : out   std_logic;                                        -- cs_n
+			dram_dq      : inout std_logic_vector(15 downto 0) := (others => 'X'); -- dq
+			dram_dqm     : out   std_logic_vector(1 downto 0);                     -- dqm
+			dram_ras_n   : out   std_logic;                                        -- ras_n
+			dram_we_n    : out   std_logic;                                        -- we_n
+			dram_clk_clk : out   std_logic;                                        -- clk
+			fpga_reset_n : in    std_logic                     := 'X';             -- reset_n
+			ref_clk      : in    std_logic                     := 'X'              -- clk
+		);
+	end component system;
+

@@ -1,0 +1,87 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate /home/chris/FPGA/HPS/Qsys/hps_design.qsys --block-symbol-file --output-directory=/home/chris/FPGA/HPS/Qsys/hps_design --family="Cyclone V" --part=5CSEMA5F31C6
+Progress: Loading Qsys/hps_design.qsys
+Progress: Reading input file
+Progress: Adding SMP_HPS [altera_hps 15.0]
+Progress: Parameterizing module SMP_HPS
+Progress: Adding clk_50 [clock_source 15.0]
+Progress: Parameterizing module clk_50
+Progress: Adding pio_0 [altera_avalon_pio 15.0]
+Progress: Parameterizing module pio_0
+Progress: Adding pll_0 [altera_pll 15.0]
+Progress: Parameterizing module pll_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: hps_design.SMP_HPS: HPS Main PLL counter settings: n = 0  m = 73
+Info: hps_design.SMP_HPS: HPS peripherial PLL counter settings: n = 0  m = 39
+Warning: hps_design.SMP_HPS: "Configuration/HPS-to-FPGA user 0 clock frequency" (desired_cfg_clk_mhz) requested 100.0 MHz, but only achieved 97.368421 MHz
+Warning: hps_design.SMP_HPS: 1 or more output clock frequencies cannot be achieved precisely, consider revising desired output clock frequencies.
+Warning: hps_design.SMP_HPS: set_interface_assignment: Interface "hps_io" does not exist
+Info: hps_design.pll_0: The legal reference clock frequency is 5.0 MHz..800.0 MHz
+Warning: hps_design.pll_0: Able to implement PLL - Actual settings differ from Requested settings
+Info: ip-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate /home/chris/FPGA/HPS/Qsys/hps_design.qsys --synthesis=VERILOG --output-directory=/home/chris/FPGA/HPS/Qsys/hps_design/synthesis --family="Cyclone V" --part=5CSEMA5F31C6
+Progress: Loading Qsys/hps_design.qsys
+Progress: Reading input file
+Progress: Adding SMP_HPS [altera_hps 15.0]
+Progress: Parameterizing module SMP_HPS
+Progress: Adding clk_50 [clock_source 15.0]
+Progress: Parameterizing module clk_50
+Progress: Adding pio_0 [altera_avalon_pio 15.0]
+Progress: Parameterizing module pio_0
+Progress: Adding pll_0 [altera_pll 15.0]
+Progress: Parameterizing module pll_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: hps_design.SMP_HPS: HPS Main PLL counter settings: n = 0  m = 73
+Info: hps_design.SMP_HPS: HPS peripherial PLL counter settings: n = 0  m = 39
+Warning: hps_design.SMP_HPS: "Configuration/HPS-to-FPGA user 0 clock frequency" (desired_cfg_clk_mhz) requested 100.0 MHz, but only achieved 97.368421 MHz
+Warning: hps_design.SMP_HPS: 1 or more output clock frequencies cannot be achieved precisely, consider revising desired output clock frequencies.
+Warning: hps_design.SMP_HPS: set_interface_assignment: Interface "hps_io" does not exist
+Info: hps_design.pll_0: The legal reference clock frequency is 5.0 MHz..800.0 MHz
+Warning: hps_design.pll_0: Able to implement PLL - Actual settings differ from Requested settings
+Info: hps_design: Generating hps_design "hps_design" for QUARTUS_SYNTH
+Info: Interconnect is inserted between master SMP_HPS.h2f_lw_axi_master and slave pio_0.s1 because the master is of type axi and the slave is of type avalon.
+Info: SMP_HPS: "Running  for module: SMP_HPS"
+Info: SMP_HPS: HPS Main PLL counter settings: n = 0  m = 73
+Info: SMP_HPS: HPS peripherial PLL counter settings: n = 0  m = 39
+Warning: SMP_HPS: "Configuration/HPS-to-FPGA user 0 clock frequency" (desired_cfg_clk_mhz) requested 100.0 MHz, but only achieved 97.368421 MHz
+Warning: SMP_HPS: 1 or more output clock frequencies cannot be achieved precisely, consider revising desired output clock frequencies.
+Warning: SMP_HPS: set_interface_assignment: Interface "hps_io" does not exist
+Info: SMP_HPS: "hps_design" instantiated altera_hps "SMP_HPS"
+Info: pio_0: Starting RTL generation for module 'hps_design_pio_0'
+Info: pio_0:   Generation command is [exec /home/chris/altera/15.0/quartus/linux64/perl/bin/perl -I /home/chris/altera/15.0/quartus/linux64/perl/lib -I /home/chris/altera/15.0/quartus/sopc_builder/bin/europa -I /home/chris/altera/15.0/quartus/sopc_builder/bin/perl_lib -I /home/chris/altera/15.0/quartus/sopc_builder/bin -I /home/chris/altera/15.0/quartus/../ip/altera/sopc_builder_ip/common -I /home/chris/altera/15.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- /home/chris/altera/15.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=hps_design_pio_0 --dir=/tmp/alt7378_7068212705745567408.dir/0068_pio_0_gen/ --quartus_dir=/home/chris/altera/15.0/quartus --verilog --config=/tmp/alt7378_7068212705745567408.dir/0068_pio_0_gen//hps_design_pio_0_component_configuration.pl  --do_build_sim=0  ]
+Info: pio_0: Done RTL generation for module 'hps_design_pio_0'
+Info: pio_0: "hps_design" instantiated altera_avalon_pio "pio_0"
+Info: pll_0: "hps_design" instantiated altera_pll "pll_0"
+Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: mm_interconnect_0: "hps_design" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: rst_controller: "hps_design" instantiated altera_reset_controller "rst_controller"
+Info: fpga_interfaces: "SMP_HPS" instantiated altera_interface_generator "fpga_interfaces"
+Info: hps_io: "SMP_HPS" instantiated altera_hps_io "hps_io"
+Info: pio_0_s1_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "pio_0_s1_translator"
+Info: SMP_HPS_h2f_lw_axi_master_agent: "mm_interconnect_0" instantiated altera_merlin_axi_master_ni "SMP_HPS_h2f_lw_axi_master_agent"
+Info: pio_0_s1_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "pio_0_s1_agent"
+Info: pio_0_s1_agent_rsp_fifo: "mm_interconnect_0" instantiated altera_avalon_sc_fifo "pio_0_s1_agent_rsp_fifo"
+Info: router: "mm_interconnect_0" instantiated altera_merlin_router "router"
+Info: router_002: "mm_interconnect_0" instantiated altera_merlin_router "router_002"
+Info: pio_0_s1_burst_adapter: "mm_interconnect_0" instantiated altera_merlin_burst_adapter "pio_0_s1_burst_adapter"
+Info: Reusing file /home/chris/FPGA/HPS/Qsys/hps_design/synthesis/submodules/altera_merlin_address_alignment.sv
+Info: cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: rsp_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file /home/chris/FPGA/HPS/Qsys/hps_design/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: avalon_st_adapter: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter"
+Info: border: "hps_io" instantiated altera_interface_generator "border"
+Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
+Info: hps_design: Done "hps_design" with 22 modules, 78 files
+Info: ip-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

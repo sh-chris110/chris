@@ -1,0 +1,9 @@
+16:13:36 **** Incremental Build of configuration Nios II for project ucos ****
+make all 
+Info: Building ../ucos_bsp/
+make --no-print-directory -C ../ucos_bsp/
+[BSP build complete]
+[ucos build complete]
+
+16:13:36 Build Finished (took 111ms)
+

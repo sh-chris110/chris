@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+ <file
+   path="simulation/submodules/hps_design_pll_0.vo"
+   type="VERILOG"
+   library="pll_0" />
+ <file
+   path="simulation/submodules/hps_design_pio_0.v"
+   type="VERILOG"
+   library="pio_0" />
+ <file
+   path="simulation/submodules/hps_design_hps_0.v"
+   type="VERILOG"
+   library="hps_0" />
+ <file path="simulation/hps_design.v" type="VERILOG" />
+ <topLevel name="hps_design" />
+ <deviceFamily name="cyclonev" />
+ <modelMap controllerPath="hps_design.hps_0" modelPath="hps_design.hps_0" />
+ <modelMap
+   controllerPath="hps_design.hps_0.fpga_interfaces"
+   modelPath="hps_design.hps_0.fpga_interfaces" />
+ <modelMap
+   controllerPath="hps_design.hps_0.hps_io"
+   modelPath="hps_design.hps_0.hps_io" />
+</simPackage>

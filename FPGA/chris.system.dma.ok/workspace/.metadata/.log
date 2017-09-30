@@ -1,0 +1,2503 @@
+!SESSION 2017-07-13 16:05:09.248 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization /home/chris/altera/16.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization /home/chris/altera/16.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.ui 2 0 2017-07-13 16:05:28.551
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2017-07-13 16:05:28.551
+!MESSAGE Commands should really have a category: plug-in='org.eclipse.linuxtools.systemtap.ui.graphing', id='org.eclipse.linuxtools.systemtap.ui.graphing.commands.SaveGraphImage', categoryId='org.eclipse.linuxtools.systemtap.ui.graphing.category.file'
+
+!ENTRY org.eclipse.ui 2 0 2017-07-13 16:05:28.817
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2017-07-13 16:05:28.817
+!MESSAGE Commands should really have a category: plug-in='org.eclipse.linuxtools.systemtap.ui.graphing', id='org.eclipse.linuxtools.systemtap.ui.graphing.commands.SaveGraphImage', categoryId='org.eclipse.linuxtools.systemtap.ui.graphing.category.file'
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-07-13 16:06:16.691
+!MESSAGE Indexed 'sw_design_bsp' (82 sources, 131 headers) in 1.78 sec: 3,923 declarations; 6,850 references; 78 unresolved inclusions; 6 syntax errors; 158 unresolved names (1.45%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-07-13 16:06:17.609
+!MESSAGE Indexed 'sw_design' (1 sources, 21 headers) in 0.07 sec: 983 declarations; 1,600 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-13 16:08:04.388
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-13 16:08:05.922
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+!SESSION 2017-07-13 16:18:41.179 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization /home/chris/altera/16.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization /home/chris/altera/16.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.ui 2 0 2017-07-13 16:18:44.760
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2017-07-13 16:18:44.760
+!MESSAGE Commands should really have a category: plug-in='org.eclipse.linuxtools.systemtap.ui.graphing', id='org.eclipse.linuxtools.systemtap.ui.graphing.commands.SaveGraphImage', categoryId='org.eclipse.linuxtools.systemtap.ui.graphing.category.file'
+
+!ENTRY org.eclipse.ui 2 0 2017-07-13 16:18:45.028
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2017-07-13 16:18:45.028
+!MESSAGE Commands should really have a category: plug-in='org.eclipse.linuxtools.systemtap.ui.graphing', id='org.eclipse.linuxtools.systemtap.ui.graphing.commands.SaveGraphImage', categoryId='org.eclipse.linuxtools.systemtap.ui.graphing.category.file'
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-13 16:20:15.150
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x11020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-13 16:20:16.687
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x11020 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+!SESSION 2017-07-13 16:24:24.372 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization /home/chris/altera/16.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization /home/chris/altera/16.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.ui 2 0 2017-07-13 16:24:27.079
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2017-07-13 16:24:27.079
+!MESSAGE Commands should really have a category: plug-in='org.eclipse.linuxtools.systemtap.ui.graphing', id='org.eclipse.linuxtools.systemtap.ui.graphing.commands.SaveGraphImage', categoryId='org.eclipse.linuxtools.systemtap.ui.graphing.category.file'
+
+!ENTRY org.eclipse.ui 2 0 2017-07-13 16:24:27.299
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2017-07-13 16:24:27.299
+!MESSAGE Commands should really have a category: plug-in='org.eclipse.linuxtools.systemtap.ui.graphing', id='org.eclipse.linuxtools.systemtap.ui.graphing.commands.SaveGraphImage', categoryId='org.eclipse.linuxtools.systemtap.ui.graphing.category.file'
+
+!ENTRY org.eclipse.core.jobs 4 2 2017-07-13 16:26:13.231
+!MESSAGE An internal error occurred during: "Launching New_configuration".
+!STACK 0
+java.lang.NullPointerException
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.setConnectionChoice(SystemConsoleConnectionModel.java:1294)
+	at com.altera.sbtgui.launch.ConfigurationUtils.syncModelToLaunchConfiguration(ConfigurationUtils.java:207)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:100)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-13 16:27:03.482
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x11020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-13 16:27:05.025
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x11020 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+!SESSION 2017-07-13 16:35:57.109 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization /home/chris/altera/16.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization /home/chris/altera/16.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.ui 2 0 2017-07-13 16:35:59.615
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2017-07-13 16:35:59.615
+!MESSAGE Commands should really have a category: plug-in='org.eclipse.linuxtools.systemtap.ui.graphing', id='org.eclipse.linuxtools.systemtap.ui.graphing.commands.SaveGraphImage', categoryId='org.eclipse.linuxtools.systemtap.ui.graphing.category.file'
+
+!ENTRY org.eclipse.ui 2 0 2017-07-13 16:35:59.847
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2017-07-13 16:35:59.847
+!MESSAGE Commands should really have a category: plug-in='org.eclipse.linuxtools.systemtap.ui.graphing', id='org.eclipse.linuxtools.systemtap.ui.graphing.commands.SaveGraphImage', categoryId='org.eclipse.linuxtools.systemtap.ui.graphing.category.file'
+
+!ENTRY org.eclipse.core.jobs 4 2 2017-07-13 16:37:22.325
+!MESSAGE An internal error occurred during: "Launching New_configuration".
+!STACK 0
+java.lang.NullPointerException
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.setConnectionChoice(SystemConsoleConnectionModel.java:1294)
+	at com.altera.sbtgui.launch.ConfigurationUtils.syncModelToLaunchConfiguration(ConfigurationUtils.java:207)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:100)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-13 16:37:30.540
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x11020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-13 16:37:32.069
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x11020 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-13 16:52:01.216
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x11020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-13 16:52:02.753
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x11020 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY org.eclipse.jface 2 0 2017-07-13 16:53:41.610
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-07-13 16:53:41.610
+!MESSAGE A conflict occurred for F4:
+Binding(F4,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.type.hierarchy,Open Type Hierarchy,
+		Open a type hierarchy on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@10bf4f1c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(F4,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.type.hierarchy,Open Type Hierarchy,
+		Open a type hierarchy on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@10bf4f1c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-07-13 16:53:41.610
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.opentype,Open Element,
+		Open an element in an Editor,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@c2de6ec,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.opentype,Open Element,
+		Open an element in an Editor,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@c2de6ec,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-07-13 16:53:41.610
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5fbf6d4a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5fbf6d4a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-07-13 16:53:41.610
+!MESSAGE A conflict occurred for ALT+CTRL+I:
+Binding(ALT+CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.include.browser,Open Include Browser,
+		Open an include browser on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@39ce0aba,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.include.browser,Open Include Browser,
+		Open an include browser on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@39ce0aba,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-07-13 16:53:41.610
+!MESSAGE A conflict occurred for CTRL+SHIFT+G:
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.findrefs,References,
+		Search for references to the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@53e36530,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.findrefs,References,
+		Search for references to the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@53e36530,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-07-13 16:53:41.610
+!MESSAGE A conflict occurred for CTRL+G:
+Binding(CTRL+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.finddecl,Declaration,
+		Search for declarations of the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@309ae326,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.finddecl,Declaration,
+		Search for declarations of the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@309ae326,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-07-13 16:53:41.610
+!MESSAGE A conflict occurred for ALT+CTRL+H:
+Binding(ALT+CTRL+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.call.hierarchy,Open Call Hierarchy,
+		Open the call hierarchy for the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@146b1d42,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+CTRL+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.call.hierarchy,Open Call Hierarchy,
+		Open the call hierarchy for the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@146b1d42,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-07-13 16:53:41.610
+!MESSAGE A conflict occurred for CTRL+SHIFT+H:
+Binding(CTRL+SHIFT+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.open.type.in.hierarchy,Open Type in Hierarchy,
+		Open a type in the type hierarchy view,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5db94eaf,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+SHIFT+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.open.type.in.hierarchy,Open Type in Hierarchy,
+		Open a type in the type hierarchy view,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5db94eaf,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-07-13 16:53:41.610
+!MESSAGE A conflict occurred for F3:
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.opendecl,Open Declaration,
+		Open an editor on the selected element's declaration(s),
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@15bb7acd,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.opendecl,Open Declaration,
+		Open an editor on the selected element's declaration(s),
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@15bb7acd,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-13 16:56:50.377
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x11020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-13 16:56:51.744
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x11020 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-13 16:57:13.890
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x11020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-13 16:57:15.255
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x11020 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-13 16:57:50.123
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x11020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-13 16:57:51.489
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x11020 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-13 17:00:04.363
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x11020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-13 17:00:05.725
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x11020 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+!SESSION 2017-07-13 17:54:08.510 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization /home/chris/altera/16.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization /home/chris/altera/16.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.ui 2 0 2017-07-13 17:54:11.298
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2017-07-13 17:54:11.298
+!MESSAGE Commands should really have a category: plug-in='org.eclipse.linuxtools.systemtap.ui.graphing', id='org.eclipse.linuxtools.systemtap.ui.graphing.commands.SaveGraphImage', categoryId='org.eclipse.linuxtools.systemtap.ui.graphing.category.file'
+
+!ENTRY org.eclipse.ui 2 0 2017-07-13 17:54:11.510
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2017-07-13 17:54:11.510
+!MESSAGE Commands should really have a category: plug-in='org.eclipse.linuxtools.systemtap.ui.graphing', id='org.eclipse.linuxtools.systemtap.ui.graphing.commands.SaveGraphImage', categoryId='org.eclipse.linuxtools.systemtap.ui.graphing.category.file'
+!SESSION 2017-07-14 08:32:20.108 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization /home/chris/altera/16.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization /home/chris/altera/16.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.ui 2 0 2017-07-14 08:32:31.596
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2017-07-14 08:32:31.596
+!MESSAGE Commands should really have a category: plug-in='org.eclipse.linuxtools.systemtap.ui.graphing', id='org.eclipse.linuxtools.systemtap.ui.graphing.commands.SaveGraphImage', categoryId='org.eclipse.linuxtools.systemtap.ui.graphing.category.file'
+
+!ENTRY org.eclipse.ui 2 0 2017-07-14 08:32:31.810
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2017-07-14 08:32:31.810
+!MESSAGE Commands should really have a category: plug-in='org.eclipse.linuxtools.systemtap.ui.graphing', id='org.eclipse.linuxtools.systemtap.ui.graphing.commands.SaveGraphImage', categoryId='org.eclipse.linuxtools.systemtap.ui.graphing.category.file'
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-14 09:12:02.809
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x11028]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-14 09:12:04.341
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x11028 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+!SESSION 2017-07-14 10:49:15.074 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization /home/chris/altera/16.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization /home/chris/altera/16.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.ui 2 0 2017-07-14 10:49:18.804
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2017-07-14 10:49:18.804
+!MESSAGE Commands should really have a category: plug-in='org.eclipse.linuxtools.systemtap.ui.graphing', id='org.eclipse.linuxtools.systemtap.ui.graphing.commands.SaveGraphImage', categoryId='org.eclipse.linuxtools.systemtap.ui.graphing.category.file'
+
+!ENTRY org.eclipse.ui 2 0 2017-07-14 10:49:19.011
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2017-07-14 10:49:19.011
+!MESSAGE Commands should really have a category: plug-in='org.eclipse.linuxtools.systemtap.ui.graphing', id='org.eclipse.linuxtools.systemtap.ui.graphing.commands.SaveGraphImage', categoryId='org.eclipse.linuxtools.systemtap.ui.graphing.category.file'
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-14 10:49:56.716
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x11028]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-14 10:49:58.252
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x11028 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-14 10:56:08.366
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x11028]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-14 10:56:09.730
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x11028 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-14 11:26:36.395
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x11028]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-14 11:26:37.933
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x11028 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-14 12:49:15.597
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x11028]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-14 12:49:17.137
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x11028 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+!SESSION 2017-07-14 13:02:40.864 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization /home/chris/altera/16.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization /home/chris/altera/16.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-07-14 13:02:45.054
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.ui 2 0 2017-07-14 13:02:45.804
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2017-07-14 13:02:45.804
+!MESSAGE Commands should really have a category: plug-in='org.eclipse.linuxtools.systemtap.ui.graphing', id='org.eclipse.linuxtools.systemtap.ui.graphing.commands.SaveGraphImage', categoryId='org.eclipse.linuxtools.systemtap.ui.graphing.category.file'
+
+!ENTRY org.eclipse.ui 2 0 2017-07-14 13:02:46.394
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2017-07-14 13:02:46.394
+!MESSAGE Commands should really have a category: plug-in='org.eclipse.linuxtools.systemtap.ui.graphing', id='org.eclipse.linuxtools.systemtap.ui.graphing.commands.SaveGraphImage', categoryId='org.eclipse.linuxtools.systemtap.ui.graphing.category.file'
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-14 13:06:39.246
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x21020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-14 13:06:40.788
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x21020 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-07-14 13:06:42.494
+!MESSAGE Failed Executing: [nios2-download, '--cable=', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x21020, /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-07-14 13:06:42.495
+!MESSAGE Downloading ELF Process failed
+!SESSION 2017-07-14 13:45:11.481 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization /home/chris/altera/16.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization /home/chris/altera/16.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.ui 2 0 2017-07-14 13:45:14.323
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2017-07-14 13:45:14.323
+!MESSAGE Commands should really have a category: plug-in='org.eclipse.linuxtools.systemtap.ui.graphing', id='org.eclipse.linuxtools.systemtap.ui.graphing.commands.SaveGraphImage', categoryId='org.eclipse.linuxtools.systemtap.ui.graphing.category.file'
+
+!ENTRY org.eclipse.ui 2 0 2017-07-14 13:45:14.551
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2017-07-14 13:45:14.551
+!MESSAGE Commands should really have a category: plug-in='org.eclipse.linuxtools.systemtap.ui.graphing', id='org.eclipse.linuxtools.systemtap.ui.graphing.commands.SaveGraphImage', categoryId='org.eclipse.linuxtools.systemtap.ui.graphing.category.file'
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-14 13:51:06.968
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x21020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-14 13:51:08.497
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x21020 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-14 13:53:08.488
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x21020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-14 13:53:10.054
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x21020 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-14 13:54:01.676
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x21020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-14 13:54:03.241
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x21020 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-14 13:54:58.832
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x21020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-14 13:55:00.215
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x21020 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-14 14:25:01.836
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x21020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-14 14:25:03.225
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x21020 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-14 14:26:36.575
+!MESSAGE Terminated Launch with connection: 10
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-14 14:26:36.733
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x21020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-14 14:26:38.098
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x21020 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-14 14:28:01.503
+!MESSAGE Terminated Launch with connection: 10
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-14 14:28:01.655
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x21020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-14 14:28:03.021
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x21020 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-14 14:31:19.869
+!MESSAGE Terminated Launch with connection: 10
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-14 14:31:20.023
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x21020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-14 14:31:21.394
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x21020 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-14 14:31:56.512
+!MESSAGE Terminated Launch with connection: 10
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-14 14:31:56.664
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x21020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-14 14:31:58.033
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x21020 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-14 14:36:13.783
+!MESSAGE Terminated Launch with connection: 10
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-14 14:36:13.934
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x21020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-14 14:36:15.301
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x21020 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-14 14:37:30.427
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x21020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-14 14:37:31.802
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x21020 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-14 14:38:37.173
+!MESSAGE Terminated Launch with connection: 10
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-14 14:38:37.327
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x21020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-14 14:38:38.699
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x21020 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+!SESSION 2017-07-14 14:40:29.090 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization /home/chris/altera/16.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization /home/chris/altera/16.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.ui 2 0 2017-07-14 14:40:32.186
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2017-07-14 14:40:32.186
+!MESSAGE Commands should really have a category: plug-in='org.eclipse.linuxtools.systemtap.ui.graphing', id='org.eclipse.linuxtools.systemtap.ui.graphing.commands.SaveGraphImage', categoryId='org.eclipse.linuxtools.systemtap.ui.graphing.category.file'
+
+!ENTRY org.eclipse.ui 2 0 2017-07-14 14:40:32.391
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2017-07-14 14:40:32.391
+!MESSAGE Commands should really have a category: plug-in='org.eclipse.linuxtools.systemtap.ui.graphing', id='org.eclipse.linuxtools.systemtap.ui.graphing.commands.SaveGraphImage', categoryId='org.eclipse.linuxtools.systemtap.ui.graphing.category.file'
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-14 14:41:12.149
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x21020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-14 14:41:13.680
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x21020 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+!SESSION 2017-07-14 15:52:36.991 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization /home/chris/altera/16.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization /home/chris/altera/16.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.ui 2 0 2017-07-14 15:52:40.866
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2017-07-14 15:52:40.866
+!MESSAGE Commands should really have a category: plug-in='org.eclipse.linuxtools.systemtap.ui.graphing', id='org.eclipse.linuxtools.systemtap.ui.graphing.commands.SaveGraphImage', categoryId='org.eclipse.linuxtools.systemtap.ui.graphing.category.file'
+
+!ENTRY org.eclipse.ui 2 0 2017-07-14 15:52:41.123
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2017-07-14 15:52:41.123
+!MESSAGE Commands should really have a category: plug-in='org.eclipse.linuxtools.systemtap.ui.graphing', id='org.eclipse.linuxtools.systemtap.ui.graphing.commands.SaveGraphImage', categoryId='org.eclipse.linuxtools.systemtap.ui.graphing.category.file'
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-14 15:54:22.058
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x21020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-14 15:54:23.600
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x21020 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-14 15:55:10.894
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x21020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-14 15:55:12.259
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x21020 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-14 15:56:38.905
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x21020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-14 15:56:40.269
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x21020 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+!SESSION 2017-07-14 16:25:37.302 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization /home/chris/altera/16.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization /home/chris/altera/16.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-07-14 16:25:40.995
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.ui 2 0 2017-07-14 16:25:41.808
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2017-07-14 16:25:41.808
+!MESSAGE Commands should really have a category: plug-in='org.eclipse.linuxtools.systemtap.ui.graphing', id='org.eclipse.linuxtools.systemtap.ui.graphing.commands.SaveGraphImage', categoryId='org.eclipse.linuxtools.systemtap.ui.graphing.category.file'
+
+!ENTRY org.eclipse.ui 2 0 2017-07-14 16:25:42.482
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2017-07-14 16:25:42.482
+!MESSAGE Commands should really have a category: plug-in='org.eclipse.linuxtools.systemtap.ui.graphing', id='org.eclipse.linuxtools.systemtap.ui.graphing.commands.SaveGraphImage', categoryId='org.eclipse.linuxtools.systemtap.ui.graphing.category.file'
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-14 16:35:31.313
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x21020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-14 16:35:32.853
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x21020 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY org.eclipse.jface 2 0 2017-07-14 16:35:57.038
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-07-14 16:35:57.038
+!MESSAGE A conflict occurred for F4:
+Binding(F4,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.type.hierarchy,Open Type Hierarchy,
+		Open a type hierarchy on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2a68932b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(F4,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.type.hierarchy,Open Type Hierarchy,
+		Open a type hierarchy on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2a68932b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-07-14 16:35:57.038
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@b7526a9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@b7526a9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-07-14 16:35:57.038
+!MESSAGE A conflict occurred for F3:
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.opendecl,Open Declaration,
+		Open an editor on the selected element's declaration(s),
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@18f37d6e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.opendecl,Open Declaration,
+		Open an editor on the selected element's declaration(s),
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@18f37d6e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-07-14 16:35:57.038
+!MESSAGE A conflict occurred for ALT+CTRL+I:
+Binding(ALT+CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.include.browser,Open Include Browser,
+		Open an include browser on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3d1b91d1,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.include.browser,Open Include Browser,
+		Open an include browser on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3d1b91d1,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-07-14 16:35:57.038
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.opentype,Open Element,
+		Open an element in an Editor,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5304ac92,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.opentype,Open Element,
+		Open an element in an Editor,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5304ac92,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-07-14 16:35:57.038
+!MESSAGE A conflict occurred for CTRL+SHIFT+G:
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.findrefs,References,
+		Search for references to the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@71669835,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.findrefs,References,
+		Search for references to the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@71669835,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-07-14 16:35:57.038
+!MESSAGE A conflict occurred for CTRL+G:
+Binding(CTRL+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.finddecl,Declaration,
+		Search for declarations of the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@727d937a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.finddecl,Declaration,
+		Search for declarations of the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@727d937a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-07-14 16:35:57.038
+!MESSAGE A conflict occurred for ALT+CTRL+H:
+Binding(ALT+CTRL+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.call.hierarchy,Open Call Hierarchy,
+		Open the call hierarchy for the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@130901fd,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+CTRL+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.call.hierarchy,Open Call Hierarchy,
+		Open the call hierarchy for the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@130901fd,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-07-14 16:35:57.038
+!MESSAGE A conflict occurred for CTRL+SHIFT+H:
+Binding(CTRL+SHIFT+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.open.type.in.hierarchy,Open Type in Hierarchy,
+		Open a type in the type hierarchy view,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@659f5f32,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+SHIFT+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.open.type.in.hierarchy,Open Type in Hierarchy,
+		Open a type in the type hierarchy view,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@659f5f32,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-14 16:36:23.267
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x21020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-14 16:36:24.829
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x21020 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-14 16:47:45.779
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [3-12]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-14 16:47:45.933
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x21020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-14 16:47:47.299
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x21020 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-14 16:55:08.250
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [3-12]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-14 16:55:08.399
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x21020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-14 16:55:09.773
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x21020 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-14 16:55:51.285
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [3-12]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-14 16:55:51.441
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x21020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-14 16:55:52.813
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x21020 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-14 16:57:07.778
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [3-12]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-14 16:57:07.937
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x21020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-14 16:57:09.306
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x21020 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-14 17:09:23.015
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x21020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-14 17:09:24.768
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x21020 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-07-14 17:09:26.308
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [3-12]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x21020, /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-07-14 17:09:26.309
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-14 17:09:36.501
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x21020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-14 17:09:37.906
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x21020 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-07-14 17:09:39.430
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [3-12]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x21020, /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-07-14 17:09:39.430
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-14 17:09:45.682
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x21020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-14 17:09:47.115
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x21020 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-07-14 17:09:48.635
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [3-12]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x21020, /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-07-14 17:09:48.636
+!MESSAGE Downloading ELF Process failed
+!SESSION 2017-07-17 16:10:41.253 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization /home/chris/altera/16.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization /home/chris/altera/16.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.ui 2 0 2017-07-17 16:10:44.147
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2017-07-17 16:10:44.147
+!MESSAGE Commands should really have a category: plug-in='org.eclipse.linuxtools.systemtap.ui.graphing', id='org.eclipse.linuxtools.systemtap.ui.graphing.commands.SaveGraphImage', categoryId='org.eclipse.linuxtools.systemtap.ui.graphing.category.file'
+
+!ENTRY org.eclipse.ui 2 0 2017-07-17 16:10:44.359
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2017-07-17 16:10:44.359
+!MESSAGE Commands should really have a category: plug-in='org.eclipse.linuxtools.systemtap.ui.graphing', id='org.eclipse.linuxtools.systemtap.ui.graphing.commands.SaveGraphImage', categoryId='org.eclipse.linuxtools.systemtap.ui.graphing.category.file'
+!SESSION 2017-07-18 11:12:36.668 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization /home/chris/altera/16.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization /home/chris/altera/16.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-07-18 11:12:39.538
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.ui 2 0 2017-07-18 11:12:39.882
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2017-07-18 11:12:39.882
+!MESSAGE Commands should really have a category: plug-in='org.eclipse.linuxtools.systemtap.ui.graphing', id='org.eclipse.linuxtools.systemtap.ui.graphing.commands.SaveGraphImage', categoryId='org.eclipse.linuxtools.systemtap.ui.graphing.category.file'
+
+!ENTRY org.eclipse.ui 2 0 2017-07-18 11:12:40.096
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2017-07-18 11:12:40.096
+!MESSAGE Commands should really have a category: plug-in='org.eclipse.linuxtools.systemtap.ui.graphing', id='org.eclipse.linuxtools.systemtap.ui.graphing.commands.SaveGraphImage', categoryId='org.eclipse.linuxtools.systemtap.ui.graphing.category.file'
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-18 11:14:27.260
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x4041020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-18 11:14:28.801
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x4041020 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-07-18 11:14:30.319
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [3-12]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x4041020, /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-07-18 11:14:30.321
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-18 11:14:54.354
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x4041020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-18 11:14:55.718
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x4041020 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-07-18 11:14:57.238
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [3-12]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x4041020, /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-07-18 11:14:57.239
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-18 13:38:54.461
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x4041020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-18 13:38:55.824
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x4041020 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-07-18 13:38:57.352
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [3-12]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x4041020, /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-07-18 13:38:57.352
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-18 13:39:05.480
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x4041020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-18 13:39:06.844
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x4041020 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-07-18 13:39:08.367
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [3-12]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x4041020, /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-07-18 13:39:08.367
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-18 13:39:20.115
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x4041020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-18 13:39:21.477
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x4041020 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-07-18 13:39:22.990
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [3-12]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x4041020, /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-07-18 13:39:22.990
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-18 13:40:01.476
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x4041020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-18 13:40:03.017
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x4041020 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-07-18 13:40:04.541
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [3-12]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x4041020, /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-07-18 13:40:04.541
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-18 13:40:11.263
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x4041020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-18 13:40:12.631
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x4041020 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-07-18 13:40:14.160
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [3-12]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x4041020, /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-07-18 13:40:14.160
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-18 13:40:30.994
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x4041020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-18 13:40:32.357
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x4041020 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-07-18 13:40:33.880
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [3-12]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x4041020, /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-07-18 13:40:33.881
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-18 13:40:37.428
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x4041020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-18 13:40:38.793
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x4041020 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-07-18 13:40:40.314
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [3-12]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x4041020, /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-07-18 13:40:40.315
+!MESSAGE Downloading ELF Process failed
+!SESSION 2017-07-18 14:04:11.970 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization /home/chris/altera/16.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization /home/chris/altera/16.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-07-18 14:04:19.679
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.ui 2 0 2017-07-18 14:04:20.439
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2017-07-18 14:04:20.439
+!MESSAGE Commands should really have a category: plug-in='org.eclipse.linuxtools.systemtap.ui.graphing', id='org.eclipse.linuxtools.systemtap.ui.graphing.commands.SaveGraphImage', categoryId='org.eclipse.linuxtools.systemtap.ui.graphing.category.file'
+
+!ENTRY org.eclipse.ui 2 0 2017-07-18 14:04:21.080
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2017-07-18 14:04:21.080
+!MESSAGE Commands should really have a category: plug-in='org.eclipse.linuxtools.systemtap.ui.graphing', id='org.eclipse.linuxtools.systemtap.ui.graphing.commands.SaveGraphImage', categoryId='org.eclipse.linuxtools.systemtap.ui.graphing.category.file'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-07-18 14:05:31.965
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:555)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-07-18 14:05:31.969
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:555)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-07-18 14:05:47.446
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:555)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-07-18 14:05:47.447
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:555)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-18 14:06:40.974
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x241020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-18 14:06:42.514
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x241020 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-07-18 14:06:44.023
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [3-12]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x241020, /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-07-18 14:06:44.024
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-18 14:07:11.434
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x241020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-18 14:07:12.799
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x241020 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-07-18 14:07:14.333
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [3-12]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x241020, /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-07-18 14:07:14.334
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-18 14:08:37.114
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x241020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-18 14:08:38.476
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x241020 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-07-18 14:08:40.003
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [3-12]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x241020, /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-07-18 14:08:40.003
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-18 14:12:10.697
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x241020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-18 14:12:12.061
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x241020 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-07-18 14:12:13.587
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [3-12]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x241020, /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-07-18 14:12:13.588
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-18 14:23:11.256
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x241020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-18 14:23:12.802
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x241020 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-07-18 14:23:14.325
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [3-12]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x241020, /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-07-18 14:23:14.326
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-18 14:23:53.178
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x241020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-18 14:23:54.546
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x241020 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-07-18 14:23:56.073
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [3-12]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x241020, /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-07-18 14:23:56.073
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-18 16:01:59.473
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x241020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-18 16:02:01.032
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x241020 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY org.eclipse.jface 2 0 2017-07-18 16:02:48.397
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-07-18 16:02:48.398
+!MESSAGE A conflict occurred for F4:
+Binding(F4,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.type.hierarchy,Open Type Hierarchy,
+		Open a type hierarchy on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@35562bd0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(F4,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.type.hierarchy,Open Type Hierarchy,
+		Open a type hierarchy on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@35562bd0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-07-18 16:02:48.398
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.opentype,Open Element,
+		Open an element in an Editor,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@50712e1c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.opentype,Open Element,
+		Open an element in an Editor,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@50712e1c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-07-18 16:02:48.398
+!MESSAGE A conflict occurred for F3:
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.opendecl,Open Declaration,
+		Open an editor on the selected element's declaration(s),
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@9e9ed77,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.opendecl,Open Declaration,
+		Open an editor on the selected element's declaration(s),
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@9e9ed77,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-07-18 16:02:48.398
+!MESSAGE A conflict occurred for ALT+CTRL+I:
+Binding(ALT+CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.include.browser,Open Include Browser,
+		Open an include browser on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@381720ba,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.include.browser,Open Include Browser,
+		Open an include browser on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@381720ba,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-07-18 16:02:48.398
+!MESSAGE A conflict occurred for CTRL+SHIFT+G:
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.findrefs,References,
+		Search for references to the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3c1b94c3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.findrefs,References,
+		Search for references to the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3c1b94c3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-07-18 16:02:48.398
+!MESSAGE A conflict occurred for CTRL+G:
+Binding(CTRL+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.finddecl,Declaration,
+		Search for declarations of the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@65434c92,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.finddecl,Declaration,
+		Search for declarations of the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@65434c92,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-07-18 16:02:48.398
+!MESSAGE A conflict occurred for ALT+CTRL+H:
+Binding(ALT+CTRL+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.call.hierarchy,Open Call Hierarchy,
+		Open the call hierarchy for the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@23878718,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+CTRL+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.call.hierarchy,Open Call Hierarchy,
+		Open the call hierarchy for the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@23878718,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-07-18 16:02:48.398
+!MESSAGE A conflict occurred for CTRL+SHIFT+H:
+Binding(CTRL+SHIFT+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.open.type.in.hierarchy,Open Type in Hierarchy,
+		Open a type in the type hierarchy view,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@22947122,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+SHIFT+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.open.type.in.hierarchy,Open Type in Hierarchy,
+		Open a type in the type hierarchy view,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@22947122,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-07-18 16:02:48.398
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4249543f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4249543f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-18 16:05:08.121
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x241020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-18 16:05:09.488
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x241020 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+!SESSION 2017-07-19 08:27:23.711 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization /home/chris/altera/16.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization /home/chris/altera/16.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.ui 2 0 2017-07-19 08:27:26.549
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2017-07-19 08:27:26.549
+!MESSAGE Commands should really have a category: plug-in='org.eclipse.linuxtools.systemtap.ui.graphing', id='org.eclipse.linuxtools.systemtap.ui.graphing.commands.SaveGraphImage', categoryId='org.eclipse.linuxtools.systemtap.ui.graphing.category.file'
+
+!ENTRY org.eclipse.ui 2 0 2017-07-19 08:27:26.790
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2017-07-19 08:27:26.790
+!MESSAGE Commands should really have a category: plug-in='org.eclipse.linuxtools.systemtap.ui.graphing', id='org.eclipse.linuxtools.systemtap.ui.graphing.commands.SaveGraphImage', categoryId='org.eclipse.linuxtools.systemtap.ui.graphing.category.file'
+!SESSION 2017-07-19 08:40:13.453 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization /home/chris/altera/16.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization /home/chris/altera/16.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.ui 2 0 2017-07-19 08:40:17.758
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2017-07-19 08:40:17.758
+!MESSAGE Commands should really have a category: plug-in='org.eclipse.linuxtools.systemtap.ui.graphing', id='org.eclipse.linuxtools.systemtap.ui.graphing.commands.SaveGraphImage', categoryId='org.eclipse.linuxtools.systemtap.ui.graphing.category.file'
+
+!ENTRY org.eclipse.ui 2 0 2017-07-19 08:40:18.422
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2017-07-19 08:40:18.422
+!MESSAGE Commands should really have a category: plug-in='org.eclipse.linuxtools.systemtap.ui.graphing', id='org.eclipse.linuxtools.systemtap.ui.graphing.commands.SaveGraphImage', categoryId='org.eclipse.linuxtools.systemtap.ui.graphing.category.file'
+!SESSION 2017-07-19 10:22:48.045 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization /home/chris/altera/16.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization /home/chris/altera/16.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-07-19 10:22:52.196
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.ui 2 0 2017-07-19 10:22:53.018
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2017-07-19 10:22:53.018
+!MESSAGE Commands should really have a category: plug-in='org.eclipse.linuxtools.systemtap.ui.graphing', id='org.eclipse.linuxtools.systemtap.ui.graphing.commands.SaveGraphImage', categoryId='org.eclipse.linuxtools.systemtap.ui.graphing.category.file'
+
+!ENTRY org.eclipse.ui 2 0 2017-07-19 10:22:53.699
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2017-07-19 10:22:53.699
+!MESSAGE Commands should really have a category: plug-in='org.eclipse.linuxtools.systemtap.ui.graphing', id='org.eclipse.linuxtools.systemtap.ui.graphing.commands.SaveGraphImage', categoryId='org.eclipse.linuxtools.systemtap.ui.graphing.category.file'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-07-19 10:23:39.619
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:555)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-07-19 10:23:39.625
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:555)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-19 10:24:25.692
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x4041020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-19 10:24:27.229
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x4041020 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-19 10:44:07.846
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x4041020]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-07-19 10:44:10.402
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [3-12]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=0x4041020] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-19 10:44:10.406
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x4041020 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-07-19 10:44:12.759
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [3-12]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x4041020, /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-07-19 10:44:12.760
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-19 10:45:32.135
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x4041020]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-07-19 10:45:34.509
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [3-12]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=0x4041020] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-19 10:45:34.619
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x4041020 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-07-19 10:45:37.001
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [3-12]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x4041020, /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-07-19 10:45:37.002
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-19 10:52:01.800
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x4041020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-19 10:52:03.414
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x4041020 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-19 11:02:59.293
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x4041020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-19 11:03:00.914
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x4041020 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+!SESSION 2017-07-20 09:21:30.136 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization /home/chris/altera/16.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization /home/chris/altera/16.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-07-20 09:21:35.095
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.ui 2 0 2017-07-20 09:21:35.875
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2017-07-20 09:21:35.875
+!MESSAGE Commands should really have a category: plug-in='org.eclipse.linuxtools.systemtap.ui.graphing', id='org.eclipse.linuxtools.systemtap.ui.graphing.commands.SaveGraphImage', categoryId='org.eclipse.linuxtools.systemtap.ui.graphing.category.file'
+
+!ENTRY org.eclipse.ui 2 0 2017-07-20 09:21:36.516
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2017-07-20 09:21:36.516
+!MESSAGE Commands should really have a category: plug-in='org.eclipse.linuxtools.systemtap.ui.graphing', id='org.eclipse.linuxtools.systemtap.ui.graphing.commands.SaveGraphImage', categoryId='org.eclipse.linuxtools.systemtap.ui.graphing.category.file'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-07-20 09:22:44.183
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:555)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-07-20 09:22:44.187
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:555)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 09:23:34.775
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x4041840]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 09:23:36.312
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x4041840 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY org.eclipse.jface 2 0 2017-07-20 09:24:30.437
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-07-20 09:24:30.437
+!MESSAGE A conflict occurred for ALT+CTRL+I:
+Binding(ALT+CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.include.browser,Open Include Browser,
+		Open an include browser on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7b9f7087,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.include.browser,Open Include Browser,
+		Open an include browser on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7b9f7087,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-07-20 09:24:30.437
+!MESSAGE A conflict occurred for F3:
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.opendecl,Open Declaration,
+		Open an editor on the selected element's declaration(s),
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@22e650e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.opendecl,Open Declaration,
+		Open an editor on the selected element's declaration(s),
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@22e650e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-07-20 09:24:30.437
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@30a79476,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@30a79476,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-07-20 09:24:30.437
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.opentype,Open Element,
+		Open an element in an Editor,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@376bae20,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.opentype,Open Element,
+		Open an element in an Editor,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@376bae20,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-07-20 09:24:30.437
+!MESSAGE A conflict occurred for F4:
+Binding(F4,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.type.hierarchy,Open Type Hierarchy,
+		Open a type hierarchy on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@37f0fb02,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(F4,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.type.hierarchy,Open Type Hierarchy,
+		Open a type hierarchy on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@37f0fb02,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-07-20 09:24:30.437
+!MESSAGE A conflict occurred for CTRL+SHIFT+G:
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.findrefs,References,
+		Search for references to the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4687fee7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.findrefs,References,
+		Search for references to the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4687fee7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-07-20 09:24:30.437
+!MESSAGE A conflict occurred for CTRL+G:
+Binding(CTRL+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.finddecl,Declaration,
+		Search for declarations of the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4a0fc665,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.finddecl,Declaration,
+		Search for declarations of the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4a0fc665,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-07-20 09:24:30.437
+!MESSAGE A conflict occurred for ALT+CTRL+H:
+Binding(ALT+CTRL+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.call.hierarchy,Open Call Hierarchy,
+		Open the call hierarchy for the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@207f7baa,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+CTRL+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.call.hierarchy,Open Call Hierarchy,
+		Open the call hierarchy for the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@207f7baa,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-07-20 09:24:30.437
+!MESSAGE A conflict occurred for CTRL+SHIFT+H:
+Binding(CTRL+SHIFT+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.open.type.in.hierarchy,Open Type in Hierarchy,
+		Open a type in the type hierarchy view,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1067bc4c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+SHIFT+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.open.type.in.hierarchy,Open Type in Hierarchy,
+		Open a type in the type hierarchy view,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1067bc4c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 09:33:33.212
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [3-12]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 09:33:33.361
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x4041840]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 09:33:34.731
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x4041840 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 09:35:09.634
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x4041840]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 09:35:11.075
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x4041840 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY org.eclipse.jface 2 0 2017-07-20 09:35:35.911
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-07-20 09:35:35.911
+!MESSAGE A conflict occurred for CTRL+D:
+Binding(CTRL+D,
+	ParameterizedCommand(Command(org.eclipse.debug.ui.commands.eof,EOF,
+		Send end of file,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@daa6654,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.debug.ui.console,,,system)
+Binding(CTRL+D,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.delete.line,Delete Line,
+		Delete a line of text,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6fd33f5a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 09:35:58.962
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [3-12]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 09:36:19.125
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x4041840]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 09:36:20.607
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x4041840 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 09:36:50.740
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [3-12]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 09:37:10.901
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x4041840]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 09:37:12.479
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x4041840 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 09:38:20.428
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [3-12]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 09:38:40.590
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x4041840]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 09:38:42.068
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x4041840 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 09:39:48.362
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x4041840]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 09:39:49.837
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x4041840 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 09:40:46.739
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x4041840]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 09:40:48.192
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x4041840 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 09:42:03.769
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x4041840]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 09:42:05.219
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x4041840 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 09:43:37.522
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x4041840]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 09:43:38.973
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x4041840 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 09:44:29.218
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x4041840]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 09:44:30.613
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x4041840 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 09:45:58.981
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [3-12]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 09:46:19.145
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x4041840]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 09:46:20.529
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x4041840 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY org.eclipse.cdt.core 4 0 2017-07-20 09:48:32.233
+!MESSAGE Error: Cannot run program "stap": Unknown reason
+!STACK 0
+java.io.IOException: Cannot run program "stap": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:347)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:89)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:89)
+	at org.eclipse.cdt.core.CommandLauncher.execute(CommandLauncher.java:194)
+	at org.eclipse.linuxtools.internal.profiling.launch.LocalLauncher.execute(LocalLauncher.java:34)
+	at org.eclipse.linuxtools.tools.launch.core.factory.RuntimeProcessFactory.exec(RuntimeProcessFactory.java:254)
+	at org.eclipse.linuxtools.tools.launch.core.factory.RuntimeProcessFactory.exec(RuntimeProcessFactory.java:170)
+	at org.eclipse.linuxtools.systemtap.structures.process.SystemtapProcessFactory.exec(SystemtapProcessFactory.java:44)
+	at org.eclipse.linuxtools.internal.systemtap.ui.ide.structures.TapsetParser.runStap(TapsetParser.java:150)
+	at org.eclipse.linuxtools.internal.systemtap.ui.ide.structures.ProbeParser.collect(ProbeParser.java:105)
+	at org.eclipse.linuxtools.internal.systemtap.ui.ide.structures.ProbeParser.run(ProbeParser.java:77)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.cdt.core 4 0 2017-07-20 09:48:32.233
+!MESSAGE Error: Cannot run program "stap": Unknown reason
+!STACK 0
+java.io.IOException: Cannot run program "stap": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:347)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:89)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:89)
+	at org.eclipse.cdt.core.CommandLauncher.execute(CommandLauncher.java:194)
+	at org.eclipse.linuxtools.internal.profiling.launch.LocalLauncher.execute(LocalLauncher.java:34)
+	at org.eclipse.linuxtools.tools.launch.core.factory.RuntimeProcessFactory.exec(RuntimeProcessFactory.java:254)
+	at org.eclipse.linuxtools.tools.launch.core.factory.RuntimeProcessFactory.exec(RuntimeProcessFactory.java:170)
+	at org.eclipse.linuxtools.systemtap.structures.process.SystemtapProcessFactory.exec(SystemtapProcessFactory.java:44)
+	at org.eclipse.linuxtools.internal.systemtap.ui.ide.structures.TapsetParser.runStap(TapsetParser.java:150)
+	at org.eclipse.linuxtools.internal.systemtap.ui.ide.structures.FunctionParser.runPass2Functions(FunctionParser.java:87)
+	at org.eclipse.linuxtools.internal.systemtap.ui.ide.structures.FunctionParser.run(FunctionParser.java:72)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 09:48:44.603
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x4041840]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 09:48:45.964
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x4041840 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 09:49:05.970
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x4041840]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 09:49:07.363
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x4041840 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 09:49:52.902
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x4041840]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-07-20 09:49:55.449
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [3-12]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=0x4041840] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 09:49:55.453
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x4041840 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-07-20 09:49:57.810
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [3-12]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x4041840, /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-07-20 09:49:57.811
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 09:50:08.007
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x4041840]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-07-20 09:50:10.367
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [3-12]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=0x4041840] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 09:50:10.371
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x4041840 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-07-20 09:50:12.731
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [3-12]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x4041840, /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-07-20 09:50:12.731
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 09:50:24.324
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x4041840]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-07-20 09:50:26.704
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [3-12]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=0x4041840] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 09:50:26.711
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x4041840 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-07-20 09:50:29.068
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [3-12]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x4041840, /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-07-20 09:50:29.069
+!MESSAGE Downloading ELF Process failed
+!SESSION 2017-07-20 09:54:31.834 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization /home/chris/altera/16.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization /home/chris/altera/16.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-07-20 09:54:35.614
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.ui 2 0 2017-07-20 09:54:36.411
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2017-07-20 09:54:36.411
+!MESSAGE Commands should really have a category: plug-in='org.eclipse.linuxtools.systemtap.ui.graphing', id='org.eclipse.linuxtools.systemtap.ui.graphing.commands.SaveGraphImage', categoryId='org.eclipse.linuxtools.systemtap.ui.graphing.category.file'
+
+!ENTRY org.eclipse.ui 2 0 2017-07-20 09:54:37.075
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2017-07-20 09:54:37.075
+!MESSAGE Commands should really have a category: plug-in='org.eclipse.linuxtools.systemtap.ui.graphing', id='org.eclipse.linuxtools.systemtap.ui.graphing.commands.SaveGraphImage', categoryId='org.eclipse.linuxtools.systemtap.ui.graphing.category.file'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-07-20 09:55:13.676
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:555)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2017-07-20 09:55:13.680
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:555)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 09:56:21.172
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x4041840]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 09:56:22.712
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x4041840 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 09:58:53.890
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x4041840]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 09:58:55.476
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x4041840 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 09:59:34.714
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x4041840]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 09:59:36.173
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x4041840 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY org.eclipse.jface 2 0 2017-07-20 10:41:21.497
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-07-20 10:41:21.497
+!MESSAGE A conflict occurred for F3:
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.opendecl,Open Declaration,
+		Open an editor on the selected element's declaration(s),
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@421e8b29,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.opendecl,Open Declaration,
+		Open an editor on the selected element's declaration(s),
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@421e8b29,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-07-20 10:41:21.497
+!MESSAGE A conflict occurred for ALT+CTRL+I:
+Binding(ALT+CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.include.browser,Open Include Browser,
+		Open an include browser on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@21484c17,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.include.browser,Open Include Browser,
+		Open an include browser on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@21484c17,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-07-20 10:41:21.497
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@69745cfe,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@69745cfe,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-07-20 10:41:21.497
+!MESSAGE A conflict occurred for F4:
+Binding(F4,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.type.hierarchy,Open Type Hierarchy,
+		Open a type hierarchy on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@77db84cf,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(F4,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.type.hierarchy,Open Type Hierarchy,
+		Open a type hierarchy on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@77db84cf,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-07-20 10:41:21.497
+!MESSAGE A conflict occurred for CTRL+SHIFT+G:
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.findrefs,References,
+		Search for references to the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@41aa0ede,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.findrefs,References,
+		Search for references to the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@41aa0ede,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-07-20 10:41:21.497
+!MESSAGE A conflict occurred for CTRL+G:
+Binding(CTRL+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.finddecl,Declaration,
+		Search for declarations of the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@22e1da08,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.finddecl,Declaration,
+		Search for declarations of the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@22e1da08,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-07-20 10:41:21.497
+!MESSAGE A conflict occurred for ALT+CTRL+H:
+Binding(ALT+CTRL+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.call.hierarchy,Open Call Hierarchy,
+		Open the call hierarchy for the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@69b9e106,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+CTRL+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.call.hierarchy,Open Call Hierarchy,
+		Open the call hierarchy for the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@69b9e106,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-07-20 10:41:21.497
+!MESSAGE A conflict occurred for CTRL+SHIFT+H:
+Binding(CTRL+SHIFT+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.open.type.in.hierarchy,Open Type in Hierarchy,
+		Open a type in the type hierarchy view,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@42effd02,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+SHIFT+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.open.type.in.hierarchy,Open Type in Hierarchy,
+		Open a type in the type hierarchy view,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@42effd02,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-07-20 10:41:21.498
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.opentype,Open Element,
+		Open an element in an Editor,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5322d77f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.opentype,Open Element,
+		Open an element in an Editor,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5322d77f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 10:42:29.327
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x4041840]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 10:42:30.959
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x4041840 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 10:43:22.896
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x4041840]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 10:43:24.361
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x4041840 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 10:44:46.564
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x4041840]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 10:44:48.030
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x4041840 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 10:45:31.081
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x4041840]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 10:45:32.525
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x4041840 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 10:47:13.610
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [3-12]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 10:47:33.777
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x4041840]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 10:47:35.164
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x4041840 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 10:47:48.906
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [3-12]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 10:48:09.066
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x4041840]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 10:48:10.506
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x4041840 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 11:03:19.494
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x4041840]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 11:03:21.132
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x4041840 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 11:04:28.321
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x4041840]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 11:04:30.001
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x4041840 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 11:05:06.009
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x4041840]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 11:05:07.587
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x4041840 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 11:06:15.032
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x4041840]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 11:06:16.672
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x4041840 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 11:06:40.063
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [3-12]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 11:06:40.307
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x4041840]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 11:06:41.760
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x4041840 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 11:08:04.972
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x4041840]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 11:08:06.680
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x4041840 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 11:08:54.782
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [3-12]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 11:08:55.006
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x4041840]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 11:08:56.405
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x4041840 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 11:11:50.851
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [3-12]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 11:11:51.003
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x4041840]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 11:11:52.385
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x4041840 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 11:12:16.758
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [3-12]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 11:12:36.922
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x4041840]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 11:12:38.371
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x4041840 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 11:13:07.173
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [3-12]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 11:13:07.332
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x4041840]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 11:13:08.697
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x4041840 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 11:13:14.964
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [3-12]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 11:13:15.117
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x4041840]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 11:13:16.501
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x4041840 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 11:13:40.389
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [3-12]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 11:13:40.543
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --accept-bad-sysid --sidp=0x4041840 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 11:13:42.357
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --tcpport=auto --accept-bad-sysid --sidp=0x4041840]
+
+!ENTRY org.eclipse.cdt.debug.mi.core 4 42 2017-07-20 11:16:39.819
+!MESSAGE Internal Error
+!STACK 0
+org.eclipse.cdt.debug.mi.core.cdi.MI2CDIException: Inferior terminated[]
+	at org.eclipse.cdt.debug.mi.core.cdi.SharedLibraryManager.getMIShareds(SharedLibraryManager.java:123)
+	at org.eclipse.cdt.debug.mi.core.cdi.SharedLibraryManager.updateState(SharedLibraryManager.java:189)
+	at org.eclipse.cdt.debug.mi.core.cdi.SharedLibraryManager.update(SharedLibraryManager.java:137)
+	at org.eclipse.cdt.debug.mi.core.cdi.EventManager.processSuspendedEvent(EventManager.java:329)
+	at org.eclipse.cdt.debug.mi.core.cdi.EventManager.update(EventManager.java:101)
+	at java.util.Observable.notifyObservers(Unknown Source)
+	at org.eclipse.cdt.debug.mi.core.MISession.notifyObservers(MISession.java:797)
+	at org.eclipse.cdt.debug.mi.core.EventThread.run(EventThread.java:47)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 13:04:00.609
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x4041840]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 13:04:01.983
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x4041840 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 13:04:31.557
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x4041840]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 13:04:32.922
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x4041840 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 13:05:07.615
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [3-12]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 13:05:07.774
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x4041840]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 13:05:09.143
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x4041840 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 13:05:51.666
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [3-12]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 13:05:51.828
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x4041840]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 13:05:53.199
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x4041840 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 13:06:27.060
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [3-12]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 13:06:27.221
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x4041840]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 13:06:28.592
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x4041840 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 13:07:23.528
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [3-12]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 13:07:43.911
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x4041840]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 13:07:45.353
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x4041840 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 13:08:06.511
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [3-12]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 13:08:26.680
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x4041840]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 13:08:28.146
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x4041840 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 13:09:19.219
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x4041840]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 13:09:20.657
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x4041840 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 13:09:31.901
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [3-12]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 13:09:52.247
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x4041840]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 13:09:53.696
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x4041840 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 13:10:57.924
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [3-12]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 13:11:18.093
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x4041840]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 13:11:19.526
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x4041840 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 13:11:39.178
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [3-12]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 13:11:59.346
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x4041840]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 13:12:00.779
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x4041840 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 13:13:29.430
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [3-12]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 13:13:49.598
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x4041840]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 13:13:51.057
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x4041840 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 13:40:32.136
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [3-12]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 13:40:52.310
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x4041840]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 13:40:53.751
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x4041840 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 13:49:46.790
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [3-12]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 13:49:47.886
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x4041840]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 13:49:49.339
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x4041840 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 13:50:33.778
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [3-12]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 13:50:34.156
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x4041840]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 13:50:35.610
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x4041840 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 13:50:51.264
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x4041840]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 13:50:52.916
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x4041840 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 13:52:09.352
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [3-12]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 13:52:09.583
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x4041840]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 13:52:11.155
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x4041840 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 13:52:27.458
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x4041840]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 13:52:29.163
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x4041840 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 13:52:41.596
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [3-12]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 13:52:41.793
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --accept-bad-sysid --sidp=0x4041840 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 13:52:43.571
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --tcpport=auto --accept-bad-sysid --sidp=0x4041840]
+
+!ENTRY org.eclipse.jface 2 0 2017-07-20 13:55:26.344
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-07-20 13:55:26.344
+!MESSAGE A conflict occurred for CTRL+T:
+Binding(CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.quick.type.hierarchy,Quick Type Hierarchy,
+		Shows quick type hierarchy,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@37bc36f5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.debug.ui.commands.toggleMemoryMonitorsPane,Toggle Memory Monitors Pane,
+		Toggle visibility of the Memory Monitors Pane,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1e39e926,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.debug.ui.memoryview,,,system)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 13:56:37.701
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [3-12]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 13:56:58.240
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x4041840]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 13:56:59.713
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x4041840 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 13:58:49.710
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x4041840]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 13:58:51.085
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x4041840 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 13:59:17.635
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [3-12]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 13:59:17.794
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x4041840]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 13:59:19.164
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x4041840 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+!SESSION 2017-07-20 14:20:47.983 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization /home/chris/altera/16.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization /home/chris/altera/16.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-07-20 14:20:50.771
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.ui 2 0 2017-07-20 14:20:51.122
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2017-07-20 14:20:51.122
+!MESSAGE Commands should really have a category: plug-in='org.eclipse.linuxtools.systemtap.ui.graphing', id='org.eclipse.linuxtools.systemtap.ui.graphing.commands.SaveGraphImage', categoryId='org.eclipse.linuxtools.systemtap.ui.graphing.category.file'
+
+!ENTRY org.eclipse.ui 2 0 2017-07-20 14:20:51.330
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2017-07-20 14:20:51.330
+!MESSAGE Commands should really have a category: plug-in='org.eclipse.linuxtools.systemtap.ui.graphing', id='org.eclipse.linuxtools.systemtap.ui.graphing.commands.SaveGraphImage', categoryId='org.eclipse.linuxtools.systemtap.ui.graphing.category.file'
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 14:21:03.566
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --accept-bad-sysid --sidp=0x4041840 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 14:21:05.353
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --tcpport=auto --accept-bad-sysid --sidp=0x4041840]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 14:22:01.490
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --accept-bad-sysid --sidp=0x4041840 /home/chris/FPGA/chris/Qsys/software/sw_design/sw_design.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2017-07-20 14:22:03.302
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=USB-Blaster on localhost [3-12]' --device=1 --instance=0 --tcpport=auto --accept-bad-sysid --sidp=0x4041840]
+
+!ENTRY org.eclipse.jface 2 0 2017-07-20 14:22:14.500
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-07-20 14:22:14.500
+!MESSAGE A conflict occurred for CTRL+T:
+Binding(CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.quick.type.hierarchy,Quick Type Hierarchy,
+		Shows quick type hierarchy,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@381d7c4c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.debug.ui.commands.toggleMemoryMonitorsPane,Toggle Memory Monitors Pane,
+		Toggle visibility of the Memory Monitors Pane,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1e3689e7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.debug.ui.memoryview,,,system)

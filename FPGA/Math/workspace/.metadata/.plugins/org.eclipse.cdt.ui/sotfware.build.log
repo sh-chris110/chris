@@ -1,0 +1,9 @@
+14:59:10 **** Incremental Build of configuration Nios II for project sotfware ****
+make all 
+Info: Building ../sotfware_bsp/
+make --no-print-directory -C ../sotfware_bsp/
+[BSP build complete]
+[sotfware build complete]
+
+14:59:10 Build Finished (took 60ms)
+

@@ -1,0 +1,34 @@
+11:25:34 **** Incremental Build of configuration Debug for project hello ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+arm-altera-eabi-gcc -O0 -g -Wall -MMD -MP -MF"main.d" -MT"main.d" -c -o "main.o" "../main.c"
+../main.c: In function 'main':
+../main.c:13:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../main.c
+ 
+Building target: hello.axf
+Invoking: GCC C Linker
+arm-altera-eabi-gcc  -o "hello.axf"  ./main.o   
+/home/chris/altera/15.0/embedded/host_tools/mentor/gnu/arm/baremetal/bin/../lib/gcc/arm-altera-eabi/4.9.1/../../../../arm-altera-eabi/bin/ld: warning: cannot find entry symbol _start; defaulting to 00008018
+/home/chris/altera/15.0/embedded/host_tools/mentor/gnu/arm/baremetal/bin/../lib/gcc/arm-altera-eabi/4.9.1/../../../../arm-altera-eabi/lib/libc.a(lib_a-sbrkr.o): In function `_sbrk_r':
+sbrkr.c:(.text+0x18): undefined reference to `_sbrk'
+/home/chris/altera/15.0/embedded/host_tools/mentor/gnu/arm/baremetal/bin/../lib/gcc/arm-altera-eabi/4.9.1/../../../../arm-altera-eabi/lib/libc.a(lib_a-writer.o): In function `_write_r':
+writer.c:(.text+0x20): undefined reference to `_write'
+/home/chris/altera/15.0/embedded/host_tools/mentor/gnu/arm/baremetal/bin/../lib/gcc/arm-altera-eabi/4.9.1/../../../../arm-altera-eabi/lib/libc.a(lib_a-closer.o): In function `_close_r':
+closer.c:(.text+0x18): undefined reference to `_close'
+/home/chris/altera/15.0/embedded/host_tools/mentor/gnu/arm/baremetal/bin/../lib/gcc/arm-altera-eabi/4.9.1/../../../../arm-altera-eabi/lib/libc.a(lib_a-fstatr.o): In function `_fstat_r':
+fstatr.c:(.text+0x1c): undefined reference to `_fstat'
+/home/chris/altera/15.0/embedded/host_tools/mentor/gnu/arm/baremetal/bin/../lib/gcc/arm-altera-eabi/4.9.1/../../../../arm-altera-eabi/lib/libc.a(lib_a-isattyr.o): In function `_isatty_r':
+isattyr.c:(.text+0x18): undefined reference to `_isatty'
+/home/chris/altera/15.0/embedded/host_tools/mentor/gnu/arm/baremetal/bin/../lib/gcc/arm-altera-eabi/4.9.1/../../../../arm-altera-eabi/lib/libc.a(lib_a-lseekr.o): In function `_lseek_r':
+lseekr.c:(.text+0x20): undefined reference to `_lseek'
+/home/chris/altera/15.0/embedded/host_tools/mentor/gnu/arm/baremetal/bin/../lib/gcc/arm-altera-eabi/4.9.1/../../../../arm-altera-eabi/lib/libc.a(lib_a-readr.o): In function `_read_r':
+readr.c:(.text+0x20): undefined reference to `_read'
+collect2: error: ld returned 1 exit status
+make: *** [hello.axf] Error 1
+
+11:25:34 Build Finished (took 58ms)
+

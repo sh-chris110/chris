@@ -1,0 +1,4 @@
+eclipse.preferences.version=1
+newSoftwareExampleWizardPage.defaultLocation=/home/chris/FPGA/Math/Qsys/software/sotfware
+newSoftwareExampleWizardPage.sopcinfoFile=/home/chris/FPGA/Math/Qsys/nios_design.sopcinfo
+newSoftwareExampleWizardPage2.newBspLocation=/home/chris/FPGA/Math/Qsys/software/sotfware_bsp

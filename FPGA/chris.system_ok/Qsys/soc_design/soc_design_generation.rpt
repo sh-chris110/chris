@@ -1,0 +1,132 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate /home/chris/FPGA/chris/Qsys/soc_design.qsys --block-symbol-file --output-directory=/home/chris/FPGA/chris/Qsys/soc_design --family="Cyclone V" --part=5CEBA4F23C7
+Progress: Loading Qsys/soc_design.qsys
+Progress: Reading input file
+Progress: Adding JTAG [altera_avalon_jtag_uart 16.0]
+Progress: Parameterizing module JTAG
+Progress: Adding SRAM [altera_avalon_onchip_memory2 16.0]
+Progress: Parameterizing module SRAM
+Progress: Adding Sys_Timer [altera_avalon_timer 16.0]
+Progress: Parameterizing module Sys_Timer
+Progress: Adding SystemID [altera_avalon_sysid_qsys 16.0]
+Progress: Parameterizing module SystemID
+Progress: Adding niosII_core [altera_nios2_gen2 16.0]
+Progress: Parameterizing module niosII_core
+Progress: Adding ref_clock [clock_source 16.0]
+Progress: Parameterizing module ref_clock
+Progress: Adding system_pll [altera_pll 16.0]
+Progress: Parameterizing module system_pll
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: soc_design.JTAG: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: soc_design.SystemID: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: soc_design.SystemID: Time stamp will be automatically updated when this component is generated.
+Info: soc_design.system_pll: The legal reference clock frequency is 5.0 MHz..700.0 MHz
+Info: soc_design.system_pll: Able to implement PLL with user settings
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate /home/chris/FPGA/chris/Qsys/soc_design.qsys --synthesis=VERILOG --output-directory=/home/chris/FPGA/chris/Qsys/soc_design/synthesis --family="Cyclone V" --part=5CEBA4F23C7
+Progress: Loading Qsys/soc_design.qsys
+Progress: Reading input file
+Progress: Adding JTAG [altera_avalon_jtag_uart 16.0]
+Progress: Parameterizing module JTAG
+Progress: Adding SRAM [altera_avalon_onchip_memory2 16.0]
+Progress: Parameterizing module SRAM
+Progress: Adding Sys_Timer [altera_avalon_timer 16.0]
+Progress: Parameterizing module Sys_Timer
+Progress: Adding SystemID [altera_avalon_sysid_qsys 16.0]
+Progress: Parameterizing module SystemID
+Progress: Adding niosII_core [altera_nios2_gen2 16.0]
+Progress: Parameterizing module niosII_core
+Progress: Adding ref_clock [clock_source 16.0]
+Progress: Parameterizing module ref_clock
+Progress: Adding system_pll [altera_pll 16.0]
+Progress: Parameterizing module system_pll
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: soc_design.JTAG: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: soc_design.SystemID: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: soc_design.SystemID: Time stamp will be automatically updated when this component is generated.
+Info: soc_design.system_pll: The legal reference clock frequency is 5.0 MHz..700.0 MHz
+Info: soc_design.system_pll: Able to implement PLL with user settings
+Info: soc_design: Generating soc_design "soc_design" for QUARTUS_SYNTH
+Info: JTAG: Starting RTL generation for module 'soc_design_JTAG'
+Info: JTAG:   Generation command is [exec /home/chris/altera/16.0/quartus/linux64/perl/bin/perl -I /home/chris/altera/16.0/quartus/linux64/perl/lib -I /home/chris/altera/16.0/quartus/sopc_builder/bin/europa -I /home/chris/altera/16.0/quartus/sopc_builder/bin/perl_lib -I /home/chris/altera/16.0/quartus/sopc_builder/bin -I /home/chris/altera/16.0/quartus/../ip/altera/sopc_builder_ip/common -I /home/chris/altera/16.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- /home/chris/altera/16.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=soc_design_JTAG --dir=/tmp/alt7360_2915386380599306559.dir/0159_JTAG_gen/ --quartus_dir=/home/chris/altera/16.0/quartus --verilog --config=/tmp/alt7360_2915386380599306559.dir/0159_JTAG_gen//soc_design_JTAG_component_configuration.pl  --do_build_sim=0  ]
+Info: JTAG: Done RTL generation for module 'soc_design_JTAG'
+Info: JTAG: "soc_design" instantiated altera_avalon_jtag_uart "JTAG"
+Info: SRAM: Starting RTL generation for module 'soc_design_SRAM'
+Info: SRAM:   Generation command is [exec /home/chris/altera/16.0/quartus/linux64/perl/bin/perl -I /home/chris/altera/16.0/quartus/linux64/perl/lib -I /home/chris/altera/16.0/quartus/sopc_builder/bin/europa -I /home/chris/altera/16.0/quartus/sopc_builder/bin/perl_lib -I /home/chris/altera/16.0/quartus/sopc_builder/bin -I /home/chris/altera/16.0/quartus/../ip/altera/sopc_builder_ip/common -I /home/chris/altera/16.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- /home/chris/altera/16.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=soc_design_SRAM --dir=/tmp/alt7360_2915386380599306559.dir/0160_SRAM_gen/ --quartus_dir=/home/chris/altera/16.0/quartus --verilog --config=/tmp/alt7360_2915386380599306559.dir/0160_SRAM_gen//soc_design_SRAM_component_configuration.pl  --do_build_sim=0  ]
+Info: SRAM: Done RTL generation for module 'soc_design_SRAM'
+Info: SRAM: "soc_design" instantiated altera_avalon_onchip_memory2 "SRAM"
+Info: Sys_Timer: Starting RTL generation for module 'soc_design_Sys_Timer'
+Info: Sys_Timer:   Generation command is [exec /home/chris/altera/16.0/quartus/linux64//perl/bin/perl -I /home/chris/altera/16.0/quartus/linux64//perl/lib -I /home/chris/altera/16.0/quartus/sopc_builder/bin/europa -I /home/chris/altera/16.0/quartus/sopc_builder/bin/perl_lib -I /home/chris/altera/16.0/quartus/sopc_builder/bin -I /home/chris/altera/16.0/quartus/../ip/altera/sopc_builder_ip/common -I /home/chris/altera/16.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer -- /home/chris/altera/16.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer/generate_rtl.pl --name=soc_design_Sys_Timer --dir=/tmp/alt7360_2915386380599306559.dir/0161_Sys_Timer_gen/ --quartus_dir=/home/chris/altera/16.0/quartus --verilog --config=/tmp/alt7360_2915386380599306559.dir/0161_Sys_Timer_gen//soc_design_Sys_Timer_component_configuration.pl  --do_build_sim=0  ]
+Info: Sys_Timer: Done RTL generation for module 'soc_design_Sys_Timer'
+Info: Sys_Timer: "soc_design" instantiated altera_avalon_timer "Sys_Timer"
+Info: SystemID: "soc_design" instantiated altera_avalon_sysid_qsys "SystemID"
+Info: niosII_core: "soc_design" instantiated altera_nios2_gen2 "niosII_core"
+Info: system_pll: "soc_design" instantiated altera_pll "system_pll"
+Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_002: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_003: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_004: Inserting error_adapter: error_adapter_0
+Info: mm_interconnect_0: "soc_design" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: irq_mapper: "soc_design" instantiated altera_irq_mapper "irq_mapper"
+Info: rst_controller: "soc_design" instantiated altera_reset_controller "rst_controller"
+Info: cpu: Starting RTL generation for module 'soc_design_niosII_core_cpu'
+Info: cpu:   Generation command is [exec /home/chris/altera/16.0/quartus/linux64//eperlcmd -I /home/chris/altera/16.0/quartus/linux64//perl/lib -I /home/chris/altera/16.0/quartus/sopc_builder/bin/europa -I /home/chris/altera/16.0/quartus/sopc_builder/bin/perl_lib -I /home/chris/altera/16.0/quartus/sopc_builder/bin -I /home/chris/altera/16.0/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/cpu_lib -I /home/chris/altera/16.0/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/nios_lib -I /home/chris/altera/16.0/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -I /home/chris/altera/16.0/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -- /home/chris/altera/16.0/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/generate_rtl.epl --name=soc_design_niosII_core_cpu --dir=/tmp/alt7360_2915386380599306559.dir/0166_cpu_gen/ --quartus_bindir=/home/chris/altera/16.0/quartus/linux64/ --verilog --config=/tmp/alt7360_2915386380599306559.dir/0166_cpu_gen//soc_design_niosII_core_cpu_processor_configuration.pl  --do_build_sim=0  ]
+Info: cpu: # 2017.07.13 16:21:07 (*) Starting Nios II generation
+Info: cpu: # 2017.07.13 16:21:07 (*)   Checking for plaintext license.
+Info: cpu: # 2017.07.13 16:21:07 (*)   Plaintext license not found.
+Info: cpu: # 2017.07.13 16:21:07 (*)   Checking for encrypted license (non-evaluation).
+Info: cpu: # 2017.07.13 16:21:08 (*)   Encrypted license not found.  Defaulting to OCP evaluation license (produces a time-limited SOF)
+Info: cpu: # 2017.07.13 16:21:08 (*)   Elaborating CPU configuration settings
+Info: cpu: # 2017.07.13 16:21:08 (*)   Creating all objects for CPU
+Info: cpu: # 2017.07.13 16:21:08 (*)     Testbench
+Info: cpu: # 2017.07.13 16:21:08 (*)     Instruction decoding
+Info: cpu: # 2017.07.13 16:21:08 (*)       Instruction fields
+Info: cpu: # 2017.07.13 16:21:08 (*)       Instruction decodes
+Info: cpu: # 2017.07.13 16:21:08 (*)       Signals for RTL simulation waveforms
+Info: cpu: # 2017.07.13 16:21:08 (*)       Instruction controls
+Info: cpu: # 2017.07.13 16:21:08 (*)     Pipeline frontend
+Info: cpu: # 2017.07.13 16:21:09 (*)     Pipeline backend
+Info: cpu: # 2017.07.13 16:21:10 (*)   Generating RTL from CPU objects
+Info: cpu: # 2017.07.13 16:21:11 (*)   Creating encrypted RTL
+Info: cpu: # 2017.07.13 16:21:12 (*) Done Nios II generation
+Info: cpu: Done RTL generation for module 'soc_design_niosII_core_cpu'
+Info: cpu: "niosII_core" instantiated altera_nios2_gen2_unit "cpu"
+Info: niosII_core_data_master_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "niosII_core_data_master_translator"
+Info: JTAG_avalon_jtag_slave_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "JTAG_avalon_jtag_slave_translator"
+Info: niosII_core_data_master_agent: "mm_interconnect_0" instantiated altera_merlin_master_agent "niosII_core_data_master_agent"
+Info: JTAG_avalon_jtag_slave_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "JTAG_avalon_jtag_slave_agent"
+Info: JTAG_avalon_jtag_slave_agent_rsp_fifo: "mm_interconnect_0" instantiated altera_avalon_sc_fifo "JTAG_avalon_jtag_slave_agent_rsp_fifo"
+Info: router: "mm_interconnect_0" instantiated altera_merlin_router "router"
+Info: router_001: "mm_interconnect_0" instantiated altera_merlin_router "router_001"
+Info: router_002: "mm_interconnect_0" instantiated altera_merlin_router "router_002"
+Info: router_004: "mm_interconnect_0" instantiated altera_merlin_router "router_004"
+Info: niosII_core_data_master_limiter: "mm_interconnect_0" instantiated altera_merlin_traffic_limiter "niosII_core_data_master_limiter"
+Info: Reusing file /home/chris/FPGA/chris/Qsys/soc_design/synthesis/submodules/altera_avalon_sc_fifo.v
+Info: JTAG_avalon_jtag_slave_burst_adapter: "mm_interconnect_0" instantiated altera_merlin_burst_adapter "JTAG_avalon_jtag_slave_burst_adapter"
+Info: Reusing file /home/chris/FPGA/chris/Qsys/soc_design/synthesis/submodules/altera_avalon_st_pipeline_base.v
+Info: cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_demux_001: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux_001"
+Info: cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: cmd_mux_002: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux_002"
+Info: Reusing file /home/chris/FPGA/chris/Qsys/soc_design/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: rsp_demux_002: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux_002"
+Info: rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file /home/chris/FPGA/chris/Qsys/soc_design/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux_001"
+Info: Reusing file /home/chris/FPGA/chris/Qsys/soc_design/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: avalon_st_adapter: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter"
+Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
+Info: soc_design: Done "soc_design" with 32 modules, 61 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

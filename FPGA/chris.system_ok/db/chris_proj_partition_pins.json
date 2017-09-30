@@ -1,0 +1,13 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "fpga_reset_n",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

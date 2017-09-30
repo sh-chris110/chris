@@ -1,0 +1,9 @@
+	component soc_design is
+		port (
+			fpga_reset_n : in  std_logic := 'X'; -- reset_n
+			ref_clk      : in  std_logic := 'X'; -- clk
+			uart_RXD     : in  std_logic := 'X'; -- RXD
+			uart_TXD     : out std_logic         -- TXD
+		);
+	end component soc_design;
+

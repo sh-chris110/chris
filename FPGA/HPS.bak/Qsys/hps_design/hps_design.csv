@@ -1,0 +1,27 @@
+# system info hps_design on 2017.07.31.14:39:06
+system_info:
+name,value
+DEVICE,5CSEMA5F31C6
+DEVICE_FAMILY,Cyclone V
+GENERATION_ID,1501483126
+#
+#
+# Files generated for hps_design on 2017.07.31.14:39:06
+files:
+filepath,kind,attributes,module,is_top
+simulation/hps_design.v,VERILOG,,hps_design,true
+simulation/submodules/hps_design_hps_0.v,VERILOG,,hps_design_hps_0,false
+simulation/submodules/hps_design_pio_0.v,VERILOG,,hps_design_pio_0,false
+simulation/submodules/hps_design_pll_0.vo,VERILOG,,hps_design_pll_0,false
+#
+# Map from instance-path to kind of module
+instances:
+instancePath,module
+hps_design.hps_0,hps_design_hps_0
+hps_design.hps_0.fpga_interfaces,hps_design_hps_0_fpga_interfaces
+hps_design.hps_0.hps_io,hps_design_hps_0_hps_io
+hps_design.pio_0,hps_design_pio_0
+hps_design.pll_0,hps_design_pll_0
+hps_design.mm_interconnect_0,hps_design_mm_interconnect_0
+hps_design.rst_controller,altera_reset_controller
+hps_design.rst_controller_001,altera_reset_controller

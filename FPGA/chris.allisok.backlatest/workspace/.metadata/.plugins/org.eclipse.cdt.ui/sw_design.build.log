@@ -1,0 +1,9 @@
+15:54:19 **** Incremental Build of configuration Nios II for project sw_design ****
+make all 
+Info: Building ../sw_design_bsp/
+make --no-print-directory -C ../sw_design_bsp/
+[BSP build complete]
+[sw_design build complete]
+
+15:54:19 Build Finished (took 67ms)
+
