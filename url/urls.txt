@@ -1,0 +1,3 @@
+http://www.dataguru.cn/article-11425-1.html #how to using openGL
+https://wenku.baidu.com/view/d2b0816bda38376bae1fae7d.html #sensors fusion
+https://segmentfault.com/a/1190000000514987 #kalman filter
