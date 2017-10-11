@@ -101,9 +101,9 @@ class MyPyOpenGLTest:
         glEnd()
 
         glutSwapBuffers()
-        self.x += 0.02
-        self.y += 0.03
-        self.z += 0.01
+        self.x += 0.4
+        self.y += 0.6
+        self.z += 0.2
 
     def LoadTexture(self):
         imgFiles = [str(i)+'.jpeg' for i in range(1,7)]
