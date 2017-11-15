@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<opencv_storage>
+<opencv_ml_knn>
+  <format>3</format>
+  <is_classifier>1</is_classifier>
+  <default_k>10</default_k>
+  <samples type_id="opencv-matrix">
+    <rows>25</rows>
+    <cols>2</cols>
+    <dt>f</dt>
+    <data>
+      43. 27. 19. 40. 74. 33. 65. 98. 55. 92. 49. 58. 3. 42. 64. 21. 9.
+      41. 53. 1. 42. 33. 94. 83. 59. 92. 88. 45. 2. 26. 53. 33. 50. 1.
+      23. 15. 60. 68. 35. 3. 46. 94. 50. 32. 35. 20. 83. 92. 46. 88.</data></samples>
+  <responses type_id="opencv-matrix">
+    <rows>25</rows>
+    <cols>1</cols>
+    <dt>f</dt>
+    <data>
+      0. 1. 1. 0. 1. 1. 0. 1. 1. 0. 1. 1. 1. 1. 1. 1. 0. 1. 0. 0. 1. 1.
+      1. 0. 1.</data></responses></opencv_ml_knn>
+</opencv_storage>
